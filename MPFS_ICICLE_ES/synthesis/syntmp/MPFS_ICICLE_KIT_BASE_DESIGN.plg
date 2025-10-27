@@ -1,0 +1,58 @@
+@P:  Worst Slack : -1.081
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Frequency : 126.7 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Frequency : 125.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Period : 7.896
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Period : 8.000
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 - Slack : 0.104
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 - Estimated Frequency : 98.4 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 - Requested Frequency : 125.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 - Estimated Period : 10.162
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 - Requested Period : 8.000
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 - Slack : -1.081
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 - Estimated Frequency : NA
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 - Requested Frequency : 125.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 - Estimated Period : NA
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 - Requested Period : 8.000
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 - Slack : NA
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 - Estimated Frequency : 92.6 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 - Requested Frequency : 50.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 - Estimated Period : 10.796
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 - Requested Period : 20.000
+@P:  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 - Slack : 9.204
+@P:  CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV - Estimated Frequency : NA
+@P:  CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV - Requested Frequency : 85.2 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV - Estimated Period : NA
+@P:  CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV - Requested Period : 11.737
+@P:  CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV - Slack : NA
+@P:  CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK - Estimated Frequency : NA
+@P:  CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK - Requested Frequency : 125.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK - Estimated Period : NA
+@P:  CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK - Requested Period : 8.000
+@P:  CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK - Slack : NA
+@P:  REF_CLK_50MHz - Estimated Frequency : NA
+@P:  REF_CLK_50MHz - Requested Frequency : 50.0 MHz
+@P:  REF_CLK_50MHz - Estimated Period : NA
+@P:  REF_CLK_50MHz - Requested Period : 20.000
+@P:  REF_CLK_50MHz - Slack : NA
+@P:  REF_CLK_PAD_P - Estimated Frequency : NA
+@P:  REF_CLK_PAD_P - Requested Frequency : 100.0 MHz
+@P:  REF_CLK_PAD_P - Estimated Period : NA
+@P:  REF_CLK_PAD_P - Requested Period : 10.000
+@P:  REF_CLK_PAD_P - Slack : NA
+@P:  osc_rc160mhz - Estimated Frequency : NA
+@P:  osc_rc160mhz - Requested Frequency : 170.4 MHz
+@P:  osc_rc160mhz - Estimated Period : NA
+@P:  osc_rc160mhz - Requested Period : 5.869
+@P:  osc_rc160mhz - Slack : NA
+@P:  System - Estimated Frequency : 284.6 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 3.514
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 6.486
+@P: MPFS_ICICLE_KIT_BASE_DESIGN Part : mpfs250tfcg1152std
+@P: MPFS_ICICLE_KIT_BASE_DESIGN Register bits  : 9981 
+@P: MPFS_ICICLE_KIT_BASE_DESIGN DSP Blocks  : 0
+@P: MPFS_ICICLE_KIT_BASE_DESIGN I/O primitives : 160
+@P: MPFS_ICICLE_KIT_BASE_DESIGN RAM1K20 :  23
+@P: MPFS_ICICLE_KIT_BASE_DESIGN RAM64x12 :  71
+@P:  CPU Time : 0h:00m:24s

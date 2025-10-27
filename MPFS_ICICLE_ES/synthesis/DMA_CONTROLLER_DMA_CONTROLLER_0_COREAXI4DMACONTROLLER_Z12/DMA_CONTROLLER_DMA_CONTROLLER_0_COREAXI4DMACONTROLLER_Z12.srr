@@ -1,0 +1,577 @@
+# Mon Oct 27 12:41:27 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-693NB92
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 395R, Built Apr 29 2025 06:36:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 192MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 207MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 207MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 207MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 207MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_controller.v":16:7:16:73|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog) 
+@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":16:7:16:59|Found compile point of type hard on View view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 290MB)
+
+
+Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 290MB peak: 290MB)
+
+
+Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 290MB peak: 290MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 275MB peak: 290MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":16:7:16:59|Mapping Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 275MB peak: 290MB)
+
+@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_x_ctrl.v":125:32:125:45|Tristate driver fifoFullQueueX (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_interrupt_x_ctrl_1s_0s_27s_0s_0_1(verilog)) on net fifoFullQueueX (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_interrupt_x_ctrl_1s_0s_27s_0s_0_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":125:32:125:35|Tristate driver int3 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net int3 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":124:32:124:35|Tristate driver int2 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net int2 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":123:32:123:35|Tristate driver int1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net int1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_controller.v":119:32:119:45|Tristate driver waitStrDscrptr (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) on net waitStrDscrptr (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_intController_Z10(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":308:36:308:41|Tristate driver TREADY (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog)) on net TREADY (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog)) has its enable tied to GND.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":658:8:658:11|ROM ctrlRdValid_d[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":658:8:658:11|Found ROM ctrlRdValid_d[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) with 22 words by 3 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":208:23:239:25|ROM un402_ctrlAddrDec[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":208:23:239:25|Found ROM un402_ctrlAddrDec[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)) with 62 words by 2 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1975:8:1975:11|ROM AXI4RdTransDone_1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1975:8:1975:11|Found ROM AXI4RdTransDone_1 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog)) with 9 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 278MB peak: 290MB)
+
+Encoding state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":341:1:341:6|There are no possible illegal states for state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)); safe FSM implementation is not required.
+Encoding state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currStateAWr[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":429:1:429:6|There are no possible illegal states for state machine FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currStateAWr[1:0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)); safe FSM implementation is not required.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\fifo_downsizing.v":114:2:114:7|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.MstConvertor_loop\[0\]\.mstrconv.mstrDWC.genblk1\.MstUpConv.DWC_RChan.genblk1\.data_fifo.data_out_reg[33] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[14] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[15] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[16] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[17] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[18] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[19] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[20] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[21] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[22] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[23] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[24] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[25] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[26] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[27] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[28] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[29] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[30] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[31] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[32] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[33] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[34] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[35] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[36] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":260:1:260:6|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.newAddrRd[37] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[1] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[14] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[15] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[16] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[17] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[18] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[19] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[20] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[21] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[22] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[23] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[24] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[25] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[26] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[27] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[28] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[29] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[30] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[31] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[32] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[33] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[34] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[35] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[36] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":311:0:311:5|Removing sequential instance FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currentAddrW[37] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4LiteTARGETCtrl(verilog))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":355:0:355:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.ARREADYReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":476:0:476:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.RVALIDReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":444:0:444:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.BVALIDReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":427:0:427:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.WREADYReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_lite_target_ctrl.v":339:0:339:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.AWREADYReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4LiteTARGETCtrl.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine currRdState[21:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog))
+original code -> new code
+   0000000000000000000001 -> 0000000000000000000001
+   0000000000000000000010 -> 0000000000000000000010
+   0000000000000000000100 -> 0000000000000000000100
+   0000000000000000001000 -> 0000000000000000001000
+   0000000000000000010000 -> 0000000000000000010000
+   0000000000000000100000 -> 0000000000000000100000
+   0000000000000001000000 -> 0000000000000001000000
+   0000000000000010000000 -> 0000000000000010000000
+   0000000000000100000000 -> 0000000000000100000000
+   0000000000001000000000 -> 0000000000001000000000
+   0000000000010000000000 -> 0000000000010000000000
+   0000000000100000000000 -> 0000000000100000000000
+   0000000001000000000000 -> 0000000001000000000000
+   0000000010000000000000 -> 0000000010000000000000
+   0000000100000000000000 -> 0000000100000000000000
+   0000001000000000000000 -> 0000001000000000000000
+   0000010000000000000000 -> 0000010000000000000000
+   0000100000000000000000 -> 0000100000000000000000
+   0001000000000000000000 -> 0001000000000000000000
+   0010000000000000000000 -> 0010000000000000000000
+   0100000000000000000000 -> 0100000000000000000000
+   1000000000000000000000 -> 1000000000000000000000
+Encoding state machine currWrState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":453:0:453:5|There are no possible illegal states for state machine currWrState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors_Z1(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v":318:0:318:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_bufferDescriptors.rmrReq because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_bufferDescriptors.currWrState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine DMAStartCtrl_inst.DMAStartCtrlRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_round_robin_arbiter_w_ack.v":166:0:166:5|There are no possible illegal states for state machine DMAStartCtrl_inst.DMAStartCtrlRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog)); safe FSM implementation is not required.
+Encoding state machine dscrptrSrcMux_inst.dscrptrSrcMuxRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_round_robin_arbiter_w_ack.v":166:0:166:5|There are no possible illegal states for state machine dscrptrSrcMux_inst.dscrptrSrcMuxRRA.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog)); safe FSM implementation is not required.
+Encoding state machine dscrptrSrcMux_inst.currState[4:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine extDscrptrFetchFSM_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine DMAArbiter_inst.currState[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   000 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine intStatusMux_inst.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   01 -> 0
+   10 -> 1
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_status_mux.v":97:0:97:5|There are no possible illegal states for state machine intStatusMux_inst.currState[1:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog)); safe FSM implementation is not required.
+Encoding state machine DMATranCtrl.intErrorCtrl_inst.currState[13:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   00000000000001 -> 00000000000001
+   00000000000010 -> 00000000000010
+   00000000000100 -> 00000000000100
+   00000000001000 -> 00000000001000
+   00000000010000 -> 00000000010000
+   00000000100000 -> 00000000100000
+   00000001000000 -> 00000001000000
+   00000010000000 -> 00000010000000
+   00000100000000 -> 00000100000000
+   00001000000000 -> 00001000000000
+   00010000000000 -> 00010000000000
+   00100000000000 -> 00100000000000
+   01000000000000 -> 01000000000000
+   10000000000000 -> 10000000000000
+Encoding state machine DMATranCtrl.rdTranCtrl_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine DMATranCtrl.transAck_inst.currState[2:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine DMATranCtrl.wrTranCtrl_inst.currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine currStateWr[10:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+original code -> new code
+   0000000000001 -> 00000000001
+   0000000000010 -> 00000000010
+   0000000000100 -> 00000000100
+   0000000001000 -> 00000001000
+   0000000010000 -> 00000010000
+   0000000100000 -> 00000100000
+   0000001000000 -> 00001000000
+   0000010000000 -> 00010000000
+   0000100000000 -> 00100000000
+   0001000000000 -> 01000000000
+   0010000000000 -> 10000000000
+Encoding state machine currStateRd[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+original code -> new code
+   0000000000001 -> 000000001
+   0000000000010 -> 000000010
+   0000000000100 -> 000000100
+   0000000001000 -> 000001000
+   0000000010000 -> 000010000
+   0000000100000 -> 000100000
+   0000001000000 -> 001000000
+   0000010000000 -> 010000000
+   0000100000000 -> 100000000
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":863:4:863:9|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance rdAddr_1[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":836:10:836:15|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance ram_rdreq_cntr[8:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":668:3:668:8|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance rdbeat_cnt[8:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2628:0:2628:5|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance wrAddrReg[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1848:0:1848:5|Found counter in view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog) instance beatCntReg[8:0] 
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') nextStateWr38 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') ren_sc8 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1314:40:1314:73|Found 24 by 24 bit equality operator ('==') rdAddrReg_d19 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1173:32:1173:60|Found 9 by 9 bit equality operator ('==') WLASTReg_d5 (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl_Z11(verilog))
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2501:0:2501:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInRdBurst[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInRdBurst[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":2596:0:2596:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ARLENReg[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ARLENReg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1540:0:1540:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":1668:0:1668:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[1] because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 285MB peak: 290MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 296MB peak: 296MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v":605:2:605:7|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ren_sc_d1 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_memoryMapDMACache.rdEn_f1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_cache.v":126:0:126:5|Removing instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_memoryMapDMACache.rdEn_f2 because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.ren_sc_d2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 287MB peak: 297MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 289MB peak: 297MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 289MB peak: 297MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 289MB peak: 297MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 290MB peak: 297MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 333MB peak: 333MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:12s		    -0.26ns		2630 /      1490
+   2		0h:00m:12s		    -0.26ns		2591 /      1490
+   3		0h:00m:12s		    -0.26ns		2591 /      1490
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 334MB peak: 334MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 334MB peak: 335MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Oct 27 12:41:41 2025
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.242
+
+                                                                                Requested     Estimated     Requested     Estimated               Clock                              Clock           
+Starting Clock                                                                  Frequency     Frequency     Period        Period        Slack     Type                               Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0              125.0 MHz     148.0 MHz     8.000         6.758         1.242     generated (from REF_CLK_50MHz)     FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              50.0 MHz      NA            20.000        NA            NA        generated (from REF_CLK_50MHz)     FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV           85.2 MHz      NA            11.737        NA            NA        generated (from osc_rc160mhz)      default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK     125.0 MHz     NA            8.000         NA            NA        declared                           default_clkgroup
+REF_CLK_50MHz                                                                   50.0 MHz      NA            20.000        NA            NA        declared                           default_clkgroup
+REF_CLK_PAD_P                                                                   100.0 MHz     NA            10.000        NA            NA        declared                           default_clkgroup
+osc_rc160mhz                                                                    170.4 MHz     NA            5.869         NA            NA        declared                           default_clkgroup
+=====================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  8.000       1.242  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                   Starting                                                                                                                           Arrival          
+Instance                                                                                                                           Reference                                                              Type     Pin     Net                                        Time        Slack
+                                                                                                                                   Clock                                                                                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.wrByteCnt[0]                                     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       wrByteCnt[0]                               0.257       1.242
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.dstNumOfBytesInRdReg[0]                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       un1_wrByteCnt_0                            0.257       1.252
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[0]           CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[286]                                  0.257       1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.dstMaxAXINumBeatsReg[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dstMaxAXINumBeats[0]                       0.257       1.597
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[1]           CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[287]                                  0.257       1.635
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[2]           CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[288]                                  0.257       1.687
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAStartCtrl_inst.DMAStartCtrlRRA.grantReg[3]           CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       inp1[289]                                  0.237       1.755
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.numOfBytesInRdReg[6]        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dstNumOfBytesInRd_AXI4INITIATORCtrl[6]     0.237       1.927
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.numOfBytesInRdReg[5]        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dstNumOfBytesInRd_AXI4INITIATORCtrl[5]     0.237       1.934
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.wrTranCtrl_inst.numOfBytesInRdReg[7]        CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dstNumOfBytesInRd_AXI4INITIATORCtrl[7]     0.237       1.937
+=======================================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                       Starting                                                                                                                                              Required          
+Instance                                                                                                                               Reference                                                              Type     Pin     Net                                                           Time         Slack
+                                                                                                                                       Clock                                                                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[4]                                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       AWLENReg_d[4]                                                 8.000        1.242
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[6]                                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       AWLENReg_d[6]                                                 8.000        1.275
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[0]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[0]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[1]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[1]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[2]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[2]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg[3]     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       DMAArbiter_inst.DSCRPTR_CACHE.dataValidExtDscrptrReg_5[3]     8.000        1.541
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[5]                                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       AWLENReg_d[5]                                                 8.000        1.553
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[7]                                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       AWLENReg_d[7]                                                 8.000        1.597
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst[6]                                    CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       beatsInWrBurst_d[6]                                           8.000        1.641
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[3]                                          CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0     SLE      D       AWLENReg_d[3]                                                 8.000        1.708
+===============================================================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      6.758
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.242
+
+    Number of logic level(s):                12
+    Starting point:                          FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.wrByteCnt[0] / Q
+    Ending point:                            FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[4] / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.wrByteCnt[0]                                  SLE      Q        Out     0.257     0.257 r     -         
+wrByteCnt[0]                                                                                                                    Net      -        -       0.701     -           6         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_cry_0              ARI1     C        In      -         0.959 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_cry_0              ARI1     Y        Out     0.362     1.321 r     -         
+un1_dstNumOfBytesInRdReg_d_cry_0_Y                                                                                              Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_0              ARI1     C        In      -         1.966 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_0              ARI1     FCO      Out     0.464     2.430 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_0                                                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_1              ARI1     FCI      In      -         2.430 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_1              ARI1     FCO      Out     0.009     2.440 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_1                                                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_2              ARI1     FCI      In      -         2.440 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_2              ARI1     FCO      Out     0.009     2.449 r     -         
+un4_dstNumOfBytesInRdReg_d_cry_2                                                                                                Net      -        -       0.000     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_3              ARI1     FCI      In      -         2.449 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un4_dstNumOfBytesInRdReg_d_cry_3              ARI1     S        Out     0.354     2.803 f     -         
+un4_dstNumOfBytesInRdReg_d_cry_3_S                                                                                              Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_6lto23_1_0_o2      CFG4     D        In      -         3.448 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_6lto23_1_0_o2      CFG4     Y        Out     0.274     3.722 r     -         
+N_1945                                                                                                                          Net      -        -       0.645     -           3         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_1lto8_1_0_0_o2     CFG2     A        In      -         4.367 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_1lto8_1_0_0_o2     CFG2     Y        Out     0.060     4.427 r     -         
+N_1946                                                                                                                          Net      -        -       0.665     -           4         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_16_1               CFG4     C        In      -         5.092 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_16_1               CFG4     Y        Out     0.175     5.266 r     -         
+un1_dstNumOfBytesInRdReg_d_16_1                                                                                                 Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_16                 CFG4     C        In      -         5.405 r     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.un1_dstNumOfBytesInRdReg_d_16                 CFG4     Y        Out     0.156     5.561 f     -         
+un1_dstNumOfBytesInRdReg_d_16_i                                                                                                 Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst_d_9[4]                         CFG3     A        In      -         5.701 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.beatsInWrBurst_d_9[4]                         CFG3     Y        Out     0.056     5.757 f     -         
+beatsInWrBurst_d_9[4]                                                                                                           Net      -        -       0.146     -           2         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d_1_0_wmux[4]                        ARI1     D        In      -         5.903 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d_1_0_wmux[4]                        ARI1     Y        Out     0.428     6.331 f     -         
+AWLENReg_d_1_0_y0[4]                                                                                                            Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d_1_0_wmux_0[4]                      ARI1     A        In      -         6.470 f     -         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg_d_1_0_wmux_0[4]                      ARI1     Y        Out     0.148     6.619 r     -         
+AWLENReg_d[4]                                                                                                                   Net      -        -       0.139     -           1         
+FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_AXI4INITIATORDMACtrl.AWLENReg[4]                                   SLE      D        In      -         6.758 r     -         
+==========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 6.758 is 2.753(40.7%) logic and 4.005(59.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                                                          Status     Reason     
+------------------------------------------------------------------------------------
+DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12     Mapped     No database
+====================================================================================
+
+Process took 0h:00m:14s realtime, 0h:00m:13s cputime
+# Mon Oct 27 12:41:41 2025
+
+###########################################################]

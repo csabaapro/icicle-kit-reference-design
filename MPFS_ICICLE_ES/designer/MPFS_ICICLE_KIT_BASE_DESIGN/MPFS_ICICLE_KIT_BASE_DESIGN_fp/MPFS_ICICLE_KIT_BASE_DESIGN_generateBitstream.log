@@ -1,0 +1,15 @@
+Software Version: 2025.1.0.14
+Opened 'D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN_fp\MPFS_ICICLE_KIT_BASE_DESIGN.pro'
+PDB file 'D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.pdb' has been loaded successfully.
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 7D3A;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version: 0
+File/Folder 'D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.ppd'; file programs Fabric and sNVM.
+Fabric component bitstream digest: 3204ae94363511df3c39470895b68cb029d9a8672191699c86557c27e416032f
+sNVM component bitstream digest: c2ba8bf256d4ab47a91e8525eeb9a872920d3391ef1bbfb8ba412108246f72ad
+Entire bitstream digest: e0e05e29c19d57dab6b17b126804966c24ac0fe7148eed05c70bdaf0fd434068
+Finished: Mon Oct 27 12:54:16 2025 (Elapsed time 00:01:35)
+
+Project saved.
+Project closed.

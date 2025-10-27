@@ -1,6 +1,7 @@
 KEY LIBERO "2025.1"
 KEY CAPTURE "2025.1.0.14"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VERILOG"
 KEY VERILOGMODE "SYSTEMVERILOG"
@@ -13,7 +14,11 @@ KEY VendorTechnology_Package "fcvg484"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.05"
 KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -63,7 +68,7 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761564335"
+TIME="1761564339"
 SIZE="2736"
 PARENT="<project>\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.cxf"
 PARENT="<project>\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.cxf"
@@ -71,7 +76,7 @@ PARENT="<project>\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1761564335"
+TIME="1761564339"
 SIZE="1284"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -286,7 +291,7 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\COREAXI4INTERCONNECT.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761564269"
+TIME="1761564306"
 SIZE="11166"
 PARENT="<project>\component\work\DMA_INITIATOR\DMA_INITIATOR.cxf"
 PARENT="<project>\component\work\FIC0_INITIATOR\FIC0_INITIATOR.cxf"
@@ -2177,8 +2182,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MSS_LSRAM\MSS_LSRAM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761564286"
-SIZE="12379"
+TIME="1761564287"
+SIZE="12472"
 ENDFILE
 VALUE "<project>\component\work\MSS_LSRAM\MSS_LSRAM.v,hdl"
 STATE="utd"
@@ -2436,7 +2441,7 @@ SIZE="252"
 ENDFILE
 VALUE "<project>\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc,sdc"
 STATE="utd"
-TIME="1761564629"
+TIME="1761564694"
 SIZE="4582"
 ENDFILE
 VALUE "<project>\hdl\apb_arbiter.v,hdl"
@@ -2930,6 +2935,9 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_ARBITER::work","hdl\apb_arbiter.v","FALSE","FALSE"
