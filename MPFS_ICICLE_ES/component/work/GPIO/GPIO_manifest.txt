@@ -1,0 +1,31 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:25:49 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  GPIO
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/core/coregpio.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO.v
+
+Stimulus files for all Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/bfmtovec_compile.do
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/coregpio_usertb_apb_master.bfm
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/coregpio_usertb_include.bfm
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/wave_vlog.do
+
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_apb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/amba_bfm/bfm_main.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/coreparameters.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GPIO/GPIO_0/rtl/vlog/test/user/testbench.v
+

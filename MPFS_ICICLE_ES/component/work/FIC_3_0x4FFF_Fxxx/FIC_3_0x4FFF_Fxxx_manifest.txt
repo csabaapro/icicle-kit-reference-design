@@ -1,0 +1,29 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:25:38 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  FIC_3_0x4FFF_Fxxx
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/FIC_3_0x4FFF_Fxxx/FIC_3_0x4FFF_Fxxx.v
+
+Stimulus files for all Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v
+

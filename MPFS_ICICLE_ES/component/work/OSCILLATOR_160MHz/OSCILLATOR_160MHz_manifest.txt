@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:23:54 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  OSCILLATOR_160MHz
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v
+

@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:25:30 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  CORE_I2C_C0_0_WRAPPER
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CORE_I2C_C0_0_WRAPPER/CORE_I2C_C0_0_WRAPPER.v
+

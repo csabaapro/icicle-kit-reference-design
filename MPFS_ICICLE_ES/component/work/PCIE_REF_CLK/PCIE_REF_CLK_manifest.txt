@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:23:55 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  PCIE_REF_CLK
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/PCIE_REF_CLK/PCIE_REF_CLK_0/PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/PCIE_REF_CLK/PCIE_REF_CLK.v
+

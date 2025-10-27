@@ -1,0 +1,16 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:24:47 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  MSS_LSRAM
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/MSS_LSRAM/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/MSS_LSRAM/PF_TPSRAM_AHB_AXI_0/MSS_LSRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/MSS_LSRAM/MSS_LSRAM.v
+

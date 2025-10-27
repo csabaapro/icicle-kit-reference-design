@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:25:26 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  COREI2C_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vlog/core/corei2c.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/COREI2C_C0/COREI2C_C0.v
+
+Stimulus files for all Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/test/user/i2c_spk.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vlog/test/user/tb_user_corei2c.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/COREI2C_C0/COREI2C_C0_0/coreparameters.v
+

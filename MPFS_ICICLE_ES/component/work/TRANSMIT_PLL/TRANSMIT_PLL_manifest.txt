@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:24:00 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  TRANSMIT_PLL
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/TRANSMIT_PLL/TRANSMIT_PLL_0/TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/TRANSMIT_PLL/TRANSMIT_PLL.v
+
+Constraint files:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/TRANSMIT_PLL\TRANSMIT_PLL_0\TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL.sdc

@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Mon Oct 27 12:23:51 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  GLITCHLESS_MUX
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX_0/GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/GLITCHLESS_MUX/GLITCHLESS_MUX.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_syn_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/Actel/SgCore/PF_NGMUX/1.0.101/ICB_NGMUX_pre_comps.v
+
