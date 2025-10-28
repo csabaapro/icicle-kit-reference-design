@@ -2560,6 +2560,26 @@ TIME="1761639421"
 SIZE="81918"
 PARENT="<project>\component\Actel\DirectCore\COREAXI4DMACONTROLLER\2.2.107\COREAXI4DMACONTROLLER.cxf"
 ENDFILE
+VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.so,so"
+STATE="utd"
+TIME="1761639810"
+SIZE="282"
+ENDFILE
+VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm,syn_vm"
+STATE="utd"
+TIME="1761639806"
+SIZE="9017332"
+ENDFILE
+VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_syn.prj,prj"
+STATE="utd"
+TIME="1761639811"
+SIZE="34962"
+ENDFILE
+VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1761639808"
+SIZE="4506"
+ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
@@ -2705,6 +2725,18 @@ VALUE "<project>\constraint\io\ICICLE_RPi.pdc,io_pdc"
 VALUE "<project>\constraint\fp\NW_PLL.pdc,fp_pdc"
 VALUE "<project>\constraint\fic_clocks.sdc,sdc"
 VALUE "<project>\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 LIST "CoreAPB3::COREAPB3_LIB"
@@ -2898,8 +2930,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -2923,6 +2955,18 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "MPFS_ICICLE_KIT_BASE_DESIGN::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -2936,8 +2980,9 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+Reports;Reports;0
+ReportsCurrentItem;synthesis:MPFS_ICICLE_KIT_BASE_DESIGN_cdc.csv
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_ARBITER::work","hdl\apb_arbiter.v","FALSE","FALSE"
