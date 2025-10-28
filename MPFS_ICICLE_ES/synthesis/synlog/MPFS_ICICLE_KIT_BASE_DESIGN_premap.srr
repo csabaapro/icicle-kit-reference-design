@@ -1,4 +1,4 @@
-# Mon Oct 27 12:40:43 2025
+# Tue Oct 28 09:21:49 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -332,13 +332,13 @@ Only the first 100 messages of id 'BN362' are reported. To see all messages use 
 @N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\corereset\corereset.v":81:35:81:45|Removing instance CORERESET_0 (in view: work.CORERESET_1(verilog)) because it does not drive other instances.
 @N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\clocks_and_resets\clocks_and_resets.v":291:10:291:24|Removing instance RESET_FIC_2_CLK (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
 
-Finished optimization across hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 580MB peak: 580MB)
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 579MB peak: 579MB)
 
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 580MB peak: 580MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 579MB peak: 580MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 580MB peak: 580MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 579MB peak: 580MB)
 
 @N: FP130 |Promoting Net FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.FIC0_INITIATOR_0.arst_aclk_sync.sysReset_arst on CLKINT  I_2 
 @N: FP130 |Promoting Net CLOCKS_AND_RESETS_inst_0.RESET_FIC_0_CLK.CORERESET_0.dff_arst on CLKINT  I_2 
@@ -355,7 +355,7 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:0
 @N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point COREAXI4INTERCONNECT_Z64 
 @N: FX1184 |Applying syn_allowed_resources blockrams=812 on top level netlist MPFS_ICICLE_KIT_BASE_DESIGN 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:22s; Memory used current: 587MB peak: 587MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 587MB peak: 587MB)
 
 
 
@@ -409,7 +409,7 @@ System                                                                          
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:27s; Memory used current: 556MB peak: 589MB)
+Starting constraint checker (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 555MB peak: 589MB)
 
 Encoding state machine currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4LiteTARGETCtrl(verilog))
 original code -> new code
@@ -998,17 +998,17 @@ original code -> new code
    11 -> 11
 @N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_8s_0_1_3_2(verilog)); safe FSM implementation is not required.
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 563MB peak: 589MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 562MB peak: 589MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 570MB peak: 589MB)
+Finished constraint checker (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 570MB peak: 589MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 376MB peak: 589MB)
+At Mapper Exit (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 375MB peak: 589MB)
 
-Process took 0h:00m:30s realtime, 0h:00m:30s cputime
-# Mon Oct 27 12:41:14 2025
+Process took 0h:00m:28s realtime, 0h:00m:28s cputime
+# Tue Oct 28 09:22:17 2025
 
 ###########################################################]

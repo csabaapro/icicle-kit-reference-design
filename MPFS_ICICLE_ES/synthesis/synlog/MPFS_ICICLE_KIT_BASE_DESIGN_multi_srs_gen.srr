@@ -15,6 +15,7 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
 
 @N|Running in 64-bit mode
+File D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\synwork\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs changed - recompiling
 @W: BN108 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances: rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_5s_38s_64s_0s_1s.
 @W: BN108 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances: slvdwc. Apply syn_hier to module using name v:caxi4interconnect_SlvDataWidthConverter_Z68.
 @W: BN108 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances: slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z69.
@@ -65,6 +66,6 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Mon Oct 27 12:40:42 2025
+# Tue Oct 28 09:21:48 2025
 
 ###########################################################]

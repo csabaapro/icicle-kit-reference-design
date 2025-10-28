@@ -14,16 +14,19 @@ Runtime Summary:
 		Hardware Generation Phase   : 0h:00m:02s
 
 	* Library: work, DesignUnit: COREAXI4INTERCONNECT_Z40
-		Hardware Generation Phase   : 0h:00m:05s
+		Hardware Generation Phase   : 0h:00m:06s
 
 	* Library: work, DesignUnit: caxi4interconnect_Axi4CrossBar_Z24
 		Hardware Generation Phase   : 0h:00m:03s
 
+	* Library: work, DesignUnit: caxi4interconnect_DWC_UpConv_RChannel_8s_1s_16s_4s_64s_32s_0_1s
+		Hardware Generation Phase   : 0h:00m:01s
+
 	* Library: work, DesignUnit: caxi4interconnect_MstrDataWidthConv_Z15
-		Hardware Generation Phase   : 0h:00m:03s
+		Hardware Generation Phase   : 0h:00m:04s
 
 	* Library: work, DesignUnit: COREAXI4INTERCONNECT_Z14
-		Hardware Generation Phase   : 0h:00m:06s
+		Hardware Generation Phase   : 0h:00m:07s
 
 	The following design units have negligible CPU times:
 	=====================================================
@@ -393,8 +396,6 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: caxi4interconnect_FIFO_4s_33s_33s_3s_1s_4s_2s_1s_3s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		* Library: work, DesignUnit: caxi4interconnect_DWC_UpConv_RChannel_8s_1s_16s_4s_64s_32s_0_1s
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: caxi4interconnect_DWC_brespCtrl_1s_8s
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: caxi4interconnect_RAM_BLOCK_4s_2s_9s_0s
@@ -602,6 +603,8 @@ Runtime Summary:
 		* Library: work, DesignUnit: CFG1
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: OR4
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_DWC_UpConv_RChannel_8s_1s_16s_4s_64s_32s_0_1s
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: RAM64x12
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

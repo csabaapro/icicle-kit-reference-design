@@ -47,11 +47,11 @@ Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at V
 Info:  I/O Bank and Globals Assigner detected (2) out of (5) I/O Bank(s) with locked I/O technologies.
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 10 seconds
+Total time spent in I/O Bank and Globals Assigner: 4 seconds
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Placer V5.0 - 2025.1.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Mon Oct 27 12:45:20 2025
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Tue Oct 28 09:25:08 2025
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -60,15 +60,15 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 14 seconds
-Placement                : 59 seconds
-Improvement              : 39 seconds
+Clustering (1 pass)      : 15 seconds
+Placement                : 60 seconds
+Improvement              : 47 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Mon Oct 27 12:48:18 2025
-Total CPU Time:     00:03:35            Total Elapsed Time: 00:02:58
+Finished: Tue Oct 28 09:27:52 2025
+Total CPU Time:     00:03:24            Total Elapsed Time: 00:02:44
 Total Memory Usage: 1448.3 Mbytes
                         o - o - o - o - o - o
 
@@ -76,15 +76,15 @@ TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prolog
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Router 
-Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Mon Oct 27 12:48:37 2025
+Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Tue Oct 28 09:28:10 2025
 
 
 Router completed successfully.
 
 Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Mon Oct 27 12:49:20 2025
-Total CPU Time:     00:00:51            Total Elapsed Time: 00:00:43
-Total Memory Usage: 4622.7 Mbytes
+Finished: Tue Oct 28 09:28:38 2025
+Total CPU Time:     00:00:39            Total Elapsed Time: 00:00:28
+Total Memory Usage: 4623.5 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage

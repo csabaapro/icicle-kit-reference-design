@@ -13,15 +13,15 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
-<value>DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9</value>
+<value>COREAXI4INTERCONNECT_Z40</value>
 <report_link name="Report">
-<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9.srr</data>
+<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z40\COREAXI4INTERCONNECT_Z40.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
-<data>0h:00m:07s</data>
-<data>0h:00m:07s</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:50s</data>
+<data>0h:00m:49s</data>
 </row>
 <row>
 <data>
@@ -30,10 +30,22 @@ The file contains the information about all compile points from mapper to be dis
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\caxi4interconnect_SlaveConvertor_Z50\caxi4interconnect_SlaveConvertor_Z50.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
+<data>Unchanged</data>
+<data>-</data>
 <data>0h:00m:19s</data>
 <data>0h:00m:19s</data>
+</row>
+<row>
+<data>
+<value>DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9</value>
+<report_link name="Report">
+<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:07s</data>
+<data>0h:00m:07s</data>
 </row>
 <row>
 <data>
@@ -42,8 +54,8 @@ The file contains the information about all compile points from mapper to be dis
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
+<data>Unchanged</data>
+<data>-</data>
 <data>0h:00m:13s</data>
 <data>0h:00m:13s</data>
 </row>
@@ -54,8 +66,8 @@ The file contains the information about all compile points from mapper to be dis
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z81\miv_ihc_core_Z81.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
+<data>Unchanged</data>
+<data>-</data>
 <data>0h:00m:08s</data>
 <data>0h:00m:08s</data>
 </row>
@@ -66,22 +78,10 @@ The file contains the information about all compile points from mapper to be dis
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z58\COREAXI4INTERCONNECT_Z58.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
+<data>Unchanged</data>
+<data>-</data>
 <data>0h:00m:22s</data>
 <data>0h:00m:23s</data>
-</row>
-<row>
-<data>
-<value>COREAXI4INTERCONNECT_Z40</value>
-<report_link name="Report">
-<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z40\COREAXI4INTERCONNECT_Z40.srr</data>
-</report_link>
-</data>
-<data>Mapped</data>
-<data>No database</data>
-<data>0h:00m:50s</data>
-<data>0h:00m:49s</data>
 </row>
 <row>
 <data>
@@ -90,22 +90,10 @@ The file contains the information about all compile points from mapper to be dis
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z64\COREAXI4INTERCONNECT_Z64.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
+<data>Unchanged</data>
+<data>-</data>
 <data>0h:00m:22s</data>
 <data>0h:00m:22s</data>
-</row>
-<row>
-<data>
-<value>MPFS_ICICLE_KIT_BASE_DESIGN</value>
-<report_link name="Report">
-<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
-</report_link>
-</data>
-<data>Mapped</data>
-<data>No database</data>
-<data>0h:00m:53s</data>
-<data>0h:00m:53s</data>
 </row>
 <row>
 <data>
@@ -114,9 +102,21 @@ The file contains the information about all compile points from mapper to be dis
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\caxi4interconnect_MasterConvertor_Z19\caxi4interconnect_MasterConvertor_Z19.srr</data>
 </report_link>
 </data>
-<data>Mapped</data>
-<data>No database</data>
+<data>Unchanged</data>
+<data>-</data>
 <data>0h:00m:06s</data>
 <data>0h:00m:06s</data>
+</row>
+<row>
+<data>
+<value>MPFS_ICICLE_KIT_BASE_DESIGN</value>
+<report_link name="Report">
+<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+<data>0h:00m:50s</data>
+<data>0h:00m:49s</data>
 </row>
 </report_table>
