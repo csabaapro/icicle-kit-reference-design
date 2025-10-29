@@ -1,0 +1,329 @@
+# Wed Oct 29 16:08:50 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M-5
+Install: C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-693NB92
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 395R, Built Apr 29 2025 06:36:49, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 188MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 203MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 203MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z80(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.miv_ihc_core_Z80(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 272MB peak: 272MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 272MB peak: 272MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 272MB peak: 272MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Mapping Compile point view:work.miv_ihc_core_Z80(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 272MB peak: 272MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 276MB peak: 276MB)
+
+@N: FX106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":1319:4:1319:9|Using block RAM for single-port RAM
+@W: FX107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":1319:4:1319:9|RAM common_mailbox_ram.mem[31:0] (in view: work.miv_ihc_core_Z80(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3403:0:3403:5|There are no possible illegal states for state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog)); safe FSM implementation is not required.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 277MB peak: 277MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 297MB peak: 297MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 291MB peak: 298MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 291MB peak: 298MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 291MB peak: 298MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 291MB peak: 298MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 291MB peak: 298MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 345MB peak: 345MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:06s		     6.33ns		 948 /       502
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 345MB peak: 346MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 346MB peak: 346MB)
+
+
+End compile point sub-process log
+
+@N: MT615 |Found clock REF_CLK_50MHz with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Oct 29 16:08:58 2025
+#
+
+
+Top view:               MPFS_ICICLE_KIT_BASE_DESIGN
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.817
+
+                                                                                Requested     Estimated     Requested     Estimated               Clock                              Clock           
+Starting Clock                                                                  Frequency     Frequency     Period        Period        Slack     Type                               Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2              125.0 MHz     NA            8.000         NA            NA        generated (from REF_CLK_50MHz)     FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              50.0 MHz      89.4 MHz      20.000        11.183        8.817     generated (from REF_CLK_50MHz)     FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV           85.2 MHz      NA            11.737        NA            NA        generated (from osc_rc160mhz)      default_clkgroup
+CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK     125.0 MHz     NA            8.000         NA            NA        declared                           default_clkgroup
+REF_CLK_50MHz                                                                   50.0 MHz      NA            20.000        NA            NA        declared                           default_clkgroup
+REF_CLK_PAD_P                                                                   100.0 MHz     NA            10.000        NA            NA        declared                           default_clkgroup
+osc_rc160mhz                                                                    170.4 MHz     NA            5.869         NA            NA        declared                           default_clkgroup
+=====================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.000      8.817  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                                                                               Arrival          
+Instance                                  Reference                                                              Type     Pin                       Net          Time        Slack
+                                          Clock                                                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[13]     inp[56]      1.825       8.817
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[12]     inp[59]      1.758       8.829
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[16]     inp[47]      1.743       8.872
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     inp[136]     1.768       8.881
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[18]     inp[65]      1.753       8.959
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[17]     inp[44]      1.775       8.988
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[19]     inp[62]      1.722       8.989
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     inp[141]     1.772       9.095
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[14]     inp[53]      1.806       9.798
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[15]     inp[50]      1.752       9.828
+==================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                Starting                                                                                                                    Required          
+Instance                                                                                        Reference                                                              Type        Pin            Net                       Time         Slack
+                                                                                                Clock                                                                                                                                         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[10]     COMMON_MB_ADDR_OUT[6]     19.274       8.817
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[10]     COMMON_MB_ADDR_OUT[6]     19.274       8.817
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[9]      COMMON_MB_ADDR_OUT[5]     19.274       8.826
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[9]      COMMON_MB_ADDR_OUT[5]     19.274       8.826
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[8]      COMMON_MB_ADDR_OUT[4]     19.274       8.835
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[8]      COMMON_MB_ADDR_OUT[4]     19.274       8.835
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[7]      COMMON_MB_ADDR_OUT[3]     19.274       9.350
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[7]      COMMON_MB_ADDR_OUT[3]     19.274       9.350
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[4]      COMMON_MB_ADDR_OUT[0]     19.274       9.594
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[5]      COMMON_MB_ADDR_OUT[1]     19.274       9.594
+==============================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.726
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.274
+
+    - Propagation time:                      10.457
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.817
+
+    Number of logic level(s):                12
+    Starting point:                          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PADDR[13]
+    Ending point:                            FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0 / A_ADDR[10]
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin FIC_3_PCLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin A_CLK
+
+Instance / Net                                                                                                                    Pin                       Pin               Arrival      No. of    
+Name                                                                                                                  Type        Name                      Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                                                                                 MSS         FIC_3_APB_M_PADDR[13]     Out     1.825     1.825 f      -         
+inp[56]                                                                                                               Net         -                         -       1.168     -            11        
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32_1[28]                CFG3        B                         In      -         2.993 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32_1[28]                CFG3        Y                         Out     0.099     3.092 r      -         
+RDATA_i_o2_0_o2_10_a2_32_1[28]                                                                                        Net         -                         -       0.146     -            2         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32[28]                  CFG4        B                         In      -         3.239 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32[28]                  CFG4        Y                         Out     0.098     3.337 r      -         
+N_2164                                                                                                                Net         -                         -       0.665     -            4         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN14_0_a2_0_a2_1_a2_2             CFG3        C                         In      -         4.001 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN14_0_a2_0_a2_1_a2_2             CFG3        Y                         Out     0.175     4.176 r      -         
+N_2173                                                                                                                Net         -                         -       0.146     -            2         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN29_0_a2_1_a2_1_a2_0             CFG3        B                         In      -         4.322 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN29_0_a2_1_a2_1_a2_0             CFG3        Y                         Out     0.098     4.420 r      -         
+N_2227                                                                                                                Net         -                         -       0.645     -            3         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN24_0_a2_4_a2_1_a2               CFG3        C                         In      -         5.066 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN24_0_a2_4_a2_1_a2               CFG3        Y                         Out     0.175     5.240 r      -         
+H0_TO_H1_WR_EN24                                                                                                      Net         -                         -       0.847     -            16        
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_0_0          CFG4        D                         In      -         6.087 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_0_0          CFG4        Y                         Out     0.250     6.337 f      -         
+un2_MB_A_WR_EN_1_i_0_i_0_a2_0                                                                                         Net         -                         -       0.645     -            3         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2              CFG4        D                         In      -         6.983 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2              CFG4        Y                         Out     0.226     7.209 f      -         
+N_2440                                                                                                                Net         -                         -       0.719     -            7         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_RNI4UDS5     CFG2        A                         In      -         7.928 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_RNI4UDS5     CFG2        Y                         Out     0.056     7.983 r      -         
+N_490_i                                                                                                               Net         -                         -       0.665     -            4         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNI3IIR51[3]               ARI1        C                         In      -         8.648 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNI3IIR51[3]               ARI1        FCO                       Out     0.464     9.112 r      -         
+COMMON_MB_ADDR_OUT_cry_3                                                                                              Net         -                         -       0.000     -            1         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNIP2RNO3[4]               ARI1        FCI                       In      -         9.112 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNIP2RNO3[4]               ARI1        FCO                       Out     0.009     9.121 r      -         
+COMMON_MB_ADDR_OUT_cry_4                                                                                              Net         -                         -       0.000     -            1         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0_RNIRPAK84[5]          ARI1        FCI                       In      -         9.121 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0_RNIRPAK84[5]          ARI1        FCO                       Out     0.009     9.131 r      -         
+COMMON_MB_ADDR_OUT_cry_5                                                                                              Net         -                         -       0.000     -            1         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_RNI6GHJF4[6]            ARI1        FCI                       In      -         9.131 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_RNI6GHJF4[6]            ARI1        S                         Out     0.354     9.485 r      -         
+COMMON_MB_ADDR_OUT[6]                                                                                                 Net         -                         -       0.972     -            2         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0                           RAM1K20     A_ADDR[10]                In      -         10.457 r     -         
+=====================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 11.183 is 4.564(40.8%) logic and 6.619(59.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":17:0:17:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":18:0:18:0|Timing constraint (through [get_nets { FIC_0_PERIPHERALS_1.FIC0_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":19:0:19:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.FIC_1_INITIATOR_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":20:0:20:0|Timing constraint (to [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[0] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[1] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[2] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[3] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[4] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[5] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[6] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.INTERRUPT[7] FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.WAKEREQ FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.MPERST_N }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":22:0:22:0|Timing constraint (through [get_nets { FIC_1_PERIPHERALS_1.PCIE_INITIATOR_inst_0.ARESETN* }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+None
+Writing compile point status file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z80\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                 Status     Reason     
+-------------------------------------------
+miv_ihc_core_Z80     Mapped     No database
+===========================================
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Wed Oct 29 16:08:58 2025
+
+###########################################################]

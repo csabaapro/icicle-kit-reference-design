@@ -1,0 +1,31 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
+
+Date      :  Wed Oct 29 15:39:21 2025
+Project   :  D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES
+Component :  CoreGPIO_C10
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/core/coregpio.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10.v
+
+Stimulus files for all Simulation tools:
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/bfmtovec_compile.do
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/coregpio_usertb_apb_master.bfm
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/coregpio_usertb_include.bfm
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/wave_vlog.do
+
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_apb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/amba_bfm/bfm_main.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/coreparameters.v
+    D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/component/work/CoreGPIO_C10/CoreGPIO_C10_0/rtl/vlog/test/user/testbench.v
+

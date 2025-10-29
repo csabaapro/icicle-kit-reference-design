@@ -170,6 +170,8 @@ read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_I
 read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\core\corei2c.v}
 read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0.v}
 read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CORE_I2C_C0_0_WRAPPER\CORE_I2C_C0_0_WRAPPER.v}
+read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v}
+read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10.v}
 read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Clock_gen.v}
 read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v}
 read_verilog -mode system_verilog {D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v}

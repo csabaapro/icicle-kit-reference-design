@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Wed Oct 29 15:20:26 2025
+<text>Date: Wed Oct 29 16:11:02 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,13 +74,13 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>14796</cell>
+ <cell>14801</cell>
  <cell>254196</cell>
  <cell>5.82</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>11545</cell>
+ <cell>11546</cell>
  <cell>254196</cell>
  <cell>4.54</cell>
 </row>
@@ -268,8 +268,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>13116</cell>
- <cell>9865</cell>
+ <cell>13121</cell>
+ <cell>9866</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -288,8 +288,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>14796</cell>
- <cell>11545</cell>
+ <cell>14801</cell>
+ <cell>11546</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -322,11 +322,11 @@
 </row>
 <row>
  <cell>8</cell>
- <cell>28</cell>
+ <cell>29</cell>
 </row>
 <row>
  <cell>9</cell>
- <cell>20</cell>
+ <cell>19</cell>
 </row>
 <row>
  <cell>10</cell>
@@ -554,7 +554,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>969</cell>
+ <cell>970</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
 </row>
@@ -569,7 +569,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>908</cell>
+ <cell>909</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dff_arst</cell>
 </row>

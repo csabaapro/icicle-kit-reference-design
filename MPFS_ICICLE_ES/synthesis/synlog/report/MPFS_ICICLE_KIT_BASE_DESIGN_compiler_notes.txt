@@ -173,6 +173,8 @@
 @N: CL134 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=256, width=5
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v":512:16:512:28|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v":515:16:515:28|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v":512:16:512:28|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v":515:16:515:28|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.

@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Oct 29 15:13:01 2025
+// Created by SmartDesign Wed Oct 29 15:43:12 2025
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -34,6 +34,7 @@ module FIC_3_PERIPHERALS(
     GPIO_OUT_1,
     GPIO_OUT_2,
     GPIO_OUT_3,
+    GPIO_OUT_4,
     IHC_MP_APP_E51_IRQ,
     IHC_MP_APP_U54_1_IRQ,
     IHC_MP_APP_U54_2_IRQ,
@@ -82,6 +83,7 @@ output        GPIO_OUT_0;
 output        GPIO_OUT_1;
 output        GPIO_OUT_2;
 output        GPIO_OUT_3;
+output        GPIO_OUT_4;
 output        IHC_MP_APP_E51_IRQ;
 output        IHC_MP_APP_U54_1_IRQ;
 output        IHC_MP_APP_U54_2_IRQ;
@@ -147,7 +149,10 @@ wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PRDATA;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PREADY;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PSELx;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PSLVERR;
+wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA;
+wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PREADY;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSELx;
+wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSLVERR;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PREADY;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSELx;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSLVERR;
@@ -157,6 +162,7 @@ wire   [0:0]  GPIO_OUT_0_net_0;
 wire   [1:1]  GPIO_OUT_1_net_0;
 wire   [2:2]  GPIO_OUT_2_net_0;
 wire   [3:3]  GPIO_OUT_3_net_0;
+wire   [0:0]  GPIO_OUT_4_net_0;
 wire          IHC_MP_APP_E51_IRQ_net_0;
 wire          IHC_MP_APP_U54_1_IRQ_net_0;
 wire          IHC_MP_APP_U54_2_IRQ_net_0;
@@ -198,15 +204,15 @@ wire          fabric_sd_emmc_demux_select_out_net_1;
 wire   [31:0] APB_MMASTER_PRDATA_net_0;
 wire   [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR_net_0;
 wire   [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA_net_0;
+wire          GPIO_OUT_4_net_1;
 wire   [3:0]  GPIO_OUT_net_0;
 wire   [0:0]  PWM_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
 wire   [3:0]  GPIO_IN_const_net_0;
-wire   [31:0] APBmslave2_PRDATAS2_const_net_0;
-wire          VCC_net;
 wire          GND_net;
+wire          VCC_net;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -215,10 +221,12 @@ wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0_7to0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1_7to0;
-wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2;
-wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_4to0;
-wire   [8:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3;
-wire   [8:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_8to0;
+wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2;
+wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_7to0;
+wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3;
+wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_4to0;
+wire   [8:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4;
+wire   [8:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4_8to0;
 wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0_7to0;
@@ -235,10 +243,9 @@ wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_04xx_PRDATA_0_7to0;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
-assign GPIO_IN_const_net_0             = 4'h0;
-assign APBmslave2_PRDATAS2_const_net_0 = 32'h00000000;
-assign VCC_net                         = 1'b1;
-assign GND_net                         = 1'b0;
+assign GPIO_IN_const_net_0 = 4'h0;
+assign GND_net             = 1'b0;
+assign VCC_net             = 1'b1;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
@@ -294,6 +301,8 @@ assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR_net_0               = FIC_3_0x43xx_xx
 assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS[31:0]  = FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR_net_0;
 assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA_net_0              = FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA;
 assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS[31:0] = FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA_net_0;
+assign GPIO_OUT_4_net_1                                        = GPIO_OUT_4_net_0[0];
+assign GPIO_OUT_4                                              = GPIO_OUT_4_net_1;
 //--------------------------------------------------------------------
 // Slices assignments
 //--------------------------------------------------------------------
@@ -309,10 +318,12 @@ assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0 = { FIC_3_ADDRESS_GE
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[7:0];
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1_7to0 };
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[7:0];
-assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_4to0 };
-assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_4to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[4:0];
-assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_8to0 };
-assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_8to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[8:0];
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_7to0 };
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[7:0];
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_4to0 };
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_4to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[4:0];
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4_8to0 };
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4_8to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[8:0];
 
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0_7to0 };
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA[7:0];
@@ -349,6 +360,25 @@ GPIO COREGPIO_C0(
         .PRDATA   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PRDATA ) 
         );
 
+//--------CoreGPIO_C10
+CoreGPIO_C10 CoreGPIO_C10_inst_0(
+        // Inputs
+        .PRESETN  ( PRESETN ),
+        .PCLK     ( PCLK ),
+        .GPIO_IN  ( GND_net ),
+        .PADDR    ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 ),
+        .PSEL     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSELx ),
+        .PENABLE  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PENABLE ),
+        .PWRITE   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWRITE ),
+        .PWDATA   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA ),
+        // Outputs
+        .INT      ( GPIO_OUT_4_net_0 ),
+        .GPIO_OUT (  ),
+        .PRDATA   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA ),
+        .PREADY   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PREADY ),
+        .PSLVERR  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSLVERR ) 
+        );
+
 //--------CoreUARTapb_C0
 CoreUARTapb_C0 CoreUARTapb_C0_0(
         // Inputs
@@ -358,7 +388,7 @@ CoreUARTapb_C0 CoreUARTapb_C0_0(
         .PSEL        ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSELx ),
         .PENABLE     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PENABLE ),
         .PWRITE      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWRITE ),
-        .PADDR       ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 ),
+        .PADDR       ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3 ),
         .PWDATA      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0 ),
         // Outputs
         .TXRDY       ( TXRDY_net_0 ),
@@ -405,8 +435,8 @@ FIC_3_ADDRESS_GENERATION FIC_3_ADDRESS_GENERATION_1(
         .APBmslave16_PSLVERRS16           ( FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSLVERRS16 ),
         .APBmslave1_PREADYS1              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PREADY ),
         .APBmslave1_PSLVERRS1             ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PSLVERR ),
-        .APBmslave2_PREADYS2              ( VCC_net ), // tied to 1'b1 from definition
-        .APBmslave2_PSLVERRS2             ( GND_net ), // tied to 1'b0 from definition
+        .APBmslave2_PREADYS2              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PREADY ),
+        .APBmslave2_PSLVERRS2             ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSLVERR ),
         .APBmslave3_PREADYS3              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PREADY ),
         .APBmslave3_PSLVERRS3             ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSLVERR ),
         .FIC_3_0x4000_04xx_PREADYS4       ( VCC_net ), // tied to 1'b1 from definition
@@ -418,7 +448,7 @@ FIC_3_ADDRESS_GENERATION FIC_3_ADDRESS_GENERATION_1(
         .APBmslave15_PRDATAS15            ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4FFF_FFxx_PRDATA ),
         .APBmslave16_PRDATAS16            ( FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PRDATAS16 ),
         .APBmslave1_PRDATAS1              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PRDATA ),
-        .APBmslave2_PRDATAS2              ( APBmslave2_PRDATAS2_const_net_0 ), // tied to 32'h00000000 from definition
+        .APBmslave2_PRDATAS2              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA ),
         .APBmslave3_PRDATAS3              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0 ),
         .FIC_3_0x4000_04xx_PRDATAS4       ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_04xx_PRDATA_0 ),
         // Outputs
@@ -499,7 +529,7 @@ CORE_I2C_C0_0_WRAPPER RPi_ID_I2C(
         .APBslave_PWRITE  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWRITE ),
         .PCLK             ( PCLK ),
         .PRESETN          ( PRESETN ),
-        .APBslave_PADDR   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3 ),
+        .APBslave_PADDR   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4 ),
         .APBslave_PWDATA  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1 ),
         // Outputs
         .INT              ( RPI_ID_I2C_IRQ_net_0 ),

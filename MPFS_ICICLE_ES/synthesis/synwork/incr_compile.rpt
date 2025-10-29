@@ -13,163 +13,409 @@ Hostname: DESKTOP-693NB92
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
 
-Modified Files: 3
+Modified Files: 5
 FID:  path (prevtimestamp, timestamp)
-92       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46)
-167      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-10-29 15:07:10, 2025-10-29 15:13:01)
-178      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-10-29 15:07:20, 2025-10-29 15:15:08)
+92       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30)
+202      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10.v (N/A, 2025-10-29 15:39:20)
+203      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20)
+167      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-10-29 15:13:01, 2025-10-29 15:43:12)
+178      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-10-29 15:15:08, 2025-10-29 16:05:09)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 74
+Modules that may have changed as a result of file changes: 160
 MID:  lib.cell.view
 3        work.APBM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 4        work.APBS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+7        work.AXI_ADDRESS_SHIM.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 8        work.BANKCTRLM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 9        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 10       work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 11       work.BANKEN.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 12       work.CLKBUF_DIFF.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 13       work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+17       work.COREAXI4INTERCONNECT.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+20       work.COREI2C_COREI2CREAL.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10.v (N/A, 2025-10-29 15:39:20) <-- (module definition)
 21       work.CORELNKTMR_V.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 25       work.CRN_COMMON.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 26       work.CRN_INT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 27       work.CRYPTO.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 28       work.CRYPTO_SOC.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 38       work.DEBUG.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 39       work.DLL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 86       work.DRI.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 87       work.ENFORCE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+90       work.FIC_1_INITIATOR.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+91       work.FIC_1_PERIPHERALS.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (module definition)
+97       work.G5_APBLINK_MASTER.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 98       work.GLITCHDETECT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 103      work.GPSS_COMMON.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 104      work.HS_IO_CLK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 105      work.ICB_BANKCLK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 106      work.ICB_CLKDIV.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 107      work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 108      work.ICB_CLKINT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 109      work.ICB_CLKSTOP.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 110      work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 111      work.ICB_INT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 112      work.ICB_MUXING.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 113      work.ICB_NGMUX.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 115      work.INIT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 118      work.IOD.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 119      work.LANECTRL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 120      work.LANERST.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 121      work.MCHP_BLIC.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 135      work.OSC_RC160MHZ.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 136      work.OSC_RC200MHZ.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 137      work.OSC_RC2MHZ.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 138      work.PCIE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 139      work.PCIE_COMMON.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+140      work.PCIE_INITIATOR.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 143      work.PFSOC_SCSM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+146      work.PF_PCIE_C0.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+147      work.PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 148      work.PF_SPI.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 149      work.PLL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 150      work.QUADRST.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 151      work.QUADRST_PCIE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 152      work.SCB.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 153      work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 154      work.SYSRESET.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 155      work.SYS_SERVICES.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 156      work.TAMPER.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 159      work.TVS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 160      work.TX_PLL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 161      work.UPROM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 162      work.USPI.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 163      work.VOLTAGEDETECT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 164      work.VREFBANKDYN.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 165      work.VREFCTRL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 166      work.XCVR.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 167      work.XCVR_64B6XB.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 168      work.XCVR_8B10B.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 169      work.XCVR_APB_LINK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 170      work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 171      work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 172      work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 173      work.XCVR_PIPE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 174      work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 175      work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 176      work.XCVR_PMA.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 177      work.XCVR_REF_CLK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 178      work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 179      work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 180      work.XCVR_TEST.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 181      work.XCVR_VV.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:07:47, 2025-10-29 15:15:46) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 15:15:46, 2025-10-29 16:06:30) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+182      work.caxi4interconnect_AHBL_Ctrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+183      work.caxi4interconnect_AHB_SM.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+184      work.caxi4interconnect_AXI4_Read_Ctrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+185      work.caxi4interconnect_AXI4_Write_Ctrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+186      work.caxi4interconnect_AddressController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+187      work.caxi4interconnect_Axi4CrossBar.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+188      work.caxi4interconnect_Bin2Gray.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+189      work.caxi4interconnect_BitScan0.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+190      work.caxi4interconnect_CDC_FIFO.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+191      work.caxi4interconnect_CDC_grayCodeCounter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+192      work.caxi4interconnect_CDC_rdCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+193      work.caxi4interconnect_CDC_wrCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+194      work.caxi4interconnect_DERR_Slave.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+195      work.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+196      work.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+197      work.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+198      work.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+199      work.caxi4interconnect_DWC_DownConv_readWidthConv.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+200      work.caxi4interconnect_DWC_DownConv_widthConvrd.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+201      work.caxi4interconnect_DWC_DownConv_widthConvwr.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+202      work.caxi4interconnect_DWC_DownConv_writeWidthConv.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+203      work.caxi4interconnect_DWC_RChannel_SlvRid_Arb.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+204      work.caxi4interconnect_DWC_UpConv_AChannel.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+205      work.caxi4interconnect_DWC_UpConv_BChannel.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+206      work.caxi4interconnect_DWC_UpConv_RChan_Ctrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+207      work.caxi4interconnect_DWC_UpConv_RChannel.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+208      work.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+209      work.caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+210      work.caxi4interconnect_DWC_UpConv_WChannel.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+211      work.caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+212      work.caxi4interconnect_DWC_UpConv_preCalcAChannel.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+213      work.caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+214      work.caxi4interconnect_DWC_brespCtrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+215      work.caxi4interconnect_DependenceChecker.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+216      work.caxi4interconnect_DownConverter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+217      work.caxi4interconnect_DualPort_FF_SyncWr_SyncRd.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+218      work.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+219      work.caxi4interconnect_FIFO.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+220      work.caxi4interconnect_FIFO_CTRL.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+221      work.caxi4interconnect_FIFO_downsizing.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+222      work.caxi4interconnect_FIFO_upsizing.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+223      work.caxi4interconnect_FifoDualPort.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+224      work.caxi4interconnect_Hold_Reg_Ctrl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+225      work.caxi4interconnect_MasterAddressDecoder.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+226      work.caxi4interconnect_MasterControl.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+227      work.caxi4interconnect_MasterConvertor.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+228      work.caxi4interconnect_MstrAHBtoAXI4Converter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+229      work.caxi4interconnect_MstrClockDomainCrossing.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+230      work.caxi4interconnect_MstrDataWidthConv.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+231      work.caxi4interconnect_MstrProtocolConverter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+232      work.caxi4interconnect_RAM_BLOCK.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+233      work.caxi4interconnect_RDataController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+234      work.caxi4interconnect_RdFifoDualPort.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+235      work.caxi4interconnect_ReadDataController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+236      work.caxi4interconnect_ReadDataMux.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+237      work.caxi4interconnect_RegSliceFull.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+238      work.caxi4interconnect_RegisterSlice.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+239      work.caxi4interconnect_RequestQual.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+240      work.caxi4interconnect_ResetSycnc.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+241      work.caxi4interconnect_RespController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+242      work.caxi4interconnect_RoundRobinArb.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+243      work.caxi4interconnect_SlaveConvertor.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+244      work.caxi4interconnect_SlaveDataMuxController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+245      work.caxi4interconnect_SlvAxi4ProtConvAXI4ID.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+246      work.caxi4interconnect_SlvAxi4ProtConvRead.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+247      work.caxi4interconnect_SlvAxi4ProtConvWrite.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+248      work.caxi4interconnect_SlvAxi4ProtocolConv.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+249      work.caxi4interconnect_SlvClockDomainCrossing.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+250      work.caxi4interconnect_SlvDataWidthConverter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+251      work.caxi4interconnect_SlvProtocolConverter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+252      work.caxi4interconnect_TargetMuxController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+253      work.caxi4interconnect_TransactionController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+254      work.caxi4interconnect_UpConverter.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+255      work.caxi4interconnect_WDataController.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+256      work.caxi4interconnect_WriteDataMux.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+257      work.caxi4interconnect_byte2bit.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
+258      work.caxi4interconnect_revision.verilog may have changed because the following files changed:
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (N/A, 2025-10-29 15:39:20) <-- (may instantiate this module)
 262      work.corepwm_reg_if.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-10-29 15:07:10, 2025-10-29 15:13:01) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-10-29 15:13:01, 2025-10-29 15:43:12) <-- (module definition)
 265      work.fabric_sd_emmc_demux_select.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-10-29 15:07:20, 2025-10-29 15:15:08) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-10-29 15:15:08, 2025-10-29 16:05:09) <-- (module definition)
 
 *******************************************************************
 Unmodified files: 199
@@ -375,24 +621,23 @@ FID:  path (timestamp)
 201      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v (2025-10-28 09:17:01)
 
 *******************************************************************
-Unchanged modules: 218
+Unchanged modules: 134
 MID:  lib.cell.view
 0        COREAPB3_LIB.COREAPB3_MUXPTOB3.verilog
 1        COREAPB3_LIB.CoreAPB3.verilog
 2        COREAPB3_LIB.coreapb3_iaddr_reg.verilog
 5        work.APB_ARBITER.verilog
 6        work.APB_PASS_THROUGH.verilog
-7        work.AXI_ADDRESS_SHIM.verilog
 14       work.CLK_DIV.verilog
 15       work.CLK_DIV_CLK_DIV_0_PF_CLK_DIV.verilog
 16       work.CLOCKS_AND_RESETS.verilog
-17       work.COREAXI4INTERCONNECT.verilog
 18       work.COREI2C_C0.verilog
 19       work.COREI2C_C0_COREI2C_C0_0_COREI2C.verilog
-20       work.COREI2C_COREI2CREAL.verilog
 22       work.CORERESET.verilog
 23       work.CORERESET_CORERESET_0_CORERESET_PF.verilog
 24       work.CORE_I2C_C0_0_WRAPPER.verilog
+292      work.CoreGPIO_C10.verilog
+293      work.CoreGPIO_C10_CoreGPIO_C10_0_CoreGPIO.verilog
 29       work.CoreUARTapb_C0.verilog
 30       work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART.verilog
 31       work.CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen.verilog
@@ -450,14 +695,11 @@ MID:  lib.cell.view
 85       work.DMA_INITIATOR.verilog
 88       work.FIC0_INITIATOR.verilog
 89       work.FIC_0_PERIPHERALS.verilog
-90       work.FIC_1_INITIATOR.verilog
-91       work.FIC_1_PERIPHERALS.verilog
 92       work.FIC_3_0x4000_0xxx.verilog
 93       work.FIC_3_0x4FFF_Fxxx.verilog
 94       work.FIC_3_0x4xxx_xxxx.verilog
 95       work.FIC_3_ADDRESS_GENERATION.verilog
 96       work.FIC_3_PERIPHERALS.verilog
-97       work.G5_APBLINK_MASTER.verilog
 99       work.GLITCHLESS_MUX.verilog
 100      work.GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.verilog
 101      work.GPIO.verilog
@@ -478,92 +720,12 @@ MID:  lib.cell.view
 132      work.MSS_WRAPPER.verilog
 133      work.OSCILLATOR_160MHz.verilog
 134      work.OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.verilog
-140      work.PCIE_INITIATOR.verilog
 141      work.PCIE_REF_CLK.verilog
 142      work.PCIE_REF_CLK_PCIE_REF_CLK_0_PF_XCVR_REF_CLK.verilog
 144      work.PF_CCC_C0.verilog
 145      work.PF_CCC_C0_PF_CCC_C0_0_PF_CCC.verilog
-146      work.PF_PCIE_C0.verilog
-147      work.PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE.verilog
 157      work.TRANSMIT_PLL.verilog
 158      work.TRANSMIT_PLL_TRANSMIT_PLL_0_PF_TX_PLL.verilog
-182      work.caxi4interconnect_AHBL_Ctrl.verilog
-183      work.caxi4interconnect_AHB_SM.verilog
-184      work.caxi4interconnect_AXI4_Read_Ctrl.verilog
-185      work.caxi4interconnect_AXI4_Write_Ctrl.verilog
-186      work.caxi4interconnect_AddressController.verilog
-187      work.caxi4interconnect_Axi4CrossBar.verilog
-188      work.caxi4interconnect_Bin2Gray.verilog
-189      work.caxi4interconnect_BitScan0.verilog
-190      work.caxi4interconnect_CDC_FIFO.verilog
-191      work.caxi4interconnect_CDC_grayCodeCounter.verilog
-192      work.caxi4interconnect_CDC_rdCtrl.verilog
-193      work.caxi4interconnect_CDC_wrCtrl.verilog
-194      work.caxi4interconnect_DERR_Slave.verilog
-195      work.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl.verilog
-196      work.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd.verilog
-197      work.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr.verilog
-198      work.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl.verilog
-199      work.caxi4interconnect_DWC_DownConv_readWidthConv.verilog
-200      work.caxi4interconnect_DWC_DownConv_widthConvrd.verilog
-201      work.caxi4interconnect_DWC_DownConv_widthConvwr.verilog
-202      work.caxi4interconnect_DWC_DownConv_writeWidthConv.verilog
-203      work.caxi4interconnect_DWC_RChannel_SlvRid_Arb.verilog
-204      work.caxi4interconnect_DWC_UpConv_AChannel.verilog
-205      work.caxi4interconnect_DWC_UpConv_BChannel.verilog
-206      work.caxi4interconnect_DWC_UpConv_RChan_Ctrl.verilog
-207      work.caxi4interconnect_DWC_UpConv_RChannel.verilog
-208      work.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.verilog
-209      work.caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl.verilog
-210      work.caxi4interconnect_DWC_UpConv_WChannel.verilog
-211      work.caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl.verilog
-212      work.caxi4interconnect_DWC_UpConv_preCalcAChannel.verilog
-213      work.caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl.verilog
-214      work.caxi4interconnect_DWC_brespCtrl.verilog
-215      work.caxi4interconnect_DependenceChecker.verilog
-216      work.caxi4interconnect_DownConverter.verilog
-217      work.caxi4interconnect_DualPort_FF_SyncWr_SyncRd.verilog
-218      work.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd.verilog
-219      work.caxi4interconnect_FIFO.verilog
-220      work.caxi4interconnect_FIFO_CTRL.verilog
-221      work.caxi4interconnect_FIFO_downsizing.verilog
-222      work.caxi4interconnect_FIFO_upsizing.verilog
-223      work.caxi4interconnect_FifoDualPort.verilog
-224      work.caxi4interconnect_Hold_Reg_Ctrl.verilog
-225      work.caxi4interconnect_MasterAddressDecoder.verilog
-226      work.caxi4interconnect_MasterControl.verilog
-227      work.caxi4interconnect_MasterConvertor.verilog
-228      work.caxi4interconnect_MstrAHBtoAXI4Converter.verilog
-229      work.caxi4interconnect_MstrClockDomainCrossing.verilog
-230      work.caxi4interconnect_MstrDataWidthConv.verilog
-231      work.caxi4interconnect_MstrProtocolConverter.verilog
-232      work.caxi4interconnect_RAM_BLOCK.verilog
-233      work.caxi4interconnect_RDataController.verilog
-234      work.caxi4interconnect_RdFifoDualPort.verilog
-235      work.caxi4interconnect_ReadDataController.verilog
-236      work.caxi4interconnect_ReadDataMux.verilog
-237      work.caxi4interconnect_RegSliceFull.verilog
-238      work.caxi4interconnect_RegisterSlice.verilog
-239      work.caxi4interconnect_RequestQual.verilog
-240      work.caxi4interconnect_ResetSycnc.verilog
-241      work.caxi4interconnect_RespController.verilog
-242      work.caxi4interconnect_RoundRobinArb.verilog
-243      work.caxi4interconnect_SlaveConvertor.verilog
-244      work.caxi4interconnect_SlaveDataMuxController.verilog
-245      work.caxi4interconnect_SlvAxi4ProtConvAXI4ID.verilog
-246      work.caxi4interconnect_SlvAxi4ProtConvRead.verilog
-247      work.caxi4interconnect_SlvAxi4ProtConvWrite.verilog
-248      work.caxi4interconnect_SlvAxi4ProtocolConv.verilog
-249      work.caxi4interconnect_SlvClockDomainCrossing.verilog
-250      work.caxi4interconnect_SlvDataWidthConverter.verilog
-251      work.caxi4interconnect_SlvProtocolConverter.verilog
-252      work.caxi4interconnect_TargetMuxController.verilog
-253      work.caxi4interconnect_TransactionController.verilog
-254      work.caxi4interconnect_UpConverter.verilog
-255      work.caxi4interconnect_WDataController.verilog
-256      work.caxi4interconnect_WriteDataMux.verilog
-257      work.caxi4interconnect_byte2bit.verilog
-258      work.caxi4interconnect_revision.verilog
 259      work.corepwm.verilog
 260      work.corepwm_C0.verilog
 261      work.corepwm_pwm_gen.verilog

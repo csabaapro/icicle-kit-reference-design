@@ -1,10 +1,10 @@
-#OPTIONS:"|-layerid|0|-orig_srs|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\synwork\\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs|-top|MPFS_ICICLE_KIT_BASE_DESIGN|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0\\rtl\\vlog\\core|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\synwork\\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs|-top|MPFS_ICICLE_KIT_BASE_DESIGN|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0\\rtl\\vlog\\core|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1745943498
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1745932376
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1745942006
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1745942006
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1745942006
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\syn_comps.v":1761747346
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\syn_comps.v":1761750390
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CLK_DIV\\CLK_DIV_0\\CLK_DIV_CLK_DIV_0_PF_CLK_DIV.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CLK_DIV\\CLK_DIV.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CORERESET\\CORERESET_0\\core\\corereset_pf.v":1761639418
@@ -176,6 +176,8 @@
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\COREI2C_C0\\COREI2C_C0_0\\rtl\\vlog\\core\\corei2c.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\COREI2C_C0\\COREI2C_C0.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CORE_I2C_C0_0_WRAPPER\\CORE_I2C_C0_0_WRAPPER.v":1761639418
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreGPIO_C10\\CoreGPIO_C10_0\\rtl\\vlog\\core\\coregpio.v":1761748760
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreGPIO_C10\\CoreGPIO_C10.v":1761748760
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\Clock_gen.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\Rx_async.v":1761639418
@@ -203,11 +205,11 @@
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\corepwm.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\corepwm_C0\\corepwm_C0.v":1761639419
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\hdl\\fabric_sd_emmc_demux_select.v":1761639421
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_PERIPHERALS\\FIC_3_PERIPHERALS.v":1761747181
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_PERIPHERALS\\FIC_3_PERIPHERALS.v":1761748992
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\ICICLE_MSS\\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":1761639419
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\ICICLE_MSS\\ICICLE_MSS.v":1761639419
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MSS_WRAPPER\\MSS_WRAPPER.v":1761639419
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MPFS_ICICLE_KIT_BASE_DESIGN\\MPFS_ICICLE_KIT_BASE_DESIGN.v":1761747308
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MPFS_ICICLE_KIT_BASE_DESIGN\\MPFS_ICICLE_KIT_BASE_DESIGN.v":1761750309
 #numinternalfiles:4
 #defaultlanguage:verilog
 0			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v" verilog
@@ -376,38 +378,40 @@
 163			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\core\corei2c.v" verilog
 164			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0.v" verilog
 165			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CORE_I2C_C0_0_WRAPPER\CORE_I2C_C0_0_WRAPPER.v" verilog
-166			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Clock_gen.v" verilog
-167			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
-168			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v" verilog
-169			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v" verilog
-170			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v" verilog
-171			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v" verilog
-172			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0.v" verilog
-173			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\apb_arbiter.v" verilog
-174			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\APB_PASS_THROUGH.v" verilog
-175			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
-176			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
-177			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
-178			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v" verilog
-179			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.v" verilog
-180			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.v" verilog
-181			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v" verilog
-182			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v" verilog
-183			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO.v" verilog
-184			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v" verilog
-185			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0.v" verilog
-186			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\tach_if.v" verilog
-187			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v" verilog
-188			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v" verilog
-189			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v" verilog
-190			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v" verilog
-191			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\corepwm_C0\corepwm_C0.v" verilog
-192			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v" verilog
-193			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v" verilog
-194			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
-195			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\ICICLE_MSS.v" verilog
-196			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MSS_WRAPPER\MSS_WRAPPER.v" verilog
-197			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v" verilog
+166			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v" verilog
+167			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10.v" verilog
+168			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Clock_gen.v" verilog
+169			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+170			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v" verilog
+171			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v" verilog
+172			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v" verilog
+173			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v" verilog
+174			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0.v" verilog
+175			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\apb_arbiter.v" verilog
+176			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\APB_PASS_THROUGH.v" verilog
+177			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+178			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+179			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
+180			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v" verilog
+181			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.v" verilog
+182			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.v" verilog
+183			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v" verilog
+184			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v" verilog
+185			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO.v" verilog
+186			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v" verilog
+187			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0.v" verilog
+188			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\tach_if.v" verilog
+189			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v" verilog
+190			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v" verilog
+191			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v" verilog
+192			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v" verilog
+193			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\corepwm_C0\corepwm_C0.v" verilog
+194			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v" verilog
+195			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v" verilog
+196			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
+197			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\ICICLE_MSS.v" verilog
+198			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MSS_WRAPPER\MSS_WRAPPER.v" verilog
+199			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 0
@@ -576,37 +580,39 @@
 164 163
 165 164
 166 -1
-167 -1
+167 166
 168 -1
 169 -1
-170 166 169 168 167
-171 170
-172 171
-173 -1
-174 -1
+170 -1
+171 -1
+172 168 171 170 169
+173 172
+174 173
 175 -1
 176 -1
-177 175 176
-178 177
-179 177
-180 177
-181 173 174 179 180 178
-182 -1
-183 182
+177 -1
+178 -1
+179 177 178
+180 179
+181 179
+182 179
+183 175 176 181 182 180
 184 -1
 185 184
 186 -1
-187 -1
+187 186
 188 -1
 189 -1
-190 188 189 187 186
-191 190
-192 -1
-193 183 172 192 181 185 191 165
+190 -1
+191 -1
+192 190 191 189 188
+193 192
 194 -1
-195 194
-196 195
-197 17 154 161 193 196
+195 185 167 174 194 183 187 193 165
+196 -1
+197 196
+198 197
+199 17 154 161 195 198
 #Dependency Lists(Users Of)
 0 1 5 7 9 11 13 15 159
 1 2
@@ -625,7 +631,7 @@
 14 17
 15 16
 16 17
-17 197
+17 199
 18 66
 19 66
 20 19 22 25 56 57 58 61 63 66
@@ -762,50 +768,52 @@
 151 152
 152 153
 153 154
-154 197
+154 199
 155 161
 156 161
 157 161
 158 159
 159 160
 160 161
-161 197
+161 199
 162 163
 163 164
 164 165
-165 193
-166 170
-167 170
-168 170
-169 170
-170 171
+165 195
+166 167
+167 195
+168 172
+169 172
+170 172
 171 172
-172 193
-173 181
-174 181
-175 177
-176 177
-177 178 179 180
-178 181
-179 181
-180 181
-181 193
+172 173
+173 174
+174 195
+175 183
+176 183
+177 179
+178 179
+179 180 181 182
+180 183
+181 183
 182 183
-183 193
+183 195
 184 185
-185 193
-186 190
-187 190
-188 190
-189 190
-190 191
-191 193
+185 195
+186 187
+187 195
+188 192
+189 192
+190 192
+191 192
 192 193
-193 197
+193 195
 194 195
-195 196
+195 199
 196 197
-197 -1
+197 198
+198 199
+199 -1
 #Design Unit to File Association
 module work APBM 0
 module work APBS 0
@@ -1039,66 +1047,68 @@ module work COREI2C_COREI2CREAL 162
 module work COREI2C_C0_COREI2C_C0_0_COREI2C 163
 module work COREI2C_C0 164
 module work CORE_I2C_C0_0_WRAPPER 165
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen 166
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8 167
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256 167
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5 167
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async 168
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async 169
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART 170
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb 171
-module work CoreUARTapb_C0 172
-module work APB_ARBITER 173
-module work APB_PASS_THROUGH 174
-module work FIC_3_0x4000_0xxx 178
-module work FIC_3_0x4FFF_Fxxx 179
-module work FIC_3_0x4xxx_xxxx 180
-module work FIC_3_ADDRESS_GENERATION 181
-module work GPIO_GPIO_0_CoreGPIO 182
-module work GPIO 183
-module work MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC 184
-module work miv_ihc_apb_arbiter_top 184
-module work miv_ihc_apb_target_top 184
-module work miv_ihc_axi_target_top 184
-module work miv_ihc_core 184
-module work miv_ihc_ram_singleport_addreg 184
-module work miv_ihc_channel 184
-module work miv_ihc_interrupt_module 184
-module work miv_ihc_address_controller 184
-module work miv_ihc_mailbox_address_decoder 184
-module work miv_ihc_apb_target 184
-module work miv_ihc_apb_arbiter_2 184
-module work miv_ihc_apb_arbiter_3 184
-module work miv_ihc_apb_master_asynch 184
-module work miv_ihc_apb_slave_asynch 184
-module work miv_ihc_apb_cdc 184
-module work miv_ihc_apb_mpu 184
-module work miv_ihc_fifo_v3 184
-module work miv_ihc_fifo_v2 184
-module work miv_ihc_fifo 184
-module work miv_ihc_axi_single_slice 184
-module work miv_ihc_axi_ar_buffer 184
-module work miv_ihc_axi_aw_buffer 184
-module work miv_ihc_axi_b_buffer 184
-module work miv_ihc_axi_r_buffer 184
-module work miv_ihc_axi_w_buffer 184
-module work miv_ihc_axi2apb 184
-module work MIV_IHC_C0 185
-module work corepwm_tach_if 186
-module work corepwm_pwm_gen 187
-module work corepwm_reg_if 188
-module work corepwm_timebase 189
-module work corepwm 190
-module work corepwm_C0 191
-module work fabric_sd_emmc_demux_select 192
-module work FIC_3_PERIPHERALS 193
-module work MSS 194
-module work ICICLE_MSS 195
-module work MSS_WRAPPER 196
-module work MPFS_ICICLE_KIT_BASE_DESIGN 197
-module COREAPB3_LIB COREAPB3_MUXPTOB3 175
-module COREAPB3_LIB coreapb3_iaddr_reg 176
-module COREAPB3_LIB CoreAPB3 177
+module work CoreGPIO_C10_CoreGPIO_C10_0_CoreGPIO 166
+module work CoreGPIO_C10 167
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen 168
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8 169
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256 169
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5 169
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async 170
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async 171
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART 172
+module work CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb 173
+module work CoreUARTapb_C0 174
+module work APB_ARBITER 175
+module work APB_PASS_THROUGH 176
+module work FIC_3_0x4000_0xxx 180
+module work FIC_3_0x4FFF_Fxxx 181
+module work FIC_3_0x4xxx_xxxx 182
+module work FIC_3_ADDRESS_GENERATION 183
+module work GPIO_GPIO_0_CoreGPIO 184
+module work GPIO 185
+module work MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC 186
+module work miv_ihc_apb_arbiter_top 186
+module work miv_ihc_apb_target_top 186
+module work miv_ihc_axi_target_top 186
+module work miv_ihc_core 186
+module work miv_ihc_ram_singleport_addreg 186
+module work miv_ihc_channel 186
+module work miv_ihc_interrupt_module 186
+module work miv_ihc_address_controller 186
+module work miv_ihc_mailbox_address_decoder 186
+module work miv_ihc_apb_target 186
+module work miv_ihc_apb_arbiter_2 186
+module work miv_ihc_apb_arbiter_3 186
+module work miv_ihc_apb_master_asynch 186
+module work miv_ihc_apb_slave_asynch 186
+module work miv_ihc_apb_cdc 186
+module work miv_ihc_apb_mpu 186
+module work miv_ihc_fifo_v3 186
+module work miv_ihc_fifo_v2 186
+module work miv_ihc_fifo 186
+module work miv_ihc_axi_single_slice 186
+module work miv_ihc_axi_ar_buffer 186
+module work miv_ihc_axi_aw_buffer 186
+module work miv_ihc_axi_b_buffer 186
+module work miv_ihc_axi_r_buffer 186
+module work miv_ihc_axi_w_buffer 186
+module work miv_ihc_axi2apb 186
+module work MIV_IHC_C0 187
+module work corepwm_tach_if 188
+module work corepwm_pwm_gen 189
+module work corepwm_reg_if 190
+module work corepwm_timebase 191
+module work corepwm 192
+module work corepwm_C0 193
+module work fabric_sd_emmc_demux_select 194
+module work FIC_3_PERIPHERALS 195
+module work MSS 196
+module work ICICLE_MSS 197
+module work MSS_WRAPPER 198
+module work MPFS_ICICLE_KIT_BASE_DESIGN 199
+module COREAPB3_LIB COREAPB3_MUXPTOB3 177
+module COREAPB3_LIB coreapb3_iaddr_reg 178
+module COREAPB3_LIB CoreAPB3 179
 
 #identified top module
 top_module MPFS_ICICLE_KIT_BASE_DESIGN

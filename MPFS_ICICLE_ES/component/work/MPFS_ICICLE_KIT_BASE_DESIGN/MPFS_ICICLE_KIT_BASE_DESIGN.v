@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Oct 29 15:15:08 2025
+// Created by SmartDesign Wed Oct 29 16:05:09 2025
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -420,6 +420,7 @@ wire          FIC_3_PERIPHERALS_1_GPIO_OUT_0;
 wire          FIC_3_PERIPHERALS_1_GPIO_OUT_1;
 wire          FIC_3_PERIPHERALS_1_GPIO_OUT_2;
 wire          FIC_3_PERIPHERALS_1_GPIO_OUT_3;
+wire          FIC_3_PERIPHERALS_1_GPIO_OUT_4;
 wire          FIC_3_PERIPHERALS_1_IHC_MP_APP_E51_IRQ;
 wire          FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_1_IRQ;
 wire          FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_2_IRQ;
@@ -1318,16 +1319,18 @@ FIC_3_PERIPHERALS FIC_3_PERIPHERALS_1(
         .APB_MMASTER_in_prdata                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS     ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA ),
+        .GPIO_OUT_4                                           ( FIC_3_PERIPHERALS_1_GPIO_OUT_4 ),
         // Inouts
         .RPi_ID_SC                                            ( RPi_ID_SC ),
         .RPi_ID_SD                                            ( RPi_ID_SD ) 
         );
 
-//--------OR2
-OR2 MSS_GPIO_2_16_OR_COREGPIO_C0_GPIO_OUT_0(
+//--------OR3
+OR3 MSS_GPIO_2_16_OR_COREGPIO_C0_GPIO_OUT_0_OR_COREGPIO_C10_GPIO_OUT_4(
         // Inputs
         .A ( MSS_WRAPPER_1_GPIO_2_M2F_16 ),
         .B ( FIC_3_PERIPHERALS_1_GPIO_OUT_0 ),
+        .C ( FIC_3_PERIPHERALS_1_GPIO_OUT_4 ),
         // Outputs
         .Y ( LED0_net_0 ) 
         );

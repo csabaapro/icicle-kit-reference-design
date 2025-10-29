@@ -97,15 +97,15 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
-<value>miv_ihc_core_Z79</value>
+<value>miv_ihc_core_Z80</value>
 <report_link name="Report">
-<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z79\miv_ihc_core_Z79.srr</data>
+<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z80\miv_ihc_core_Z80.srr</data>
 </report_link>
 </data>
 <data>Mapped</data>
 <data>No database</data>
-<data>0h:00m:08s</data>
-<data>0h:00m:08s</data>
+<data>0h:00m:07s</data>
+<data>0h:00m:07s</data>
 </row>
 <row>
 <data>
@@ -115,8 +115,8 @@ The file contains the information about all compile points from mapper to be dis
 </report_link>
 </data>
 <data>Remapped</data>
-<data>Interface of Compile Point changed</data>
-<data>0h:00m:57s</data>
-<data>0h:00m:56s</data>
+<data>Interface of a contained Compile Point changed</data>
+<data>0h:01m:00s</data>
+<data>0h:00m:58s</data>
 </row>
 </report_table>

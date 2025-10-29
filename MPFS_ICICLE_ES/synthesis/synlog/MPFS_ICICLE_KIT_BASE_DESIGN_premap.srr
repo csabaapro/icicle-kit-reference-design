@@ -1,4 +1,4 @@
-# Wed Oct 29 15:17:51 2025
+# Wed Oct 29 16:08:10 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -160,7 +160,7 @@ Starting HSTDM IP insertion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:0
 Finished HSTDM IP insertion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 575MB peak: 576MB)
 
 
-Start optimization across hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 577MB peak: 577MB)
+Start optimization across hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 577MB peak: 577MB)
 
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance AWSIZE_slvif[2:0] (in view: work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_1s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_slvif.v":228:3:228:8|Removing sequential instance AWLEN_slvif[7:0] (in view: work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_1s_8s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
@@ -303,8 +303,8 @@ Only the first 100 messages of id 'BN362' are reported. To see all messages use 
 @W: MO129 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":561:0:561:5|Sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.strMemMapWrErrorReg is reduced to a combinational gate by constant propagation.
 @W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_int_error_ctrl_fsm.v":353:0:353:5|Removing sequential instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.clrExtDscrptrDataValidReg because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_CONTROLLER_inst_0.DMA_CONTROLLER_0.U_DMAController.DMATranCtrl.intErrorCtrl_inst.configRegByte2Reg[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\fifo.v":98:6:98:8|Removing instance genblk1\[0\]\.ram (in view: work.caxi4interconnect_FIFO_4s_9s_9s_3s_0s_4s_2s_0s_3s(verilog)) because it does not drive other instances.
-@N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":593:1:593:17|Removing instance apb_arbiter_top_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z90(verilog)) because it does not drive other instances.
-@N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":647:3:647:14|Removing instance apb_tgt0\.apb_target_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z90(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":593:1:593:17|Removing instance apb_arbiter_top_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z91(verilog)) because it does not drive other instances.
+@N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":647:3:647:14|Removing instance apb_tgt0\.apb_target_0 (in view: work.MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z91(verilog)) because it does not drive other instances.
 @W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\coreuart.v":263:0:263:5|Removing sequential instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.clear_parity_reg0 because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.clear_framing_error_reg0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\coreuart.v":278:0:278:5|Removing sequential instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.clear_framing_error_reg because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.clear_parity_reg. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: BN115 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\fic_3_address_generation\fic_3_address_generation.v":343:17:343:34|Removing instance APB_PASS_THROUGH_0 (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) because it does not drive other instances.
@@ -350,12 +350,12 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:1
 @N: FX1185 |Applying syn_allowed_resources blockrams=13 on compile point caxi4interconnect_MasterConvertor_Z19 
 @N: FX1185 |Applying syn_allowed_resources blockrams=14 on compile point caxi4interconnect_SlaveConvertor_Z50 
 @N: FX1185 |Applying syn_allowed_resources blockrams=3 on compile point COREAXI4INTERCONNECT_Z40 
-@N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point miv_ihc_core_Z79 
+@N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point miv_ihc_core_Z80 
 @N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point COREAXI4INTERCONNECT_Z58 
 @N: FX1185 |Applying syn_allowed_resources blockrams=2 on compile point COREAXI4INTERCONNECT_Z64 
 @N: FX1184 |Applying syn_allowed_resources blockrams=812 on top level netlist MPFS_ICICLE_KIT_BASE_DESIGN 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 586MB peak: 586MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 587MB peak: 587MB)
 
 
 
@@ -368,7 +368,7 @@ Level     Clock                                                                 
 0 -       REF_CLK_50MHz                                                                   50.0 MHz      20.000        declared                           default_clkgroup     1    
 1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0            125.0 MHz     8.000         generated (from REF_CLK_50MHz)     FIC0_clks            8340 
 1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1            125.0 MHz     8.000         generated (from REF_CLK_50MHz)     FIC1_clks            2328 
-1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3            50.0 MHz      20.000        generated (from REF_CLK_50MHz)     FIC3_clks            1013 
+1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3            50.0 MHz      20.000        generated (from REF_CLK_50MHz)     FIC3_clks            1014 
 1 .         CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2            125.0 MHz     8.000         generated (from REF_CLK_50MHz)     FIC2_clks            1    
                                                                                                                                                                                    
 0 -       osc_rc160mhz                                                                    170.4 MHz     5.869         declared                           default_clkgroup     1    
@@ -392,7 +392,7 @@ Clock                                                                           
 REF_CLK_50MHz                                                                   1         REF_CLK_50MHz(port)                                                                                   CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.REF_CLK_0     -                                                                          CLOCKS_AND_RESETS_inst_0.CLKINT_REF_CLK_50MHz.I(BUFG)                                  
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0              8340      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_0_ACLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_0.I(BUFG)                    
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1              2328      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT1(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_1_ACLK                            -                                                                          FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_COMMON_INSTANCE.AXI_CLK(PCIE_COMMON)        
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              1013      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT3(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_3_PCLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_12.I(BUFG)                   
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              1014      CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT3(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_3_PCLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_12.I(BUFG)                   
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2              1         CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.pll_inst_0.OUT2(PLL)                               MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS.FIC_2_ACLK                            -                                                                          CLOCKS_AND_RESETS_inst_0.CCC_FIC_x_CLK.PF_CCC_C0_0.clkint_8.I(BUFG)                    
                                                                                                                                                                                                                                                                                                                                                                                                                                               
 osc_rc160mhz                                                                    1         CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160.CLK(OSC_RC160MHZ)     CLOCKS_AND_RESETS_inst_0.CLK_160MHz_to_CLK_80MHz.CLK_DIV_0.I_CD.A           -                                                                          -                                                                                      
@@ -409,7 +409,7 @@ System                                                                          
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 555MB peak: 589MB)
+Starting constraint checker (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 555MB peak: 589MB)
 
 Encoding state machine currState[8:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4LiteTARGETCtrl(verilog))
 original code -> new code
@@ -779,7 +779,7 @@ original code -> new code
    10 -> 10
    11 -> 11
 @N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3403:0:3403:5|There are no possible illegal states for state machine fsm[3:0] (in view: work.miv_ihc_apb_target_0s_32s_32s(verilog)); safe FSM implementation is not required.
-Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog))
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -788,7 +788,7 @@ original code -> new code
    100 -> 0010000
    101 -> 0100000
    110 -> 1000000
-Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog))
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
 original code -> new code
    000 -> 00000001
    001 -> 00000010
@@ -798,7 +798,7 @@ original code -> new code
    101 -> 00100000
    110 -> 01000000
    111 -> 10000000
-Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog))
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -970,17 +970,17 @@ original code -> new code
    11 -> 11
 @N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_8s_0_1_3_2(verilog)); safe FSM implementation is not required.
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 562MB peak: 589MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 563MB peak: 589MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 569MB peak: 589MB)
+Finished constraint checker (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 570MB peak: 589MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 376MB peak: 589MB)
+At Mapper Exit (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 375MB peak: 589MB)
 
 Process took 0h:00m:32s realtime, 0h:00m:31s cputime
-# Wed Oct 29 15:18:24 2025
+# Wed Oct 29 16:08:43 2025
 
 ###########################################################]

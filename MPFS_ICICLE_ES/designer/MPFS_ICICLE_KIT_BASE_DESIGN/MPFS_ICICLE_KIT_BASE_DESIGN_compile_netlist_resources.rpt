@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
-Date: Wed Oct 29 15:20:26 2025
+Date: Wed Oct 29 16:11:02 2025
 
 Device Selection
 +------------------------+--------------+
@@ -29,8 +29,8 @@ Resource Usage
 +-----------------------------+-------+--------+------------+
 | Type                        | Used  | Total  | Percentage |
 +-----------------------------+-------+--------+------------+
-| 4LUT                        | 14796 | 254196 | 5.82       |
-| DFF                         | 11545 | 254196 | 4.54       |
+| 4LUT                        | 14801 | 254196 | 5.82       |
+| DFF                         | 11546 | 254196 | 4.54       |
 | User I/O                    | 65    | 144    | 45.14      |
 | -- Single-ended I/O         | 65    | 144    | 45.14      |
 | -- Differential I/O Pairs   | 0     | 72     | 0.00       |
@@ -66,11 +66,11 @@ Detailed Logic Resource Usage
 +-----------------------+-------+-------+
 | Type                  | 4LUT  | DFF   |
 +-----------------------+-------+-------+
-| Fabric Logic          | 13116 | 9865  |
+| Fabric Logic          | 13121 | 9866  |
 | uSRAM Interface Logic | 852   | 852   |
 | LSRAM Interface Logic | 828   | 828   |
 | Math Interface Logic  | 0     | 0     |
-| Total Used            | 14796 | 11545 |
+| Total Used            | 14801 | 11546 |
 +-----------------------+-------+-------+
 
 Detailed Carry Chains Resource Usage
@@ -81,8 +81,8 @@ Detailed Carry Chains Resource Usage
 | 5      | 1    |
 | 6      | 8    |
 | 7      | 5    |
-| 8      | 28   |
-| 9      | 20   |
+| 8      | 29   |
+| 9      | 19   |
 | 10     | 11   |
 | 11     | 12   |
 | 12     | 4    |
@@ -142,10 +142,10 @@ Nets assigned to chip global resources
 | 1020   | INT_NET | Net   : FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/sysReset_arst                           |
 |        |         | Driver: FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1 |
 |        |         | Source: NETLIST                                                                                            |
-| 969    | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_CLK                                                                        |
+| 970    | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_CLK                                                                        |
 |        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1                               |
 |        |         | Source: NETLIST                                                                                            |
-| 908    | INT_NET | Net   : dff_arst                                                                                           |
+| 909    | INT_NET | Net   : dff_arst                                                                                           |
 |        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1                 |
 |        |         | Source: NETLIST                                                                                            |
 | 1      | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz_Y                                                    |
