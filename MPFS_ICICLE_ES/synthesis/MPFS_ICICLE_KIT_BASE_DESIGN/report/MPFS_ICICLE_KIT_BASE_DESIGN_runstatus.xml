@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>99</data>
+<data>95</data>
 <report_link name="more">
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\report\MPFS_ICICLE_KIT_BASE_DESIGN_notes.txt</data>
 </report_link>
@@ -31,16 +31,16 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:49s</data>
+<data>0h:00m:56s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:50s</data>
+<data>0h:00m:57s</data>
 </info>
 <info name="Peak Memory">
 <data>432MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1761639793</data>
+<data type="timestamp">1761747567</data>
 </info>
 </job_info>
 </job_run_status>

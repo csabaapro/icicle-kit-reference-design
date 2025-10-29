@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M-5
 #--  Project file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\run_options.txt
-#--  Written on Tue Oct 28 09:20:11 2025
+#--  Written on Wed Oct 29 15:15:47 2025
 
 
 #project files

@@ -12,7 +12,7 @@ Hostname: DESKTOP-693NB92
 
 Implementation : synthesis
 
-# Written on Tue Oct 28 09:22:17 2025
+# Written on Wed Oct 29 15:18:24 2025
 
 ##### DESIGN INFO #######################################################
 
@@ -65,10 +65,6 @@ p:CA[5]
 p:CK
 p:CKE
 p:CK_N
-p:COREI2C_C0_SCL (bidir end point)
-p:COREI2C_C0_SCL (bidir start point)
-p:COREI2C_C0_SDA (bidir end point)
-p:COREI2C_C0_SDA (bidir start point)
 p:COREUART_RX
 p:COREUART_TX
 p:CS

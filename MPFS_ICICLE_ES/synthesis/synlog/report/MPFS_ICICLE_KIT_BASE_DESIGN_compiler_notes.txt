@@ -213,6 +213,14 @@
 @N: CL189 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v":78:8:78:13|Register bit prdata[1] is always 0.
 @N: CG775 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
 @N: CL134 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v":1319:4:1319:9|Found RAM mem, depth=128, width=32
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3117:3:3117:8|Trying to extract state machine for register fsmmod.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2846:3:2846:8|Trying to extract state machine for register fsmdet.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Trying to extract state machine for register fsmsync.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":42:7:42:17|Input pulse_215us is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":45:7:45:17|Input seradr1apb0 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":66:7:66:17|Input SMBALERT_NI is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":69:7:69:15|Input SMBSUS_NI is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\core\corei2c.v":41:7:41:10|Input BCLK is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":181:21:181:26|Input TACHIN is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v":184:6:184:12|Input PWM_CLK is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v":7377:4:7377:11|Input dest_clk is unused.
@@ -309,17 +317,9 @@
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
-@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":3117:3:3117:8|Trying to extract state machine for register fsmmod.
-@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":2846:3:2846:8|Trying to extract state machine for register fsmdet.
-@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Trying to extract state machine for register fsmsync.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.

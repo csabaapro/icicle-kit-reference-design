@@ -613,171 +613,115 @@ fsm_state_encoding {144185118518} ONE_DAT {11}
 
 fsm_registers {144185118518} {currState[1]}  {currState[0]} 
 
-fsm_encoding {17911901194} onehot
+fsm_encoding {17911901197} onehot
 
-fsm_state_encoding {17911901194} tx_idle {0000001}
+fsm_state_encoding {17911901197} tx_idle {0000001}
 
-fsm_state_encoding {17911901194} tx_load {0000010}
+fsm_state_encoding {17911901197} tx_load {0000010}
 
-fsm_state_encoding {17911901194} start_bit {0000100}
+fsm_state_encoding {17911901197} start_bit {0000100}
 
-fsm_state_encoding {17911901194} tx_data_bits {0001000}
+fsm_state_encoding {17911901197} tx_data_bits {0001000}
 
-fsm_state_encoding {17911901194} parity_bit {0010000}
+fsm_state_encoding {17911901197} parity_bit {0010000}
 
-fsm_state_encoding {17911901194} tx_stop_bit {0100000}
+fsm_state_encoding {17911901197} tx_stop_bit {0100000}
 
-fsm_state_encoding {17911901194} delay_state {1000000}
+fsm_state_encoding {17911901197} delay_state {1000000}
 
-fsm_registers {17911901194} {xmit_state[6]}  {xmit_state[5]}  {xmit_state[4]}  {xmit_state[3]}  {xmit_state[2]}  {xmit_state[1]}  {xmit_state[0]} 
+fsm_registers {17911901197} {xmit_state[6]}  {xmit_state[5]}  {xmit_state[4]}  {xmit_state[3]}  {xmit_state[2]}  {xmit_state[1]}  {xmit_state[0]} 
 
-fsm_encoding {17828602863} sequential
+fsm_encoding {17828602866} sequential
 
-fsm_state_encoding {17828602863} 00 {00}
+fsm_state_encoding {17828602866} 00 {00}
 
-fsm_state_encoding {17828602863} 01 {01}
+fsm_state_encoding {17828602866} 01 {01}
 
-fsm_state_encoding {17828602863} 10 {10}
+fsm_state_encoding {17828602866} 10 {10}
 
-fsm_state_encoding {17828602863} 11 {11}
+fsm_state_encoding {17828602866} 11 {11}
 
-fsm_registers {17828602863} {rx_state[1]}  {rx_state[0]} 
+fsm_registers {17828602866} {rx_state[1]}  {rx_state[0]} 
 
-fsm_encoding {18029302932} sequential
+fsm_encoding {18029302935} sequential
 
-fsm_state_encoding {18029302932} 00 {00}
+fsm_state_encoding {18029302935} 00 {00}
 
-fsm_state_encoding {18029302932} 01 {01}
+fsm_state_encoding {18029302935} 01 {01}
 
-fsm_state_encoding {18029302932} 10 {10}
+fsm_state_encoding {18029302935} 10 {10}
 
-fsm_state_encoding {18029302932} 11 {11}
+fsm_state_encoding {18029302935} 11 {11}
 
-fsm_registers {18029302932} {rx_state[1]}  {rx_state[0]} 
+fsm_registers {18029302935} {rx_state[1]}  {rx_state[0]} 
 
-fsm_encoding {1943403034031} sequential
+fsm_encoding {1943403034034} sequential
 
-fsm_state_encoding {1943403034031} 00 {00}
+fsm_state_encoding {1943403034034} 00 {00}
 
-fsm_state_encoding {1943403034031} 01 {01}
+fsm_state_encoding {1943403034034} 01 {01}
 
-fsm_state_encoding {1943403034031} 10 {10}
+fsm_state_encoding {1943403034034} 10 {10}
 
-fsm_state_encoding {1943403034031} 11 {11}
+fsm_state_encoding {1943403034034} 11 {11}
 
-fsm_registers {1943403034031} {fsm[1]}  {fsm[0]} 
+fsm_registers {1943403034034} {fsm[1]}  {fsm[0]} 
 
-fsm_encoding {1723117331175} onehot
+fsm_encoding {1723117331171} onehot
 
-fsm_state_encoding {1723117331175} FSMMOD0 {0000001}
+fsm_state_encoding {1723117331171} FSMMOD0 {0000001}
 
-fsm_state_encoding {1723117331175} FSMMOD1 {0000010}
+fsm_state_encoding {1723117331171} FSMMOD1 {0000010}
 
-fsm_state_encoding {1723117331175} FSMMOD2 {0000100}
+fsm_state_encoding {1723117331171} FSMMOD2 {0000100}
 
-fsm_state_encoding {1723117331175} FSMMOD3 {0001000}
+fsm_state_encoding {1723117331171} FSMMOD3 {0001000}
 
-fsm_state_encoding {1723117331175} FSMMOD4 {0010000}
+fsm_state_encoding {1723117331171} FSMMOD4 {0010000}
 
-fsm_state_encoding {1723117331175} FSMMOD5 {0100000}
+fsm_state_encoding {1723117331171} FSMMOD5 {0100000}
 
-fsm_state_encoding {1723117331175} 110 {1000000}
+fsm_state_encoding {1723117331171} 110 {1000000}
 
-fsm_registers {1723117331175} {fsmmod[6]}  {fsmmod[5]}  {fsmmod[4]}  {fsmmod[3]}  {fsmmod[2]}  {fsmmod[1]}  {fsmmod[0]} 
+fsm_registers {1723117331171} {fsmmod[6]}  {fsmmod[5]}  {fsmmod[4]}  {fsmmod[3]}  {fsmmod[2]}  {fsmmod[1]}  {fsmmod[0]} 
 
-fsm_encoding {1721890318907} onehot
+fsm_encoding {1721890318903} onehot
 
-fsm_state_encoding {1721890318907} FSMSYNC0 {00000001}
+fsm_state_encoding {1721890318903} FSMSYNC0 {00000001}
 
-fsm_state_encoding {1721890318907} FSMSYNC1 {00000010}
+fsm_state_encoding {1721890318903} FSMSYNC1 {00000010}
 
-fsm_state_encoding {1721890318907} FSMSYNC2 {00000100}
+fsm_state_encoding {1721890318903} FSMSYNC2 {00000100}
 
-fsm_state_encoding {1721890318907} FSMSYNC3 {00001000}
+fsm_state_encoding {1721890318903} FSMSYNC3 {00001000}
 
-fsm_state_encoding {1721890318907} FSMSYNC4 {00010000}
+fsm_state_encoding {1721890318903} FSMSYNC4 {00010000}
 
-fsm_state_encoding {1721890318907} FSMSYNC5 {00100000}
+fsm_state_encoding {1721890318903} FSMSYNC5 {00100000}
 
-fsm_state_encoding {1721890318907} FSMSYNC6 {01000000}
+fsm_state_encoding {1721890318903} FSMSYNC6 {01000000}
 
-fsm_state_encoding {1721890318907} 111 {10000000}
+fsm_state_encoding {1721890318903} 111 {10000000}
 
-fsm_registers {1721890318907} {fsmsync[7]}  {fsmsync[6]}  {fsmsync[5]}  {fsmsync[4]}  {fsmsync[3]}  {fsmsync[2]}  {fsmsync[1]}  {fsmsync[0]} 
+fsm_registers {1721890318903} {fsmsync[7]}  {fsmsync[6]}  {fsmsync[5]}  {fsmsync[4]}  {fsmsync[3]}  {fsmsync[2]}  {fsmsync[1]}  {fsmsync[0]} 
 
-fsm_encoding {1722846328466} onehot
+fsm_encoding {1722846328462} onehot
 
-fsm_state_encoding {1722846328466} FSMDET0 {0000001}
+fsm_state_encoding {1722846328462} FSMDET0 {0000001}
 
-fsm_state_encoding {1722846328466} FSMDET1 {0000010}
+fsm_state_encoding {1722846328462} FSMDET1 {0000010}
 
-fsm_state_encoding {1722846328466} FSMDET2 {0000100}
+fsm_state_encoding {1722846328462} FSMDET2 {0000100}
 
-fsm_state_encoding {1722846328466} FSMDET3 {0001000}
+fsm_state_encoding {1722846328462} FSMDET3 {0001000}
 
-fsm_state_encoding {1722846328466} FSMDET4 {0010000}
+fsm_state_encoding {1722846328462} FSMDET4 {0010000}
 
-fsm_state_encoding {1722846328466} FSMDET5 {0100000}
+fsm_state_encoding {1722846328462} FSMDET5 {0100000}
 
-fsm_state_encoding {1722846328466} 110 {1000000}
+fsm_state_encoding {1722846328462} 110 {1000000}
 
-fsm_registers {1722846328466} {fsmdet[6]}  {fsmdet[5]}  {fsmdet[4]}  {fsmdet[3]}  {fsmdet[2]}  {fsmdet[1]}  {fsmdet[0]} 
-
-fsm_encoding {1723117331175} onehot
-
-fsm_state_encoding {1723117331175} FSMMOD0 {0000001}
-
-fsm_state_encoding {1723117331175} FSMMOD1 {0000010}
-
-fsm_state_encoding {1723117331175} FSMMOD2 {0000100}
-
-fsm_state_encoding {1723117331175} FSMMOD3 {0001000}
-
-fsm_state_encoding {1723117331175} FSMMOD4 {0010000}
-
-fsm_state_encoding {1723117331175} FSMMOD5 {0100000}
-
-fsm_state_encoding {1723117331175} 110 {1000000}
-
-fsm_registers {1723117331175} {fsmmod[6]}  {fsmmod[5]}  {fsmmod[4]}  {fsmmod[3]}  {fsmmod[2]}  {fsmmod[1]}  {fsmmod[0]} 
-
-fsm_encoding {1721890318907} onehot
-
-fsm_state_encoding {1721890318907} FSMSYNC0 {00000001}
-
-fsm_state_encoding {1721890318907} FSMSYNC1 {00000010}
-
-fsm_state_encoding {1721890318907} FSMSYNC2 {00000100}
-
-fsm_state_encoding {1721890318907} FSMSYNC3 {00001000}
-
-fsm_state_encoding {1721890318907} FSMSYNC4 {00010000}
-
-fsm_state_encoding {1721890318907} FSMSYNC5 {00100000}
-
-fsm_state_encoding {1721890318907} FSMSYNC6 {01000000}
-
-fsm_state_encoding {1721890318907} 111 {10000000}
-
-fsm_registers {1721890318907} {fsmsync[7]}  {fsmsync[6]}  {fsmsync[5]}  {fsmsync[4]}  {fsmsync[3]}  {fsmsync[2]}  {fsmsync[1]}  {fsmsync[0]} 
-
-fsm_encoding {1722846328466} onehot
-
-fsm_state_encoding {1722846328466} FSMDET0 {0000001}
-
-fsm_state_encoding {1722846328466} FSMDET1 {0000010}
-
-fsm_state_encoding {1722846328466} FSMDET2 {0000100}
-
-fsm_state_encoding {1722846328466} FSMDET3 {0001000}
-
-fsm_state_encoding {1722846328466} FSMDET4 {0010000}
-
-fsm_state_encoding {1722846328466} FSMDET5 {0100000}
-
-fsm_state_encoding {1722846328466} 110 {1000000}
-
-fsm_registers {1722846328466} {fsmdet[6]}  {fsmdet[5]}  {fsmdet[4]}  {fsmdet[3]}  {fsmdet[2]}  {fsmdet[1]}  {fsmdet[0]} 
+fsm_registers {1722846328462} {fsmdet[6]}  {fsmdet[5]}  {fsmdet[4]}  {fsmdet[3]}  {fsmdet[2]}  {fsmdet[1]}  {fsmdet[0]} 
 
 fsm_encoding {144185118520} sequential
 

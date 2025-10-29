@@ -22,25 +22,25 @@ XCVR_APB_LINK   1 use
 XCVR_PIPE_AXI0  2 uses
 XCVR_PIPE_AXI1  2 uses
 XCVR_REF_CLK    1 use
-CFG1           97 uses
-CFG2           1991 uses
-CFG3           4618 uses
-CFG4           4848 uses
+CFG1           93 uses
+CFG2           1925 uses
+CFG3           4517 uses
+CFG4           4623 uses
 
 Carry cells:
 ARI1            1569 uses - used for arithmetic functions
-ARI1            289 uses - used for Wide-Mux implementation
-Total ARI1      1858 uses
+ARI1            281 uses - used for Wide-Mux implementation
+Total ARI1      1850 uses
 
 
 Sequential Cells: 
-SLE            9981 uses
+SLE            9885 uses
 
 DSP Blocks:    0 of 784 (0%)
 
-I/O ports: 188
-I/O primitives: 160
-BIBUF          75 uses
+I/O ports: 186
+I/O primitives: 158
+BIBUF          73 uses
 BIBUF_DIFF     4 uses
 INBUF          20 uses
 INBUF_DIFF     3 uses
@@ -50,7 +50,7 @@ OUTBUF_DIFF    3 uses
 
 Global Clock Buffers: 13
 
-Total LUTs:    13412
+Total LUTs:    13008
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -59,6 +59,6 @@ RAM1K20  Interface Logic : SLEs = 828; LUTs = 828;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  9981 + 852 + 828 + 0 = 11661;
-Total number of LUTs after P&R:  13412 + 852 + 828 + 0 = 15092;
+Total number of SLEs after P&R:  9885 + 852 + 828 + 0 = 11565;
+Total number of LUTs after P&R:  13008 + 852 + 828 + 0 = 14688;
 

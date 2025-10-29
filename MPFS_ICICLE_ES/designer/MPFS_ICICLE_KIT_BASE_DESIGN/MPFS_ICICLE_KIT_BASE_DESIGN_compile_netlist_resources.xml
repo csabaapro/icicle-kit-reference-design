@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Tue Oct 28 09:24:05 2025
+<text>Date: Wed Oct 29 15:20:26 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,27 +74,27 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>15200</cell>
+ <cell>14796</cell>
  <cell>254196</cell>
- <cell>5.98</cell>
+ <cell>5.82</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>11641</cell>
+ <cell>11545</cell>
  <cell>254196</cell>
- <cell>4.58</cell>
+ <cell>4.54</cell>
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>67</cell>
+ <cell>65</cell>
  <cell>144</cell>
- <cell>46.53</cell>
+ <cell>45.14</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>67</cell>
+ <cell>65</cell>
  <cell>144</cell>
- <cell>46.53</cell>
+ <cell>45.14</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -268,8 +268,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>13520</cell>
- <cell>9961</cell>
+ <cell>13116</cell>
+ <cell>9865</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -288,8 +288,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>15200</cell>
- <cell>11641</cell>
+ <cell>14796</cell>
+ <cell>11545</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -387,7 +387,7 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>120</cell>
+ <cell>116</cell>
 </row>
 <row>
  <cell>5</cell>
@@ -399,7 +399,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>123</cell>
+ <cell>119</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -424,7 +424,7 @@
 </row>
 <row>
  <cell>Bidirectional I/O</cell>
- <cell>25</cell>
+ <cell>23</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -539,21 +539,6 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>1065</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
  <cell>1020</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/sysReset_arst</cell>
@@ -569,7 +554,22 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>1004</cell>
+ <cell>969</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>908</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dff_arst</cell>
 </row>

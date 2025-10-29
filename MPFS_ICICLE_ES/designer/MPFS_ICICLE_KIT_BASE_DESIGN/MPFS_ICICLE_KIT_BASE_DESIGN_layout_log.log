@@ -41,7 +41,7 @@ INFO: Reading User PDC file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_E
  Timing based Global Demotion completed successfully. 
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 77 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 75 fixed I/O macros, 0 unfixed I/O macros
 Info:  I/O Bank and Globals Assigner identified bank 'Bank0' as being fixed at VCCI:1.80V VCCR:n/a
 Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:3.30V VCCR:n/a
 Info:  I/O Bank and Globals Assigner detected (2) out of (5) I/O Bank(s) with locked I/O technologies.
@@ -51,7 +51,7 @@ Total time spent in I/O Bank and Globals Assigner: 4 seconds
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Placer V5.0 - 2025.1.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Tue Oct 28 09:25:08 2025
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Wed Oct 29 15:28:45 2025
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -60,40 +60,40 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 15 seconds
-Placement                : 60 seconds
-Improvement              : 47 seconds
+Clustering (1 pass)      : 7 seconds
+Placement                : 30 seconds
+Improvement              : 41 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Tue Oct 28 09:27:52 2025
-Total CPU Time:     00:03:24            Total Elapsed Time: 00:02:44
-Total Memory Usage: 1448.3 Mbytes
+Finished: Wed Oct 29 15:30:38 2025
+Total CPU Time:     00:02:05            Total Elapsed Time: 00:01:53
+Total Memory Usage: 1444.1 Mbytes
                         o - o - o - o - o - o
 
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Router 
-Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Tue Oct 28 09:28:10 2025
+Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Wed Oct 29 15:30:59 2025
 
 
 Router completed successfully.
 
 Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Tue Oct 28 09:28:38 2025
-Total CPU Time:     00:00:39            Total Elapsed Time: 00:00:28
-Total Memory Usage: 4623.5 Mbytes
+Finished: Wed Oct 29 15:31:29 2025
+Total CPU Time:     00:00:35            Total Elapsed Time: 00:00:30
+Total Memory Usage: 4622.0 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------------------+-------+--------+------------+
 | Type                      | Used  | Total  | Percentage |
 +---------------------------+-------+--------+------------+
-| 4LUT                      | 15200 | 254196 | 5.98       |
-| DFF                       | 11642 | 254196 | 4.58       |
-| Logic Element             | 17999 | 254196 | 7.08       |
+| 4LUT                      | 14796 | 254196 | 5.82       |
+| DFF                       | 11546 | 254196 | 4.54       |
+| Logic Element             | 17515 | 254196 | 6.89       |
 | I/Os using I/O Registers  | 0     | 144    | 0.00       |
 | I/O Register Flip-Flops   | 0     | 432    | 0.00       |
 | -- Input  I/O Flip-Flops  | 0     | 144    | 0.00       |
@@ -105,7 +105,7 @@ I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  67   | 100.00%    |
+| Locked |  65   | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

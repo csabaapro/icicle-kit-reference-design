@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Oct 27 12:27:36 2025
+// Created by SmartDesign Wed Oct 29 15:15:08 2025
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -107,8 +107,6 @@ module MPFS_ICICLE_KIT_BASE_DESIGN(
     mBUS_PWM,
     mBUS_UART_TX,
     // Inouts
-    COREI2C_C0_SCL,
-    COREI2C_C0_SDA,
     DQ,
     DQS,
     DQS_N,
@@ -261,8 +259,6 @@ output        mBUS_UART_TX;
 //--------------------------------------------------------------------
 // Inout
 //--------------------------------------------------------------------
-inout         COREI2C_C0_SCL;
-inout         COREI2C_C0_SDA;
 inout  [31:0] DQ;
 inout  [3:0]  DQS;
 inout  [3:0]  DQS_N;
@@ -333,8 +329,6 @@ wire          CLOCKS_AND_RESETS_PCIe_REFERENCE_CLK;
 wire          CLOCKS_AND_RESETS_RESETN_FIC_0_CLK;
 wire          CLOCKS_AND_RESETS_RESETN_FIC_1_CLK;
 wire          CLOCKS_AND_RESETS_RESETN_FIC_3_CLK;
-wire          COREI2C_C0_SCL;
-wire          COREI2C_C0_SDA;
 wire          COREUART_RX;
 wire          COREUART_TX_net_0;
 wire          CS_net_0;
@@ -414,7 +408,6 @@ wire   [7:0]  FIC_1_PERIPHERALS_1_AXI4mslave0_WSTRB;
 wire   [0:0]  FIC_1_PERIPHERALS_1_AXI4mslave0_WUSER;
 wire          FIC_1_PERIPHERALS_1_AXI4mslave0_WVALID;
 wire          FIC_1_PERIPHERALS_1_PCIe_IRQ;
-wire          FIC_3_PERIPHERALS_1_CORE_I2C_C0_INT;
 wire          FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PENABLE;
 wire   [31:0] FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PRDATA;
 wire          FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PREADY;
@@ -1301,7 +1294,6 @@ FIC_3_PERIPHERALS FIC_3_PERIPHERALS_1(
         // Outputs
         .APB_MMASTER_in_pready                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PREADY ),
         .APB_MMASTER_in_pslverr                               ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PSLVERR ),
-        .CORE_I2C_C0_INT                                      ( FIC_3_PERIPHERALS_1_CORE_I2C_C0_INT ),
         .CoreUARTapb_TX                                       ( COREUART_TX_net_0 ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PENABLES   ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PENABLE ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSELS16    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PSELx ),
@@ -1327,8 +1319,6 @@ FIC_3_PERIPHERALS FIC_3_PERIPHERALS_1(
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS     ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA ),
         // Inouts
-        .COREI2C_C0_SCL                                       ( COREI2C_C0_SCL ),
-        .COREI2C_C0_SDA                                       ( COREI2C_C0_SDA ),
         .RPi_ID_SC                                            ( RPi_ID_SC ),
         .RPi_ID_SD                                            ( RPi_ID_SD ) 
         );
@@ -1427,7 +1417,7 @@ MSS_WRAPPER MSS_WRAPPER_1(
         .MSS_INT_F2M_1                             ( FIC_1_PERIPHERALS_1_PCIe_IRQ ),
         .MSS_INT_F2M_2                             ( FIC_0_PERIPHERALS_1_DMA_CONTROLLER_IRQ ),
         .MSS_INT_F2M_3                             ( mBUS_INT ),
-        .MSS_INT_F2M_4                             ( FIC_3_PERIPHERALS_1_CORE_I2C_C0_INT ),
+        .MSS_INT_F2M_4                             ( GND_net ),
         .MSS_INT_F2M_5                             ( FIC_3_PERIPHERALS_1_RPI_ID_I2C_IRQ ),
         .MSS_INT_F2M_6                             ( FIC_3_PERIPHERALS_1_RXRDY ),
         .MSS_INT_F2M_7                             ( FIC_3_PERIPHERALS_1_TXRDY ),

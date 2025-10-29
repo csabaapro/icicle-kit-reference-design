@@ -1,2 +1,4 @@
+**** Begin Compile Point : miv_ihc_core_Z79 ****
+**** End Compile Point : miv_ihc_core_Z79 ****
 **** Begin Compile Point : MPFS_ICICLE_KIT_BASE_DESIGN ****
 **** End Compile Point : MPFS_ICICLE_KIT_BASE_DESIGN ****

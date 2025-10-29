@@ -5,8 +5,8 @@
   <drc>
     <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message> bus interface data width mismatch</message>
-    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_02xx:APBmslave0_PWDATAS[0-31] and CORE_I2C_C0_0_WRAPPER_1:APBslave:APBslave_PWDATA[0-7] which may result in a loss of data.</detail>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_02xx</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_02xx</crossprobe>
   </drc>
   <drc>

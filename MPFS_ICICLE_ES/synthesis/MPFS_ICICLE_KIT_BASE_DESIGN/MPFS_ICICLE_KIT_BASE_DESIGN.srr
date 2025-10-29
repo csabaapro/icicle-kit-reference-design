@@ -1,4 +1,4 @@
-# Tue Oct 28 09:22:22 2025
+# Wed Oct 29 15:18:29 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -25,7 +25,7 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 203MB)
@@ -41,26 +41,26 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|Found compile point of type hard on View view:work.caxi4interconnect_MasterConvertor_Z19(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z50(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z40(verilog) 
-@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z81(verilog) 
+@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z79(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z58(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z64(verilog) 
 
 
 @N: MF105 |Performing bottom-up mapping of Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) 
 
-Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 412MB peak: 412MB)
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 413MB peak: 413MB)
 
 
-Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 418MB peak: 418MB)
+Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 419MB peak: 419MB)
 
 
-Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 419MB peak: 419MB)
+Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 419MB peak: 419MB)
 
 
 Start creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 419MB peak: 419MB)
 
 
-Finished creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 419MB peak: 419MB)
+Finished creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 419MB peak: 420MB)
 
 
 Start creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 432MB peak: 432MB)
@@ -69,10 +69,10 @@ Start creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:0
 Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 432MB peak: 432MB)
 
 
-Start creating ILM for FPGA miv_ihc_core_Z81 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 401MB peak: 432MB)
+Start creating ILM for FPGA miv_ihc_core_Z79 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 401MB peak: 432MB)
 
 
-Finished creating ILM for FPGA miv_ihc_core_Z81 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 401MB peak: 432MB)
+Finished creating ILM for FPGA miv_ihc_core_Z79 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 401MB peak: 432MB)
 
 
 Start creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 413MB peak: 432MB)
@@ -84,19 +84,19 @@ Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00
 Start creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 409MB peak: 432MB)
 
 
-Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 409MB peak: 432MB)
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 409MB peak: 432MB)
 
 
-Finished loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 393MB peak: 432MB)
+Finished loading ILMs (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 391MB peak: 432MB)
 
 
 Begin compile point sub-process log
 
 @N: MF106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
-		 RTL and/or Constraints changed.
+		 Interface of Compile Point has changed.
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 393MB peak: 432MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 391MB peak: 432MB)
 
 @N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
 @N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
@@ -110,22 +110,19 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapse
 @N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
 Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s(verilog) (flattening)
 
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z77(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z77(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z77(verilog)) with 16 words by 4 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z75(verilog)) mapped in logic.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z75(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z75(verilog)) with 16 words by 4 bits.
 @N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
 @N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
 @N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 5 words by 5 bits.
 @N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
 @N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 16 words by 1 bit.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_0(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_0(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_0(verilog)) with 29 words by 5 bits.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_1(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_1(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z73_1(verilog)) with 29 words by 5 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog)) mapped in logic.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog)) with 29 words by 5 bits.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 403MB peak: 432MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 402MB peak: 432MB)
 
 Encoding state machine U_DMAController.extDscrptrFetchFSM_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog))
 original code -> new code
@@ -224,7 +221,7 @@ original code -> new code
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":73:12:73:116|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_pwm_posedge_reg (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":79:17:79:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
-Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z73_MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -233,7 +230,7 @@ original code -> new code
    100 -> 0010000
    101 -> 0100000
    110 -> 1000000
-Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z73_MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog))
 original code -> new code
    000 -> 00000001
    001 -> 00000010
@@ -243,7 +240,7 @@ original code -> new code
    101 -> 00100000
    110 -> 01000000
    111 -> 10000000
-Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z73_MPFS_ICICLE_KIT_BASE_DESIGN(verilog))
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z94(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -296,11 +293,11 @@ original code -> new code
 @N: FX493 |Applying initial value "0" on instance lnk_m_cs[19].
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":120:16:120:47|Found 24 by 24 bit equality operator ('==') un2_match (in view: work.G5_APBLINK_MASTER_Z62(verilog))
 
-Starting factoring (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 386MB peak: 432MB)
+Starting factoring (Real Time elapsed 0h:00m:34s; CPU Time elapsed 0h:00m:33s; Memory used current: 385MB peak: 432MB)
 
 Auto Dissolve of FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0 (inst of view:work.PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE(verilog))
 
-Finished factoring (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 395MB peak: 432MB)
+Finished factoring (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:34s; Memory used current: 401MB peak: 432MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -310,40 +307,39 @@ NConnInternalConnection caching is on
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:35s; Memory used current: 378MB peak: 432MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:38s; Memory used current: 371MB peak: 432MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:37s; Memory used current: 378MB peak: 432MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:41s; Memory used current: 372MB peak: 432MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:39s; Memory used current: 379MB peak: 432MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:44s; Memory used current: 374MB peak: 432MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 379MB peak: 432MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 374MB peak: 432MB)
 
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Removing sequential instance FIC_3_PERIPHERALS_1.CORE_I2C_C0_0_WRAPPER_1.COREI2C_C0_0.COREI2C_C0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Removing sequential instance FIC_3_PERIPHERALS_1.RPi_ID_I2C.COREI2C_C0_0.COREI2C_C0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 380MB peak: 432MB)
+Finished preparing to map (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:48s; Memory used current: 376MB peak: 432MB)
 
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 
-Finished technology mapping (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:43s; Memory used current: 421MB peak: 432MB)
+Finished technology mapping (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 405MB peak: 432MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:44s		     2.18ns		2790 /      2213
+   1		0h:00m:50s		     2.18ns		2386 /      2117
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -380,10 +376,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 422MB peak: 432MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:55s; CPU Time elapsed 0h:00m:54s; Memory used current: 406MB peak: 432MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:49s; Memory used current: 425MB peak: 432MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:56s; CPU Time elapsed 0h:00m:55s; Memory used current: 409MB peak: 432MB)
 
 
 End compile point sub-process log
@@ -392,12 +388,12 @@ Writing compile point status file D:\PION101\icicle-kit-reference-design\MPFS_IC
 
 Summary of Compile Points :
 *************************** 
-Name                            Status       Reason        
------------------------------------------------------------
-MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Design changed
-===========================================================
+Name                            Status       Reason                            
+-------------------------------------------------------------------------------
+MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Interface of Compile Point changed
+===============================================================================
 
-Process took 0h:00m:50s realtime, 0h:00m:49s cputime
-# Tue Oct 28 09:23:13 2025
+Process took 0h:00m:57s realtime, 0h:00m:56s cputime
+# Wed Oct 29 15:19:27 2025
 
 ###########################################################]
