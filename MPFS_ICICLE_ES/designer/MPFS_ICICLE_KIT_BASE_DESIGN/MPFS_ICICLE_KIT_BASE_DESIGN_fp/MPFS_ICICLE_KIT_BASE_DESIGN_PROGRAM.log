@@ -8,7 +8,7 @@ The 'open_project' command succeeded.
 Info: Programming is already enabled for device 'MPFS250T_ES'.
 The 'enable_device' command succeeded.
 PPD file 'D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/designer/MPFS_ICICLE_KIT_BASE_DESIGN/MPFS_ICICLE_KIT_BASE_DESIGN.ppd' has been loaded successfully.
-DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 0848;  PDB_VERSION : 1.0
+DESIGN : MPFS_ICICLE_KIT_BASE_DESIGN;  CHECKSUM : 6C6C;  PDB_VERSION : 1.0
 The 'set_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
 programmer '7E1974F0' : Scan Chain...
@@ -40,18 +40,18 @@ CRCERR: 00
 
 BITS component bitstream digest: AEE355E728BED157183D65B414803CA9422E59D42B06365E61DDF1ED5EC41D74
 Security component bitstream digest: 483804D98E8B6653B4B1CE762F06EC04D89F14125BFF2A05E72BDFBBD4662C60
-Fabric component bitstream digest: 5558CD54FB035717D4D4BA6E5E39E8BB4E4A47D3CD38B89B9A8CDE64EA53AF19
+Fabric component bitstream digest: 35999D66E70574882266EBDCDBA42B80E0CCDFAA0ADE492A89B8C7EAFF073777
 sNVM component bitstream digest: C2BA8BF256D4AB47A91E8525EEB9A872920D3391EF1BBFB8BA412108246F72AD
-EOB component bitstream digest: 9372B6EE5536FEEDC34846C4534DBA1237BB9C2F8F9CB9D07992DA46F801039D
+EOB component bitstream digest: 82D727A26200A3DAF37EA07403614C8ECE50ECC079279B6D7525FA678B97F857
 =====================================================================
 DSN: 1C74A21476BBB85ACF800190C1EE7697
 =====================================================================
 ================================================================================
 
-programmer '7E1974F0' : Finished: Wed Oct 29 16:22:02 2025 (Elapsed time 00:00:57)
+programmer '7E1974F0' : Finished: Thu Oct 30 13:44:34 2025 (Elapsed time 00:00:56)
 programmer '7E1974F0' : device 'MPFS250T_ES' : Executing action PROGRAM PASSED.
 programmer '7E1974F0' : Chain programming PASSED.
-Chain Programming Finished: Wed Oct 29 16:22:02 2025 (Elapsed time 00:00:57)
+Chain Programming Finished: Thu Oct 30 13:44:34 2025 (Elapsed time 00:00:56)
 
                         o - o - o - o - o - o
 

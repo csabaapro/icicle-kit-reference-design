@@ -18,6 +18,18 @@ set_io -port_name RPi_ID_SD  \
     -CLAMP_DIODE OFF              \
     -RES_PULL None                \
     -DIRECTION INOUT
+	
+set_io -port_name COREUART1_RX    \
+    -pin_name B8                  \
+    -fixed true                   \
+    -io_std LVCMOS33              \
+    -DIRECTION INPUT
+
+set_io -port_name COREUART1_TX    \
+    -pin_name A8                  \
+    -fixed true                   \
+    -io_std LVCMOS33              \
+    -DIRECTION OUTPUT
 
 set_io -port_name COREUART_RX  \
     -pin_name H15              \

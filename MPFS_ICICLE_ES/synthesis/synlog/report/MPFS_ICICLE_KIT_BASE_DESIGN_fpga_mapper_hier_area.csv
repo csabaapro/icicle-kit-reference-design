@@ -1,6 +1,6 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
-. MPFS_ICICLE_KIT_BASE_DESIGN, 9886, 11164, 1849, 0, 0, 23, 71, 13, 158
+. MPFS_ICICLE_KIT_BASE_DESIGN, 10080, 11337, 1933, 0, 0, 25, 71, 13, 160
 .	. CLOCKS_AND_RESETS, 50, 1, 0, 0, 0, 0, 0, 8, 0
 .	.	. CLK_DIV, 0, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. CLK_DIV_CLK_DIV_0_PF_CLK_DIV, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -245,7 +245,7 @@
 .	.	.	.	. MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56, 236, 267, 62, 0, 0, 0, 0, 0, 0
 .	.	.	.	. MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_2048s_1s_8s, 10, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. MSS_LSRAM_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM, 0, 4, 0, 0, 0, 8, 0, 0, 0
-.	. FIC_1_PERIPHERALS, 2216, 1515, 120, 0, 0, 0, 16, 3, 0
+.	. FIC_1_PERIPHERALS, 2216, 1516, 120, 0, 0, 0, 16, 3, 0
 .	.	. AXI_ADDRESS_SHIM, 0, 2, 0, 0, 0, 0, 0, 0, 0
 .	.	. FIC_1_INITIATOR, 1114, 741, 64, 0, 0, 0, 8, 1, 0
 .	.	.	. COREAXI4INTERCONNECT_Z58, 1114, 741, 64, 0, 0, 0, 8, 1, 0
@@ -299,40 +299,50 @@
 .	.	.	.	.	.	.	. caxi4interconnect_FIFO_256s_5s_5s_255s_0s_256s_8s_0s_255s_0, 28, 82, 24, 0, 0, 0, 4, 0, 0
 .	.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_COREAXI4INTERCONNECT_Z64, 28, 74, 16, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_256s_8s_5s_0s_0, 0, 8, 8, 0, 0, 0, 4, 0, 0
-.	.	. PF_PCIE_C0, 80, 63, 12, 0, 0, 0, 0, 1, 0
-.	.	.	. PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE, 80, 63, 12, 0, 0, 0, 0, 1, 0
-.	.	.	.	. G5_APBLINK_MASTER_Z62, 80, 63, 12, 0, 0, 0, 0, 0, 0
-.	. FIC_3_PERIPHERALS, 865, 1641, 310, 0, 0, 4, 0, 0, 2
-.	.	. CORE_I2C_C0_0_WRAPPER, 96, 343, 10, 0, 0, 0, 0, 0, 2
-.	.	.	. COREI2C_C0, 96, 343, 10, 0, 0, 0, 0, 0, 0
-.	.	.	.	. COREI2C_C0_COREI2C_C0_0_COREI2C_Z94, 96, 343, 10, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREI2C_COREI2CREAL_Z95, 88, 341, 10, 0, 0, 0, 0, 0, 0
-.	.	. CoreGPIO_C10, 1, 1, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. CoreGPIO_C10_CoreGPIO_C10_0_CoreGPIO_Z73, 1, 1, 0, 0, 0, 0, 0, 0, 0
-.	.	. CoreUARTapb_C0, 195, 181, 69, 0, 0, 2, 0, 0, 0
-.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb_Z74, 195, 181, 69, 0, 0, 2, 0, 0, 0
-.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s, 171, 143, 69, 0, 0, 2, 0, 0, 0
+.	.	. PF_PCIE_C0, 80, 64, 12, 0, 0, 0, 0, 1, 0
+.	.	.	. PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE, 80, 64, 12, 0, 0, 0, 0, 1, 0
+.	.	.	.	. G5_APBLINK_MASTER_Z62, 80, 64, 12, 0, 0, 0, 0, 0, 0
+.	. FIC_3_PERIPHERALS, 1059, 1813, 394, 0, 0, 6, 0, 0, 2
+.	.	. CORE_I2C_C0_0_WRAPPER, 96, 361, 10, 0, 0, 0, 0, 0, 2
+.	.	.	. COREI2C_C0, 96, 361, 10, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREI2C_C0_COREI2C_C0_0_COREI2C_Z94, 96, 361, 10, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. COREI2C_COREI2CREAL_Z95, 88, 347, 10, 0, 0, 0, 0, 0, 0
+.	.	. CoreUARTapb_C0, 195, 182, 75, 0, 0, 2, 0, 0, 0
+.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb_Z73, 195, 182, 75, 0, 0, 2, 0, 0, 0
+.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s, 171, 147, 69, 0, 0, 2, 0, 0, 0
 .	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen_0s_0s, 19, 10, 14, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s, 39, 67, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s, 23, 26, 5, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8_0s_0s, 33, 6, 25, 0, 0, 1, 0, 0, 0
-.	.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256_0s_256s_8s_8s, 33, 6, 25, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s, 39, 66, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s, 23, 24, 5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8_0s_0s, 33, 9, 25, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256_0s_256s_8s_8s, 33, 9, 25, 0, 0, 1, 0, 0, 0
 .	.	.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5, 0, 0, 0, 0, 0, 1, 0, 0, 0
-.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8_0s_0s_0, 33, 7, 25, 0, 0, 1, 0, 0, 0
-.	.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256_0s_256s_8s_8s_0, 33, 7, 25, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8_0s_0s_0, 33, 8, 25, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256_0s_256s_8s_8s_0, 33, 8, 25, 0, 0, 1, 0, 0, 0
 .	.	.	.	.	.	.	. CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
-.	.	. FIC_3_ADDRESS_GENERATION, 0, 218, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. APB_ARBITER_28s, 0, 93, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. FIC_3_0x4000_0xxx, 0, 6, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z77, 0, 6, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_2, 0, 3, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreUARTapb_C1, 195, 177, 78, 0, 0, 2, 0, 0, 0
+.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb_Z74, 195, 177, 78, 0, 0, 2, 0, 0, 0
+.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s, 171, 142, 70, 0, 0, 2, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen_0s_0s, 19, 10, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async_0s_1s_0s_1s_2s_3s, 39, 65, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s, 23, 24, 5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8_0s_0s, 33, 9, 25, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256_0s_256s_8s_8s, 33, 9, 25, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8_0s_0s_0, 33, 6, 26, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256_0s_256s_8s_8s_0, 33, 6, 26, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	.	. CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. FIC_3_ADDRESS_GENERATION, 0, 121, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. APB_ARBITER_28s, 0, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. FIC_3_0x4000_0xxx, 0, 41, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CoreAPB3_Z77, 0, 41, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. COREAPB3_MUXPTOB3_2, 0, 33, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. FIC_3_0x4FFF_Fxxx, 0, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. CoreAPB3_Z75, 0, 1, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. FIC_3_0x4xxx_xxxx, 0, 118, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	. CoreAPB3_Z76, 0, 118, 0, 0, 0, 0, 0, 0, 0
-.	.	.	.	.	. COREAPB3_MUXPTOB3_1, 0, 113, 0, 0, 0, 0, 0, 0, 0
-.	.	. GPIO, 4, 4, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. GPIO_GPIO_0_CoreGPIO_Z72, 4, 4, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. FIC_3_0x4xxx_xxxx, 0, 42, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CoreAPB3_Z76, 0, 42, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. COREAPB3_MUXPTOB3_1, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	. GPIO, 4, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. GPIO_GPIO_0_CoreGPIO_Z72, 4, 7, 0, 0, 0, 0, 0, 0, 0
 .	.	. MIV_IHC_C0, 307, 869, 5, 0, 0, 2, 0, 0, 0
 .	.	.	. MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC_Z91, 307, 869, 5, 0, 0, 2, 0, 0, 0
 .	.	.	.	. miv_ihc_core_Z80, 307, 865, 5, 0, 0, 2, 0, 0, 0
@@ -355,10 +365,10 @@
 .	.	.	.	.	. miv_ihc_interrupt_module_0s_8s_32s_0_8_4, 32, 26, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	. miv_ihc_mailbox_address_decoder_Z79, 0, 38, 5, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	. miv_ihc_ram_singleport_addreg_128s_7s_32s, 0, 0, 0, 0, 0, 2, 0, 0, 0
-.	.	. corepwm_C0, 259, 21, 226, 0, 0, 0, 0, 0, 0
-.	.	.	. corepwm_Z92, 259, 21, 226, 0, 0, 0, 0, 0, 0
+.	.	. corepwm_C0, 259, 92, 226, 0, 0, 0, 0, 0, 0
+.	.	.	. corepwm_Z92, 259, 92, 226, 0, 0, 0, 0, 0, 0
 .	.	.	.	. corepwm_pwm_gen_1s_32s_0_0s, 1, 5, 48, 0, 0, 0, 0, 0, 0
-.	.	.	.	. corepwm_reg_if_Z93, 194, 11, 32, 0, 0, 0, 0, 0, 0
+.	.	.	.	. corepwm_reg_if_Z93, 194, 83, 32, 0, 0, 0, 0, 0, 0
 .	.	.	.	. corepwm_timebase_32s_0s, 64, 1, 146, 0, 0, 0, 0, 0, 0
 .	.	. fabric_sd_emmc_demux_select, 3, 4, 0, 0, 0, 0, 0, 0, 0
 .	. MSS_WRAPPER, 0, 2, 0, 0, 0, 0, 0, 0, 114

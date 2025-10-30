@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
-Date: Wed Oct 29 16:11:02 2025
+Date: Thu Oct 30 12:50:36 2025
 
 Device Selection
 +------------------------+--------------+
@@ -29,10 +29,10 @@ Resource Usage
 +-----------------------------+-------+--------+------------+
 | Type                        | Used  | Total  | Percentage |
 +-----------------------------+-------+--------+------------+
-| 4LUT                        | 14801 | 254196 | 5.82       |
-| DFF                         | 11546 | 254196 | 4.54       |
-| User I/O                    | 65    | 144    | 45.14      |
-| -- Single-ended I/O         | 65    | 144    | 45.14      |
+| 4LUT                        | 15135 | 254196 | 5.95       |
+| DFF                         | 11812 | 254196 | 4.65       |
+| User I/O                    | 67    | 144    | 46.53      |
+| -- Single-ended I/O         | 67    | 144    | 46.53      |
 | -- Differential I/O Pairs   | 0     | 72     | 0.00       |
 | -- I/Os using I/O Registers | 0     | 144    | 0.00       |
 | I/O Register Flip-Flops     | 0     | 432    | 0.00       |
@@ -40,7 +40,7 @@ Resource Usage
 | -- Output I/O Flip-Flops    | 0     | 144    | 0.00       |
 | -- Enable I/O Flip-Flops    | 0     | 144    | 0.00       |
 | uSRAM                       | 71    | 2352   | 3.02       |
-| LSRAM                       | 23    | 812    | 2.83       |
+| LSRAM                       | 25    | 812    | 3.08       |
 | Math                        | 0     | 784    | 0.00       |
 | H-Chip Global               | 12    | 48     | 25.00      |
 | PLL                         | 1     | 8      | 12.50      |
@@ -66,11 +66,11 @@ Detailed Logic Resource Usage
 +-----------------------+-------+-------+
 | Type                  | 4LUT  | DFF   |
 +-----------------------+-------+-------+
-| Fabric Logic          | 13121 | 9866  |
+| Fabric Logic          | 13383 | 10060 |
 | uSRAM Interface Logic | 852   | 852   |
-| LSRAM Interface Logic | 828   | 828   |
+| LSRAM Interface Logic | 900   | 900   |
 | Math Interface Logic  | 0     | 0     |
-| Total Used            | 14801 | 11546 |
+| Total Used            | 15135 | 11812 |
 +-----------------------+-------+-------+
 
 Detailed Carry Chains Resource Usage
@@ -81,37 +81,37 @@ Detailed Carry Chains Resource Usage
 | 5      | 1    |
 | 6      | 8    |
 | 7      | 5    |
-| 8      | 29   |
-| 9      | 19   |
+| 8      | 32   |
+| 9      | 22   |
 | 10     | 11   |
 | 11     | 12   |
 | 12     | 4    |
 | 13     | 11   |
-| 14     | 8    |
+| 14     | 9    |
 | 17     | 4    |
 | 23     | 2    |
 | 24     | 1    |
 | 25     | 5    |
 | 32     | 3    |
 | 33     | 6    |
-| Total  | 134  |
+| Total  | 141  |
 +--------+------+
 
 Detailed 4LUT Groups Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 116  |
-| 5      | 1    |
+| 2      | 123  |
+| 5      | 2    |
 | 22     | 2    |
-| Total  | 119  |
+| Total  | 127  |
 +--------+------+
 
 I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 13           | 0           | 0               |
-| Output I/O                    | 29           | 0           | 0               |
+| Input I/O                     | 14           | 0           | 0               |
+| Output I/O                    | 30           | 0           | 0               |
 | Bidirectional I/O             | 23           | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -136,17 +136,17 @@ Nets assigned to chip global resources
 | 1492   | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_INITIATOR_inst_0/DMA_INITIATOR_0/sysReset_arst                             |
 |        |         | Driver: FIC_0_PERIPHERALS_1/DMA_INITIATOR_inst_0/DMA_INITIATOR_0/arst_aclk_sync/sysReset_RNISKAM4/U0_RGB1  |
 |        |         | Source: NETLIST                                                                                            |
+| 1168   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_CLK                                                                        |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1                               |
+|        |         | Source: NETLIST                                                                                            |
 | 1112   | INT_NET | Net   : FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/sysReset_arst                              |
 |        |         | Driver: FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1    |
 |        |         | Source: NETLIST                                                                                            |
+| 1103   | INT_NET | Net   : dff_arst                                                                                           |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1                 |
+|        |         | Source: NETLIST                                                                                            |
 | 1020   | INT_NET | Net   : FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/sysReset_arst                           |
 |        |         | Driver: FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1 |
-|        |         | Source: NETLIST                                                                                            |
-| 970    | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_CLK                                                                        |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1                               |
-|        |         | Source: NETLIST                                                                                            |
-| 909    | INT_NET | Net   : dff_arst                                                                                           |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1                 |
 |        |         | Source: NETLIST                                                                                            |
 | 1      | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz_Y                                                    |
 |        |         | Driver: CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0_RGB1                                              |

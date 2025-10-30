@@ -61,6 +61,18 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
+<value>miv_ihc_core_Z80</value>
+<report_link name="Report">
+<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z80\miv_ihc_core_Z80.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:07s</data>
+<data>0h:00m:07s</data>
+</row>
+<row>
+<data>
 <value>COREAXI4INTERCONNECT_Z58</value>
 <report_link name="Report">
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z58\COREAXI4INTERCONNECT_Z58.srr</data>
@@ -97,26 +109,14 @@ The file contains the information about all compile points from mapper to be dis
 </row>
 <row>
 <data>
-<value>miv_ihc_core_Z80</value>
-<report_link name="Report">
-<data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z80\miv_ihc_core_Z80.srr</data>
-</report_link>
-</data>
-<data>Mapped</data>
-<data>No database</data>
-<data>0h:00m:07s</data>
-<data>0h:00m:07s</data>
-</row>
-<row>
-<data>
 <value>MPFS_ICICLE_KIT_BASE_DESIGN</value>
 <report_link name="Report">
 <data>D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr</data>
 </report_link>
 </data>
 <data>Remapped</data>
-<data>Interface of a contained Compile Point changed</data>
-<data>0h:01m:00s</data>
+<data>Interface of Compile Point changed</data>
+<data>0h:00m:59s</data>
 <data>0h:00m:58s</data>
 </row>
 </report_table>

@@ -5,9 +5,9 @@
   <drc>
     <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output bus pin CoreGPIO_C10:GPIO_OUT[0:0]</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/CoreGPIO_C10:GPIO_OUT</crossprobe>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_02xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C1:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_02xx</crossprobe>
   </drc>
   <drc>
     <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>

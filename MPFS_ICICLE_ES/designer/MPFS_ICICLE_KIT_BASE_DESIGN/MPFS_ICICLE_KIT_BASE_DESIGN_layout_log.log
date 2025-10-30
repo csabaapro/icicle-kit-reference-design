@@ -41,17 +41,17 @@ INFO: Reading User PDC file D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_E
  Timing based Global Demotion completed successfully. 
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 75 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 77 fixed I/O macros, 0 unfixed I/O macros
 Info:  I/O Bank and Globals Assigner identified bank 'Bank0' as being fixed at VCCI:1.80V VCCR:n/a
 Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:3.30V VCCR:n/a
 Info:  I/O Bank and Globals Assigner detected (2) out of (5) I/O Bank(s) with locked I/O technologies.
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 5 seconds
+Total time spent in I/O Bank and Globals Assigner: 4 seconds
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Placer V5.0 - 2025.1.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Wed Oct 29 16:12:28 2025
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Thu Oct 30 12:56:41 2025
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -60,40 +60,40 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 8 seconds
-Placement                : 33 seconds
-Improvement              : 56 seconds
+Clustering (1 pass)      : 6 seconds
+Placement                : 28 seconds
+Improvement              : 99 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Wed Oct 29 16:14:45 2025
-Total CPU Time:     00:02:45            Total Elapsed Time: 00:02:17
-Total Memory Usage: 1443.3 Mbytes
+Finished: Thu Oct 30 12:59:30 2025
+Total CPU Time:     00:03:05            Total Elapsed Time: 00:02:49
+Total Memory Usage: 1445.0 Mbytes
                         o - o - o - o - o - o
 
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Router 
-Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Wed Oct 29 16:15:10 2025
+Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Thu Oct 30 13:00:04 2025
 
 
 Router completed successfully.
 
 Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Wed Oct 29 16:15:50 2025
-Total CPU Time:     00:00:52            Total Elapsed Time: 00:00:40
-Total Memory Usage: 4623.8 Mbytes
+Finished: Thu Oct 30 13:00:44 2025
+Total CPU Time:     00:00:48            Total Elapsed Time: 00:00:40
+Total Memory Usage: 4623.3 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------------------+-------+--------+------------+
 | Type                      | Used  | Total  | Percentage |
 +---------------------------+-------+--------+------------+
-| 4LUT                      | 14801 | 254196 | 5.82       |
-| DFF                       | 11547 | 254196 | 4.54       |
-| Logic Element             | 17493 | 254196 | 6.88       |
+| 4LUT                      | 15135 | 254196 | 5.95       |
+| DFF                       | 11813 | 254196 | 4.65       |
+| Logic Element             | 17926 | 254196 | 7.05       |
 | I/Os using I/O Registers  | 0     | 144    | 0.00       |
 | I/O Register Flip-Flops   | 0     | 432    | 0.00       |
 | -- Input  I/O Flip-Flops  | 0     | 144    | 0.00       |
@@ -105,7 +105,7 @@ I/O Placement
 +--------+-------+------------+
 | Type   | Count | Percentage |
 +--------+-------+------------+
-| Locked |  65   | 100.00%    |
+| Locked |  67   | 100.00%    |
 | Placed |  0    | 0.00%      |
 +--------+-------+------------+
 

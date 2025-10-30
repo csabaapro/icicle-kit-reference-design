@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Wed Oct 29 16:14:49 2025
+<text>Date: Thu Oct 30 12:59:33 2025
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -34,49 +34,49 @@
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_GB0</cell>
  <cell>(1313, 163)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_gbs_1</cell>
- <cell>1858</cell>
+ <cell>1945</cell>
 </row>
 <row>
  <cell>4</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0</cell>
+ <cell>(1298, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_Y</cell>
+ <cell>1167</cell>
+</row>
+<row>
+ <cell>5</cell>
  <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
  <cell>(1309, 162)</cell>
  <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
  <cell>1112</cell>
 </row>
 <row>
- <cell>5</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0</cell>
- <cell>(1298, 162)</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_Y</cell>
- <cell>969</cell>
-</row>
-<row>
  <cell>6</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0</cell>
  <cell>(1298, 163)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_Y</cell>
- <cell>909</cell>
+ <cell>1103</cell>
 </row>
 <row>
  <cell>7</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_GB0</cell>
  <cell>(1315, 163)</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_gbs_1</cell>
- <cell>722</cell>
+ <cell>806</cell>
 </row>
 <row>
  <cell>8</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0</cell>
  <cell>(1301, 162)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_Y</cell>
- <cell>312</cell>
+ <cell>225</cell>
 </row>
 <row>
  <cell>9</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
  <cell>(1303, 163)</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
- <cell>298</cell>
+ <cell>214</cell>
 </row>
 <row>
  <cell>10</cell>
@@ -172,7 +172,7 @@
 <row>
  <cell>3</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep[0]:Q</cell>
- <cell>(797, 250)</cell>
+ <cell>(799, 253)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_Z[0]</cell>
  <cell>ROUTED</cell>
@@ -353,7 +353,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(726, 259)</cell>
- <cell>19</cell>
+ <cell>31</cell>
 </row>
 <row>
  <cell> </cell>
@@ -363,7 +363,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(726, 286)</cell>
- <cell>807</cell>
+ <cell>1059</cell>
 </row>
 <row>
  <cell> </cell>
@@ -373,7 +373,7 @@
  <cell></cell>
  <cell>4</cell>
  <cell>(726, 313)</cell>
- <cell>2080</cell>
+ <cell>1974</cell>
 </row>
 <row>
  <cell> </cell>
@@ -383,7 +383,7 @@
  <cell></cell>
  <cell>5</cell>
  <cell>(726, 340)</cell>
- <cell>2903</cell>
+ <cell>2618</cell>
 </row>
 <row>
  <cell> </cell>
@@ -393,7 +393,7 @@
  <cell></cell>
  <cell>6</cell>
  <cell>(726, 367)</cell>
- <cell>1334</cell>
+ <cell>1461</cell>
 </row>
 <row>
  <cell>2</cell>
@@ -403,7 +403,7 @@
  <cell>2471</cell>
  <cell>1</cell>
  <cell>(726, 285)</cell>
- <cell>28</cell>
+ <cell>41</cell>
 </row>
 <row>
  <cell> </cell>
@@ -413,7 +413,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(726, 312)</cell>
- <cell>539</cell>
+ <cell>470</cell>
 </row>
 <row>
  <cell> </cell>
@@ -423,7 +423,7 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(726, 339)</cell>
- <cell>1432</cell>
+ <cell>1335</cell>
 </row>
 <row>
  <cell> </cell>
@@ -433,17 +433,17 @@
  <cell></cell>
  <cell>4</cell>
  <cell>(726, 366)</cell>
- <cell>472</cell>
+ <cell>625</cell>
 </row>
 <row>
  <cell>3</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_GB0</cell>
  <cell>(1313, 163)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_gbs_1</cell>
- <cell>1858</cell>
+ <cell>1945</cell>
  <cell>1</cell>
  <cell>(1885, 259)</cell>
- <cell>293</cell>
+ <cell>298</cell>
 </row>
 <row>
  <cell> </cell>
@@ -453,7 +453,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(1885, 286)</cell>
- <cell>1370</cell>
+ <cell>1399</cell>
 </row>
 <row>
  <cell> </cell>
@@ -473,7 +473,7 @@
  <cell></cell>
  <cell>4</cell>
  <cell>(1888, 313)</cell>
- <cell>48</cell>
+ <cell>189</cell>
 </row>
 <row>
  <cell> </cell>
@@ -482,16 +482,6 @@
  <cell></cell>
  <cell></cell>
  <cell>5</cell>
- <cell>(1891, 286)</cell>
- <cell>143</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>6</cell>
  <cell>(1894, 232)</cell>
  <cell>1</cell>
 </row>
@@ -501,69 +491,19 @@
  <cell></cell>
  <cell></cell>
  <cell></cell>
- <cell>7</cell>
- <cell>(1894, 259)</cell>
- <cell>1</cell>
+ <cell>6</cell>
+ <cell>(1894, 286)</cell>
+ <cell>56</cell>
 </row>
 <row>
  <cell>4</cell>
- <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
- <cell>(1309, 162)</cell>
- <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
- <cell>1112</cell>
- <cell>1</cell>
- <cell>(1887, 258)</cell>
- <cell>223</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>2</cell>
- <cell>(1887, 285)</cell>
- <cell>712</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
- <cell>(1887, 312)</cell>
- <cell>47</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>4</cell>
- <cell>(1893, 258)</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>5</cell>
- <cell>(1893, 285)</cell>
- <cell>129</cell>
-</row>
-<row>
- <cell>5</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0</cell>
  <cell>(1298, 162)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_Y</cell>
- <cell>969</cell>
+ <cell>1167</cell>
  <cell>1</cell>
  <cell>(727, 233)</cell>
- <cell>284</cell>
+ <cell>379</cell>
 </row>
 <row>
  <cell> </cell>
@@ -573,7 +513,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(727, 260)</cell>
- <cell>611</cell>
+ <cell>692</cell>
 </row>
 <row>
  <cell> </cell>
@@ -583,17 +523,57 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(727, 287)</cell>
- <cell>74</cell>
+ <cell>96</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
+ <cell>(1309, 162)</cell>
+ <cell>FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
+ <cell>1112</cell>
+ <cell>1</cell>
+ <cell>(1887, 258)</cell>
+ <cell>204</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1887, 285)</cell>
+ <cell>667</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1887, 312)</cell>
+ <cell>189</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1893, 285)</cell>
+ <cell>52</cell>
 </row>
 <row>
  <cell>6</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0</cell>
  <cell>(1298, 163)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_Y</cell>
- <cell>909</cell>
+ <cell>1103</cell>
  <cell>1</cell>
  <cell>(728, 233)</cell>
- <cell>279</cell>
+ <cell>372</cell>
 </row>
 <row>
  <cell> </cell>
@@ -603,7 +583,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(728, 260)</cell>
- <cell>556</cell>
+ <cell>635</cell>
 </row>
 <row>
  <cell> </cell>
@@ -613,17 +593,17 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(728, 287)</cell>
- <cell>74</cell>
+ <cell>96</cell>
 </row>
 <row>
  <cell>7</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_GB0</cell>
  <cell>(1315, 163)</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_gbs_1</cell>
- <cell>722</cell>
+ <cell>806</cell>
  <cell>1</cell>
  <cell>(1888, 259)</cell>
- <cell>70</cell>
+ <cell>87</cell>
 </row>
 <row>
  <cell> </cell>
@@ -633,24 +613,14 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(1888, 286)</cell>
- <cell>642</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>3</cell>
- <cell>(1894, 286)</cell>
- <cell>10</cell>
+ <cell>719</cell>
 </row>
 <row>
  <cell>8</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0</cell>
  <cell>(1301, 162)</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_Y</cell>
- <cell>312</cell>
+ <cell>225</cell>
  <cell>1</cell>
  <cell>(729, 232)</cell>
  <cell>2</cell>
@@ -663,7 +633,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(729, 286)</cell>
- <cell>260</cell>
+ <cell>183</cell>
 </row>
 <row>
  <cell> </cell>
@@ -673,17 +643,17 @@
  <cell></cell>
  <cell>3</cell>
  <cell>(729, 313)</cell>
- <cell>50</cell>
+ <cell>40</cell>
 </row>
 <row>
  <cell>9</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0</cell>
  <cell>(1303, 163)</cell>
  <cell>FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_Y</cell>
- <cell>298</cell>
+ <cell>214</cell>
  <cell>1</cell>
  <cell>(730, 286)</cell>
- <cell>259</cell>
+ <cell>179</cell>
 </row>
 <row>
  <cell> </cell>
@@ -693,7 +663,7 @@
  <cell></cell>
  <cell>2</cell>
  <cell>(730, 313)</cell>
- <cell>39</cell>
+ <cell>35</cell>
 </row>
 <row>
  <cell>10</cell>
@@ -749,15 +719,15 @@
 </row>
 <row>
  <cell>The number of clock signals through     Row Global resources</cell>
- <cell>18</cell>
+ <cell>17</cell>
 </row>
 <row>
  <cell>The number of clock signals through  Sector Global resources</cell>
- <cell>79</cell>
+ <cell>78</cell>
 </row>
 <row>
  <cell>The number of clock signals through Cluster Global resources</cell>
- <cell>1369</cell>
+ <cell>1491</cell>
 </row>
 </table>
 <text></text>

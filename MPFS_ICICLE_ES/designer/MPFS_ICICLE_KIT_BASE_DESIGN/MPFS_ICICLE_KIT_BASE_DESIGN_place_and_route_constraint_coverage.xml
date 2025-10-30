@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 2025.1.0.14</text>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
-Date: Wed Oct 29 16:11:57 2025 </text>
+Date: Thu Oct 30 12:56:14 2025 </text>
 <table>
 <header>
 </header>
@@ -50,52 +50,52 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>        22231</cell>
- <cell>            1</cell>
- <cell>        22232</cell>
+ <cell>        22639</cell>
+ <cell>            2</cell>
+ <cell>        22641</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>         9972</cell>
+ <cell>        10166</cell>
  <cell>            0</cell>
- <cell>         9972</cell>
+ <cell>        10166</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>           11</cell>
- <cell>           11</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>        32203</cell>
- <cell>           12</cell>
- <cell>        32215</cell>
+ <cell>        32805</cell>
+ <cell>           14</cell>
+ <cell>        32819</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>        22231</cell>
- <cell>            1</cell>
- <cell>        22232</cell>
+ <cell>        22639</cell>
+ <cell>            2</cell>
+ <cell>        22641</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>         9972</cell>
+ <cell>        10166</cell>
  <cell>            0</cell>
- <cell>         9972</cell>
+ <cell>        10166</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>           11</cell>
- <cell>           11</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>        32203</cell>
- <cell>           12</cell>
- <cell>        32215</cell>
+ <cell>        32805</cell>
+ <cell>           14</cell>
+ <cell>        32819</cell>
 </row>
 </table>
 <section>
@@ -235,52 +235,52 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>         1804</cell>
- <cell>            1</cell>
- <cell>         1805</cell>
+ <cell>         2212</cell>
+ <cell>            2</cell>
+ <cell>         2214</cell>
 </row>
 <row>
  <cell>Recovery</cell>
- <cell>          910</cell>
+ <cell>         1104</cell>
  <cell>            0</cell>
- <cell>          910</cell>
+ <cell>         1104</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
  <cell>            0</cell>
- <cell>           11</cell>
- <cell>           11</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         2714</cell>
- <cell>           12</cell>
- <cell>         2726</cell>
+ <cell>         3316</cell>
+ <cell>           14</cell>
+ <cell>         3330</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>         1804</cell>
- <cell>            1</cell>
- <cell>         1805</cell>
+ <cell>         2212</cell>
+ <cell>            2</cell>
+ <cell>         2214</cell>
 </row>
 <row>
  <cell>Removal</cell>
- <cell>          910</cell>
+ <cell>         1104</cell>
  <cell>            0</cell>
- <cell>          910</cell>
+ <cell>         1104</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
  <cell>            0</cell>
- <cell>           11</cell>
- <cell>           11</cell>
+ <cell>           12</cell>
+ <cell>           12</cell>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         2714</cell>
- <cell>           12</cell>
- <cell>         2726</cell>
+ <cell>         3316</cell>
+ <cell>           14</cell>
+ <cell>         3330</cell>
 </row>
 </table>
 <section>
@@ -289,6 +289,7 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 <text> - Max input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>COREUART1_RX</item>
  <item>COREUART_RX</item>
  <item>RPi_ID_SC</item>
  <item>RPi_ID_SD</item>
@@ -297,6 +298,7 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 <text> - Min input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>COREUART1_RX</item>
  <item>COREUART_RX</item>
  <item>RPi_ID_SC</item>
  <item>RPi_ID_SD</item>
@@ -306,6 +308,7 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 <text> - Max output delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>COREUART1_TX</item>
  <item>COREUART_TX</item>
  <item>LED0</item>
  <item>LED1</item>
@@ -322,6 +325,7 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 <text> - Min output delay constraint missing on ports:</text>
 <text>   </text>
 <list>
+ <item>COREUART1_TX</item>
  <item>COREUART_TX</item>
  <item>LED0</item>
  <item>LED1</item>
@@ -336,16 +340,18 @@ Date: Wed Oct 29 16:11:57 2025 </text>
 </list>
 <text></text>
 <text></text>
-<text> - Setup unconstrained for the following pin:</text>
+<text> - Setup unconstrained for the following pins:</text>
 <text>   </text>
 <list>
  <item>FIC_3_PERIPHERALS_1/CoreUARTapb_C0_0/CoreUARTapb_C0_0/uUART/make_RX/samples[2]:D</item>
+ <item>FIC_3_PERIPHERALS_1/CoreUARTapb_C1_inst_0/CoreUARTapb_C1_0/uUART/make_RX/samples[2]:D</item>
 </list>
 <text></text>
-<text> - Hold unconstrained for the following pin:</text>
+<text> - Hold unconstrained for the following pins:</text>
 <text>   </text>
 <list>
  <item>FIC_3_PERIPHERALS_1/CoreUARTapb_C0_0/CoreUARTapb_C0_0/uUART/make_RX/samples[2]:D</item>
+ <item>FIC_3_PERIPHERALS_1/CoreUARTapb_C1_inst_0/CoreUARTapb_C1_0/uUART/make_RX/samples[2]:D</item>
 </list>
 <text></text>
 </section>

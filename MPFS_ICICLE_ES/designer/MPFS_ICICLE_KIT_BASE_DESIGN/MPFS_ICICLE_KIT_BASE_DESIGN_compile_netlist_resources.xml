@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Wed Oct 29 16:11:02 2025
+<text>Date: Thu Oct 30 12:50:35 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,27 +74,27 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>14801</cell>
+ <cell>15135</cell>
  <cell>254196</cell>
- <cell>5.82</cell>
+ <cell>5.95</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>11546</cell>
+ <cell>11812</cell>
  <cell>254196</cell>
- <cell>4.54</cell>
+ <cell>4.65</cell>
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>65</cell>
+ <cell>67</cell>
  <cell>144</cell>
- <cell>45.14</cell>
+ <cell>46.53</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>65</cell>
+ <cell>67</cell>
  <cell>144</cell>
- <cell>45.14</cell>
+ <cell>46.53</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -140,9 +140,9 @@
 </row>
 <row>
  <cell>LSRAM</cell>
- <cell>23</cell>
+ <cell>25</cell>
  <cell>812</cell>
- <cell>2.83</cell>
+ <cell>3.08</cell>
 </row>
 <row>
  <cell>Math</cell>
@@ -268,8 +268,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>13121</cell>
- <cell>9866</cell>
+ <cell>13383</cell>
+ <cell>10060</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -278,8 +278,8 @@
 </row>
 <row>
  <cell>LSRAM Interface Logic</cell>
- <cell>828</cell>
- <cell>828</cell>
+ <cell>900</cell>
+ <cell>900</cell>
 </row>
 <row>
  <cell>Math Interface Logic</cell>
@@ -288,8 +288,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>14801</cell>
- <cell>11546</cell>
+ <cell>15135</cell>
+ <cell>11812</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -322,11 +322,11 @@
 </row>
 <row>
  <cell>8</cell>
- <cell>29</cell>
+ <cell>32</cell>
 </row>
 <row>
  <cell>9</cell>
- <cell>19</cell>
+ <cell>22</cell>
 </row>
 <row>
  <cell>10</cell>
@@ -346,7 +346,7 @@
 </row>
 <row>
  <cell>14</cell>
- <cell>8</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell>17</cell>
@@ -374,7 +374,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>134</cell>
+ <cell>141</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -387,11 +387,11 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>116</cell>
+ <cell>123</cell>
 </row>
 <row>
  <cell>5</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>22</cell>
@@ -399,7 +399,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>119</cell>
+ <cell>127</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -412,13 +412,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>13</cell>
+ <cell>14</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>29</cell>
+ <cell>30</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -524,6 +524,21 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
+ <cell>1168</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
  <cell>1112</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/sysReset_arst</cell>
@@ -539,6 +554,21 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
+ <cell>1103</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dff_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
  <cell>1020</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/sysReset_arst</cell>
@@ -547,36 +577,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>970</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>909</cell>
- <cell>INT_NET</cell>
- <cell>Net   : dff_arst</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>

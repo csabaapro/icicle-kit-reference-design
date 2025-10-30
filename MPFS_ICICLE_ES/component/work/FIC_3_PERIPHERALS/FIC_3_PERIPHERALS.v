@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Oct 29 15:43:12 2025
+// Created by SmartDesign Thu Oct 30 12:34:53 2025
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -14,6 +14,7 @@ module FIC_3_PERIPHERALS(
     APB_MMASTER_in_pwdata,
     APB_MMASTER_in_pwrite,
     CoreUARTapb_RX,
+    CoreUARTapb_RX_1,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PRDATAS16,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PREADYS16,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSLVERRS16,
@@ -24,28 +25,33 @@ module FIC_3_PERIPHERALS(
     APB_MMASTER_in_pready,
     APB_MMASTER_in_pslverr,
     CoreUARTapb_TX,
+    CoreUARTapb_TX_1,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PENABLES,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSELS16,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS,
     FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWRITES,
     FRAMING_ERR,
+    FRAMING_ERR_1,
     GPIO_OUT_0,
     GPIO_OUT_1,
     GPIO_OUT_2,
     GPIO_OUT_3,
-    GPIO_OUT_4,
     IHC_MP_APP_E51_IRQ,
     IHC_MP_APP_U54_1_IRQ,
     IHC_MP_APP_U54_2_IRQ,
     IHC_MP_APP_U54_3_IRQ,
     IHC_MP_APP_U54_4_IRQ,
     OVERFLOW,
+    OVERFLOW_1,
     PARITY_ERR,
+    PARITY_ERR_1,
     PWM_0,
     RPI_ID_I2C_IRQ,
     RXRDY,
+    RXRDY_1,
     TXRDY,
+    TXRDY_1,
     fabric_sd_emmc_demux_select_out,
     // Inouts
     RPi_ID_SC,
@@ -61,6 +67,7 @@ input         APB_MMASTER_in_psel;
 input  [31:0] APB_MMASTER_in_pwdata;
 input         APB_MMASTER_in_pwrite;
 input         CoreUARTapb_RX;
+input         CoreUARTapb_RX_1;
 input  [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PRDATAS16;
 input         FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PREADYS16;
 input         FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSLVERRS16;
@@ -73,28 +80,33 @@ output [31:0] APB_MMASTER_in_prdata;
 output        APB_MMASTER_in_pready;
 output        APB_MMASTER_in_pslverr;
 output        CoreUARTapb_TX;
+output        CoreUARTapb_TX_1;
 output [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS;
 output        FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PENABLES;
 output        FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSELS16;
 output [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS;
 output        FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWRITES;
 output        FRAMING_ERR;
+output        FRAMING_ERR_1;
 output        GPIO_OUT_0;
 output        GPIO_OUT_1;
 output        GPIO_OUT_2;
 output        GPIO_OUT_3;
-output        GPIO_OUT_4;
 output        IHC_MP_APP_E51_IRQ;
 output        IHC_MP_APP_U54_1_IRQ;
 output        IHC_MP_APP_U54_2_IRQ;
 output        IHC_MP_APP_U54_3_IRQ;
 output        IHC_MP_APP_U54_4_IRQ;
 output        OVERFLOW;
+output        OVERFLOW_1;
 output        PARITY_ERR;
+output        PARITY_ERR_1;
 output        PWM_0;
 output        RPI_ID_I2C_IRQ;
 output        RXRDY;
+output        RXRDY_1;
 output        TXRDY;
+output        TXRDY_1;
 output        fabric_sd_emmc_demux_select_out;
 //--------------------------------------------------------------------
 // Inout
@@ -113,7 +125,9 @@ wire          APB_MMASTER_PSLVERR;
 wire   [31:0] APB_MMASTER_in_pwdata;
 wire          APB_MMASTER_in_pwrite;
 wire          CoreUARTapb_RX;
+wire          CoreUARTapb_RX_1;
 wire          CoreUARTapb_TX_net_0;
+wire          CoreUARTapb_TX_1_net_0;
 wire          fabric_sd_emmc_demux_select_out_net_0;
 wire   [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR;
 wire          FIC_3_0x43xx_xxxx_0x48xx_xxxx_PENABLE;
@@ -149,7 +163,6 @@ wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PRDATA;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PREADY;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PSELx;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PSLVERR;
-wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PREADY;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSELx;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSLVERR;
@@ -158,18 +171,20 @@ wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSELx;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSLVERR;
 wire          FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_04xx_PSELx;
 wire          FRAMING_ERR_net_0;
+wire          FRAMING_ERR_1_net_0;
 wire   [0:0]  GPIO_OUT_0_net_0;
 wire   [1:1]  GPIO_OUT_1_net_0;
 wire   [2:2]  GPIO_OUT_2_net_0;
 wire   [3:3]  GPIO_OUT_3_net_0;
-wire   [0:0]  GPIO_OUT_4_net_0;
 wire          IHC_MP_APP_E51_IRQ_net_0;
 wire          IHC_MP_APP_U54_1_IRQ_net_0;
 wire          IHC_MP_APP_U54_2_IRQ_net_0;
 wire          IHC_MP_APP_U54_3_IRQ_net_0;
 wire          IHC_MP_APP_U54_4_IRQ_net_0;
 wire          OVERFLOW_net_0;
+wire          OVERFLOW_1_net_0;
 wire          PARITY_ERR_net_0;
+wire          PARITY_ERR_1_net_0;
 wire          PCLK;
 wire          PRESETN;
 wire   [0:0]  PWM_0_net_0;
@@ -177,7 +192,9 @@ wire          RPI_ID_I2C_IRQ_net_0;
 wire          RPi_ID_SC;
 wire          RPi_ID_SD;
 wire          RXRDY_net_0;
+wire          RXRDY_1_net_0;
 wire          TXRDY_net_0;
+wire          TXRDY_1_net_0;
 wire          APB_MMASTER_PREADY_net_0;
 wire          APB_MMASTER_PSLVERR_net_0;
 wire          CoreUARTapb_TX_net_1;
@@ -204,15 +221,20 @@ wire          fabric_sd_emmc_demux_select_out_net_1;
 wire   [31:0] APB_MMASTER_PRDATA_net_0;
 wire   [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR_net_0;
 wire   [31:0] FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA_net_0;
-wire          GPIO_OUT_4_net_1;
+wire          TXRDY_1_net_1;
+wire          RXRDY_1_net_1;
+wire          PARITY_ERR_1_net_1;
+wire          OVERFLOW_1_net_1;
+wire          CoreUARTapb_TX_1_net_1;
+wire          FRAMING_ERR_1_net_1;
 wire   [3:0]  GPIO_OUT_net_0;
 wire   [0:0]  PWM_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
 wire   [3:0]  GPIO_IN_const_net_0;
-wire          GND_net;
 wire          VCC_net;
+wire          GND_net;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -221,8 +243,8 @@ wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0_7to0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1_7to0;
-wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2;
-wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_7to0;
+wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2;
+wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_4to0;
 wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3;
 wire   [4:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_4to0;
 wire   [8:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4;
@@ -232,6 +254,12 @@ wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0_7to0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1_7to0;
+wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_2;
+wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_2_7to0;
+wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA;
+wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0;
+wire   [31:8] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0_31to8;
+wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0_7to0;
 wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA;
 wire   [31:0] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0;
 wire   [31:8] FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0_31to8;
@@ -244,8 +272,8 @@ wire   [7:0]  FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_04xx_PRDATA_0_7to0;
 // Constant assignments
 //--------------------------------------------------------------------
 assign GPIO_IN_const_net_0 = 4'h0;
-assign GND_net             = 1'b0;
 assign VCC_net             = 1'b1;
+assign GND_net             = 1'b0;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
@@ -301,8 +329,18 @@ assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR_net_0               = FIC_3_0x43xx_xx
 assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS[31:0]  = FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR_net_0;
 assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA_net_0              = FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA;
 assign FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS[31:0] = FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA_net_0;
-assign GPIO_OUT_4_net_1                                        = GPIO_OUT_4_net_0[0];
-assign GPIO_OUT_4                                              = GPIO_OUT_4_net_1;
+assign TXRDY_1_net_1                                           = TXRDY_1_net_0;
+assign TXRDY_1                                                 = TXRDY_1_net_1;
+assign RXRDY_1_net_1                                           = RXRDY_1_net_0;
+assign RXRDY_1                                                 = RXRDY_1_net_1;
+assign PARITY_ERR_1_net_1                                      = PARITY_ERR_1_net_0;
+assign PARITY_ERR_1                                            = PARITY_ERR_1_net_1;
+assign OVERFLOW_1_net_1                                        = OVERFLOW_1_net_0;
+assign OVERFLOW_1                                              = OVERFLOW_1_net_1;
+assign CoreUARTapb_TX_1_net_1                                  = CoreUARTapb_TX_1_net_0;
+assign CoreUARTapb_TX_1                                        = CoreUARTapb_TX_1_net_1;
+assign FRAMING_ERR_1_net_1                                     = FRAMING_ERR_1_net_0;
+assign FRAMING_ERR_1                                           = FRAMING_ERR_1_net_1;
 //--------------------------------------------------------------------
 // Slices assignments
 //--------------------------------------------------------------------
@@ -318,8 +356,8 @@ assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0 = { FIC_3_ADDRESS_GE
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_0_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[7:0];
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1_7to0 };
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_1_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[7:0];
-assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_7to0 };
-assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[7:0];
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_4to0 };
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2_4to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[4:0];
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_4to0 };
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3_4to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR[4:0];
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4_8to0 };
@@ -329,6 +367,12 @@ assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0 = { FIC_3_ADDRESS_G
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA[7:0];
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1_7to0 };
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA[7:0];
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_2 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_2_7to0 };
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_2_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA[7:0];
+
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0_31to8, FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0_7to0 };
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0_31to8 = 24'h0;
+assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0_7to0 = FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA[7:0];
 
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0 = { FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0_31to8, FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0_7to0 };
 assign FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0_31to8 = 24'h0;
@@ -360,25 +404,6 @@ GPIO COREGPIO_C0(
         .PRDATA   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PRDATA ) 
         );
 
-//--------CoreGPIO_C10
-CoreGPIO_C10 CoreGPIO_C10_inst_0(
-        // Inputs
-        .PRESETN  ( PRESETN ),
-        .PCLK     ( PCLK ),
-        .GPIO_IN  ( GND_net ),
-        .PADDR    ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 ),
-        .PSEL     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSELx ),
-        .PENABLE  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PENABLE ),
-        .PWRITE   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWRITE ),
-        .PWDATA   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA ),
-        // Outputs
-        .INT      ( GPIO_OUT_4_net_0 ),
-        .GPIO_OUT (  ),
-        .PRDATA   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA ),
-        .PREADY   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PREADY ),
-        .PSLVERR  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSLVERR ) 
-        );
-
 //--------CoreUARTapb_C0
 CoreUARTapb_C0 CoreUARTapb_C0_0(
         // Inputs
@@ -389,7 +414,7 @@ CoreUARTapb_C0 CoreUARTapb_C0_0(
         .PENABLE     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PENABLE ),
         .PWRITE      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWRITE ),
         .PADDR       ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_3 ),
-        .PWDATA      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0 ),
+        .PWDATA      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1 ),
         // Outputs
         .TXRDY       ( TXRDY_net_0 ),
         .RXRDY       ( RXRDY_net_0 ),
@@ -400,6 +425,29 @@ CoreUARTapb_C0 CoreUARTapb_C0_0(
         .PREADY      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PREADY ),
         .PSLVERR     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PSLVERR ),
         .PRDATA      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA ) 
+        );
+
+//--------CoreUARTapb_C1
+CoreUARTapb_C1 CoreUARTapb_C1_inst_0(
+        // Inputs
+        .PCLK        ( PCLK ),
+        .PRESETN     ( PRESETN ),
+        .RX          ( CoreUARTapb_RX_1 ),
+        .PADDR       ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_2 ),
+        .PSEL        ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSELx ),
+        .PENABLE     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PENABLE ),
+        .PWRITE      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWRITE ),
+        .PWDATA      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_0 ),
+        // Outputs
+        .TXRDY       ( TXRDY_1_net_0 ),
+        .RXRDY       ( RXRDY_1_net_0 ),
+        .PARITY_ERR  ( PARITY_ERR_1_net_0 ),
+        .OVERFLOW    ( OVERFLOW_1_net_0 ),
+        .TX          ( CoreUARTapb_TX_1_net_0 ),
+        .FRAMING_ERR ( FRAMING_ERR_1_net_0 ),
+        .PRDATA      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA ),
+        .PREADY      ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PREADY ),
+        .PSLVERR     ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PSLVERR ) 
         );
 
 //--------fabric_sd_emmc_demux_select
@@ -448,7 +496,7 @@ FIC_3_ADDRESS_GENERATION FIC_3_ADDRESS_GENERATION_1(
         .APBmslave15_PRDATAS15            ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4FFF_FFxx_PRDATA ),
         .APBmslave16_PRDATAS16            ( FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PRDATAS16 ),
         .APBmslave1_PRDATAS1              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_01xx_PRDATA ),
-        .APBmslave2_PRDATAS2              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA ),
+        .APBmslave2_PRDATAS2              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_02xx_PRDATA_0 ),
         .APBmslave3_PRDATAS3              ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_03xx_PRDATA_0 ),
         .FIC_3_0x4000_04xx_PRDATAS4       ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_04xx_PRDATA_0 ),
         // Outputs
@@ -530,7 +578,7 @@ CORE_I2C_C0_0_WRAPPER RPi_ID_I2C(
         .PCLK             ( PCLK ),
         .PRESETN          ( PRESETN ),
         .APBslave_PADDR   ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PADDR_4 ),
-        .APBslave_PWDATA  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_1 ),
+        .APBslave_PWDATA  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_00xx_PWDATA_2 ),
         // Outputs
         .INT              ( RPI_ID_I2C_IRQ_net_0 ),
         .APBslave_PRDATA  ( FIC_3_ADDRESS_GENERATION_1_FIC_3_0x4000_04xx_PRDATA ),
