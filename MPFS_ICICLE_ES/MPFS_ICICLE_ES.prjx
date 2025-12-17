@@ -3463,12 +3463,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1765974735"
+TIME="1765979899"
 SIZE="12312"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v,hdl"
 STATE="utd"
-TIME="1765974735"
+TIME="1765979898"
 SIZE="63230"
 PARENT="<project>\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.cxf"
 IS_READONLY="TRUE"
@@ -3721,12 +3721,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1765976267"
+TIME="1765979919"
 SIZE="27571"
 ENDFILE
 VALUE "<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v,hdl"
 STATE="utd"
-TIME="1765976266"
+TIME="1765979918"
 SIZE="102871"
 PARENT="<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.cxf"
 IS_READONLY="TRUE"
@@ -4001,7 +4001,7 @@ SIZE="1950"
 ENDFILE
 VALUE "<project>\constraint\io\ICICLE_RPi.pdc,io_pdc"
 STATE="utd"
-TIME="1765978264"
+TIME="1765985812"
 SIZE="3915"
 ENDFILE
 VALUE "<project>\constraint\io\ICICLE_RPi_MICRON_QSPI.pdc,io_pdc"
@@ -4965,8 +4965,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -5027,8 +5027,13 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:MPFS_ICICLE_KIT_BASE_DESIGN_PROGRAM.log
+SmartDesign;MPFS_ICICLE_KIT_BASE_DESIGN;0
+SmartDesign;FIC_3_PERIPHERALS;0
+SmartDesign;FIC_3_ADDRESS_GENERATION;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;FIC_3_PERIPHERALS
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_ARBITER::work","hdl\apb_arbiter.v","FALSE","FALSE"
