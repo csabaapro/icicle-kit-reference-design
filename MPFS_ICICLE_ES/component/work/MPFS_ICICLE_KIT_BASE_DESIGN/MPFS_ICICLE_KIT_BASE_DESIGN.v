@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Oct 30 12:43:16 2025
+// Created by SmartDesign Wed Dec 17 14:58:38 2025
 // Version: 2025.1 2025.1.0.14
 //////////////////////////////////////////////////////////////////////
 
@@ -10,7 +10,6 @@ module MPFS_ICICLE_KIT_BASE_DESIGN(
     // Inputs
     CAN_0_RXBUS_F2M,
     CAN_1_RXBUS,
-    COREUART1_RX,
     COREUART_RX,
     MMUART_0_RXD_F2M,
     MMUART_1_RXD_F2M,
@@ -54,7 +53,6 @@ module MPFS_ICICLE_KIT_BASE_DESIGN(
     CK,
     CKE,
     CK_N,
-    COREUART1_TX,
     COREUART_TX,
     CS,
     DM,
@@ -160,7 +158,6 @@ module MPFS_ICICLE_KIT_BASE_DESIGN(
 //--------------------------------------------------------------------
 input         CAN_0_RXBUS_F2M;
 input         CAN_1_RXBUS;
-input         COREUART1_RX;
 input         COREUART_RX;
 input         MMUART_0_RXD_F2M;
 input         MMUART_1_RXD_F2M;
@@ -206,7 +203,6 @@ output        CAN_1_TX_EBL_N;
 output        CK;
 output        CKE;
 output        CK_N;
-output        COREUART1_TX;
 output        COREUART_TX;
 output        CS;
 output [3:0]  DM;
@@ -333,8 +329,6 @@ wire          CLOCKS_AND_RESETS_PCIe_REFERENCE_CLK;
 wire          CLOCKS_AND_RESETS_RESETN_FIC_0_CLK;
 wire          CLOCKS_AND_RESETS_RESETN_FIC_1_CLK;
 wire          CLOCKS_AND_RESETS_RESETN_FIC_3_CLK;
-wire          COREUART1_RX;
-wire          COREUART1_TX_net_0;
 wire          COREUART_RX;
 wire          COREUART_TX_net_0;
 wire          CS_net_0;
@@ -422,7 +416,6 @@ wire          FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PSLVERR;
 wire   [31:0] FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA;
 wire          FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWRITE;
 wire          FIC_3_PERIPHERALS_1_FRAMING_ERR;
-wire          FIC_3_PERIPHERALS_1_FRAMING_ERR_1;
 wire          FIC_3_PERIPHERALS_1_GPIO_OUT_0;
 wire          FIC_3_PERIPHERALS_1_GPIO_OUT_1;
 wire          FIC_3_PERIPHERALS_1_GPIO_OUT_2;
@@ -433,15 +426,10 @@ wire          FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_2_IRQ;
 wire          FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_3_IRQ;
 wire          FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_4_IRQ;
 wire          FIC_3_PERIPHERALS_1_OVERFLOW;
-wire          FIC_3_PERIPHERALS_1_OVERFLOW_1;
 wire          FIC_3_PERIPHERALS_1_PARITY_ERR;
-wire          FIC_3_PERIPHERALS_1_PARITY_ERR_1;
 wire          FIC_3_PERIPHERALS_1_RPI_ID_I2C_IRQ;
 wire          FIC_3_PERIPHERALS_1_RXRDY;
-wire          FIC_3_PERIPHERALS_1_RXRDY_1;
 wire          FIC_3_PERIPHERALS_1_TXRDY;
-wire          FIC_3_PERIPHERALS_1_TXRDY_1;
-wire          framing_err_Y;
 wire          GPIO_2_M2F_20_AN_net_0;
 wire          GPIO_2_M2F_21_RST_net_0;
 wire          I2C_1_SCL;
@@ -556,8 +544,6 @@ wire          MSS_WRAPPER_1_GPIO_2_M2F_27;
 wire          MSS_WRAPPER_1_GPIO_2_M2F_28;
 wire          MSS_WRAPPER_1_MSS_DLL_LOCKS;
 wire          ODT_net_0;
-wire          overflow_Y;
-wire          parity_err_Y;
 wire          PCIE_1_PERST_N_net_0;
 wire          PCIESS_LANE_RXD0_N;
 wire          PCIESS_LANE_RXD0_P;
@@ -602,7 +588,6 @@ wire          RPi_GPIO26;
 wire          RPi_GPIO27;
 wire          RPi_ID_SC;
 wire          RPi_ID_SD;
-wire          rx_rdy_Y;
 wire          SD_CD_EMMC_STRB;
 wire          SD_CLK_EMMC_CLK_net_0;
 wire          SD_CMD_EMMC_CMD;
@@ -637,7 +622,6 @@ wire          SW2_OR_GPIO_2_26_Y;
 wire          SW3;
 wire          SW3_OR_GPIO_2_27_Y;
 wire          SW4;
-wire          tx_rdy_Y;
 wire          USB_CLK;
 wire          USB_DATA0;
 wire          USB_DATA1;
@@ -658,7 +642,6 @@ wire          CAN_1_TX_EBL_N_net_1;
 wire          CKE_net_1;
 wire          CK_N_net_1;
 wire          CK_net_1;
-wire          COREUART_TX_net_1;
 wire          CS_net_1;
 wire          GPIO_2_M2F_20_AN_net_1;
 wire          GPIO_2_M2F_21_RST_net_1;
@@ -700,9 +683,9 @@ wire          USB_STP_net_1;
 wire          USB_ULPI_RESET_net_2;
 wire          mBUS_PWM_net_1;
 wire          mBUS_UART_TX_net_1;
+wire          COREUART_TX_net_1;
 wire   [5:0]  CA_net_1;
 wire   [3:0]  DM_net_1;
-wire          COREUART1_TX_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -875,8 +858,6 @@ assign CK_N_net_1                        = CK_N_net_0;
 assign CK_N                              = CK_N_net_1;
 assign CK_net_1                          = CK_net_0;
 assign CK                                = CK_net_1;
-assign COREUART_TX_net_1                 = COREUART_TX_net_0;
-assign COREUART_TX                       = COREUART_TX_net_1;
 assign CS_net_1                          = CS_net_0;
 assign CS                                = CS_net_1;
 assign GPIO_2_M2F_20_AN_net_1            = GPIO_2_M2F_20_AN_net_0;
@@ -961,12 +942,12 @@ assign mBUS_PWM_net_1                    = mBUS_PWM_net_0;
 assign mBUS_PWM                          = mBUS_PWM_net_1;
 assign mBUS_UART_TX_net_1                = mBUS_UART_TX_net_0;
 assign mBUS_UART_TX                      = mBUS_UART_TX_net_1;
+assign COREUART_TX_net_1                 = COREUART_TX_net_0;
+assign COREUART_TX                       = COREUART_TX_net_1;
 assign CA_net_1                          = CA_net_0;
 assign CA[5:0]                           = CA_net_1;
 assign DM_net_1                          = DM_net_0;
 assign DM[3:0]                           = DM_net_1;
-assign COREUART1_TX_net_1                = COREUART1_TX_net_0;
-assign COREUART1_TX                      = COREUART1_TX_net_1;
 //--------------------------------------------------------------------
 // Bus Interface Nets Assignments - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -1299,30 +1280,18 @@ FIC_1_PERIPHERALS FIC_1_PERIPHERALS_1(
 //--------FIC_3_PERIPHERALS
 FIC_3_PERIPHERALS FIC_3_PERIPHERALS_1(
         // Inputs
-        .APB_MMASTER_in_penable                               ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PENABLE ),
-        .APB_MMASTER_in_psel                                  ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PSELx ),
-        .APB_MMASTER_in_pwrite                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PWRITE ),
-        .CoreUARTapb_RX                                       ( COREUART_RX ),
-        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PREADYS16  ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PREADY ),
-        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSLVERRS16 ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PSLVERR ),
         .PCLK                                                 ( CLOCKS_AND_RESETS_FIC_3_CLK ),
         .PRESETN                                              ( CLOCKS_AND_RESETS_RESETN_FIC_3_CLK ),
+        .CoreUARTapb_RX                                       ( COREUART_RX ),
+        .APB_MMASTER_in_psel                                  ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PSELx ),
+        .APB_MMASTER_in_penable                               ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PENABLE ),
+        .APB_MMASTER_in_pwrite                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PWRITE ),
+        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PREADYS16  ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PREADY ),
+        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSLVERRS16 ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PSLVERR ),
         .APB_MMASTER_in_paddr                                 ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR_0 ),
         .APB_MMASTER_in_pwdata                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PWDATA ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PRDATAS16  ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PRDATA ),
-        .CoreUARTapb_RX_1                                     ( COREUART1_RX ),
         // Outputs
-        .APB_MMASTER_in_pready                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PREADY ),
-        .APB_MMASTER_in_pslverr                               ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PSLVERR ),
-        .CoreUARTapb_TX                                       ( COREUART_TX_net_0 ),
-        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PENABLES   ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PENABLE ),
-        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSELS16    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PSELx ),
-        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWRITES    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWRITE ),
-        .FRAMING_ERR                                          ( FIC_3_PERIPHERALS_1_FRAMING_ERR ),
-        .OVERFLOW                                             ( FIC_3_PERIPHERALS_1_OVERFLOW ),
-        .PARITY_ERR                                           ( FIC_3_PERIPHERALS_1_PARITY_ERR ),
-        .RXRDY                                                ( FIC_3_PERIPHERALS_1_RXRDY ),
-        .TXRDY                                                ( FIC_3_PERIPHERALS_1_TXRDY ),
         .GPIO_OUT_0                                           ( FIC_3_PERIPHERALS_1_GPIO_OUT_0 ),
         .GPIO_OUT_1                                           ( FIC_3_PERIPHERALS_1_GPIO_OUT_1 ),
         .GPIO_OUT_2                                           ( FIC_3_PERIPHERALS_1_GPIO_OUT_2 ),
@@ -1335,27 +1304,23 @@ FIC_3_PERIPHERALS FIC_3_PERIPHERALS_1(
         .PWM_0                                                ( mBUS_PWM_net_0 ),
         .RPI_ID_I2C_IRQ                                       ( FIC_3_PERIPHERALS_1_RPI_ID_I2C_IRQ ),
         .fabric_sd_emmc_demux_select_out                      ( SDIO_SW_SEL0_net_0 ),
+        .TXRDY                                                ( FIC_3_PERIPHERALS_1_TXRDY ),
+        .RXRDY                                                ( FIC_3_PERIPHERALS_1_RXRDY ),
+        .PARITY_ERR                                           ( FIC_3_PERIPHERALS_1_PARITY_ERR ),
+        .OVERFLOW                                             ( FIC_3_PERIPHERALS_1_OVERFLOW ),
+        .CoreUARTapb_TX                                       ( COREUART_TX_net_0 ),
+        .FRAMING_ERR                                          ( FIC_3_PERIPHERALS_1_FRAMING_ERR ),
+        .APB_MMASTER_in_pready                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PREADY ),
+        .APB_MMASTER_in_pslverr                               ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PSLVERR ),
+        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PSELS16    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PSELx ),
+        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PENABLES   ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PENABLE ),
+        .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWRITES    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWRITE ),
         .APB_MMASTER_in_prdata                                ( MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PRDATA ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PADDRS     ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PADDR ),
         .FIC_3_0x43xx_xxxx_0x48xx_xxxx_APBmslave16_PWDATAS    ( FIC_3_PERIPHERALS_1_FIC_3_0x43xx_xxxx_0x48xx_xxxx_PWDATA ),
-        .TXRDY_1                                              ( FIC_3_PERIPHERALS_1_TXRDY_1 ),
-        .RXRDY_1                                              ( FIC_3_PERIPHERALS_1_RXRDY_1 ),
-        .PARITY_ERR_1                                         ( FIC_3_PERIPHERALS_1_PARITY_ERR_1 ),
-        .OVERFLOW_1                                           ( FIC_3_PERIPHERALS_1_OVERFLOW_1 ),
-        .CoreUARTapb_TX_1                                     ( COREUART1_TX_net_0 ),
-        .FRAMING_ERR_1                                        ( FIC_3_PERIPHERALS_1_FRAMING_ERR_1 ),
         // Inouts
         .RPi_ID_SC                                            ( RPi_ID_SC ),
         .RPi_ID_SD                                            ( RPi_ID_SD ) 
-        );
-
-//--------OR2
-OR2 framing_err(
-        // Inputs
-        .A ( FIC_3_PERIPHERALS_1_FRAMING_ERR ),
-        .B ( FIC_3_PERIPHERALS_1_FRAMING_ERR_1 ),
-        // Outputs
-        .Y ( framing_err_Y ) 
         );
 
 //--------OR3
@@ -1455,11 +1420,11 @@ MSS_WRAPPER MSS_WRAPPER_1(
         .MSS_INT_F2M_3                             ( mBUS_INT ),
         .MSS_INT_F2M_4                             ( GND_net ),
         .MSS_INT_F2M_5                             ( FIC_3_PERIPHERALS_1_RPI_ID_I2C_IRQ ),
-        .MSS_INT_F2M_6                             ( rx_rdy_Y ),
-        .MSS_INT_F2M_7                             ( tx_rdy_Y ),
-        .MSS_INT_F2M_8                             ( parity_err_Y ),
-        .MSS_INT_F2M_9                             ( overflow_Y ),
-        .MSS_INT_F2M_10                            ( framing_err_Y ),
+        .MSS_INT_F2M_6                             ( FIC_3_PERIPHERALS_1_RXRDY ),
+        .MSS_INT_F2M_7                             ( FIC_3_PERIPHERALS_1_TXRDY ),
+        .MSS_INT_F2M_8                             ( FIC_3_PERIPHERALS_1_PARITY_ERR ),
+        .MSS_INT_F2M_9                             ( FIC_3_PERIPHERALS_1_OVERFLOW ),
+        .MSS_INT_F2M_10                            ( FIC_3_PERIPHERALS_1_FRAMING_ERR ),
         .MSS_INT_F2M_59                            ( FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_4_IRQ ),
         .MSS_INT_F2M_60                            ( FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_3_IRQ ),
         .MSS_INT_F2M_61                            ( FIC_3_PERIPHERALS_1_IHC_MP_APP_U54_2_IRQ ),
@@ -1723,33 +1688,6 @@ MSS_WRAPPER MSS_WRAPPER_1(
         );
 
 //--------OR2
-OR2 overflow(
-        // Inputs
-        .A ( FIC_3_PERIPHERALS_1_OVERFLOW ),
-        .B ( FIC_3_PERIPHERALS_1_OVERFLOW_1 ),
-        // Outputs
-        .Y ( overflow_Y ) 
-        );
-
-//--------OR2
-OR2 parity_err(
-        // Inputs
-        .A ( FIC_3_PERIPHERALS_1_PARITY_ERR ),
-        .B ( FIC_3_PERIPHERALS_1_PARITY_ERR_1 ),
-        // Outputs
-        .Y ( parity_err_Y ) 
-        );
-
-//--------OR2
-OR2 rx_rdy(
-        // Inputs
-        .A ( FIC_3_PERIPHERALS_1_RXRDY ),
-        .B ( FIC_3_PERIPHERALS_1_RXRDY_1 ),
-        // Outputs
-        .Y ( rx_rdy_Y ) 
-        );
-
-//--------OR2
 OR2 SW1_OR_GPIO_2_28(
         // Inputs
         .A ( A_IN_POST_INV1_0 ),
@@ -1774,15 +1712,6 @@ OR2 SW3_OR_GPIO_2_27(
         .B ( MSS_WRAPPER_1_GPIO_2_M2F_27 ),
         // Outputs
         .Y ( SW3_OR_GPIO_2_27_Y ) 
-        );
-
-//--------OR2
-OR2 tx_rdy(
-        // Inputs
-        .A ( FIC_3_PERIPHERALS_1_TXRDY ),
-        .B ( FIC_3_PERIPHERALS_1_TXRDY_1 ),
-        // Outputs
-        .Y ( tx_rdy_Y ) 
         );
 
 

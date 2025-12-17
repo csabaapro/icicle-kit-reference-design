@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)</text>
-<text>Date: Thu Oct 30 12:50:35 2025
+<text>Date: Wed Dec 17 15:03:00 2025
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,27 +74,27 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>15135</cell>
+ <cell>17499</cell>
  <cell>254196</cell>
- <cell>5.95</cell>
+ <cell>6.88</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>11812</cell>
+ <cell>13681</cell>
  <cell>254196</cell>
- <cell>4.65</cell>
+ <cell>5.38</cell>
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>67</cell>
+ <cell>65</cell>
  <cell>144</cell>
- <cell>46.53</cell>
+ <cell>45.14</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>67</cell>
+ <cell>65</cell>
  <cell>144</cell>
- <cell>46.53</cell>
+ <cell>45.14</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -140,9 +140,9 @@
 </row>
 <row>
  <cell>LSRAM</cell>
- <cell>25</cell>
+ <cell>39</cell>
  <cell>812</cell>
- <cell>3.08</cell>
+ <cell>4.80</cell>
 </row>
 <row>
  <cell>Math</cell>
@@ -268,8 +268,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>13383</cell>
- <cell>10060</cell>
+ <cell>15243</cell>
+ <cell>11425</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -278,8 +278,8 @@
 </row>
 <row>
  <cell>LSRAM Interface Logic</cell>
- <cell>900</cell>
- <cell>900</cell>
+ <cell>1404</cell>
+ <cell>1404</cell>
 </row>
 <row>
  <cell>Math Interface Logic</cell>
@@ -288,8 +288,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>15135</cell>
- <cell>11812</cell>
+ <cell>17499</cell>
+ <cell>13681</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -322,11 +322,11 @@
 </row>
 <row>
  <cell>8</cell>
- <cell>32</cell>
+ <cell>52</cell>
 </row>
 <row>
  <cell>9</cell>
- <cell>22</cell>
+ <cell>44</cell>
 </row>
 <row>
  <cell>10</cell>
@@ -346,7 +346,7 @@
 </row>
 <row>
  <cell>14</cell>
- <cell>9</cell>
+ <cell>16</cell>
 </row>
 <row>
  <cell>17</cell>
@@ -374,7 +374,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>141</cell>
+ <cell>190</cell>
 </row>
 </table>
 <section><name>Detailed 4LUT Groups Resource Usage</name></section>
@@ -387,11 +387,11 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>123</cell>
+ <cell>159</cell>
 </row>
 <row>
  <cell>5</cell>
- <cell>2</cell>
+ <cell>9</cell>
 </row>
 <row>
  <cell>22</cell>
@@ -399,7 +399,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>127</cell>
+ <cell>170</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -412,13 +412,13 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>14</cell>
+ <cell>13</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>30</cell>
+ <cell>29</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -479,6 +479,21 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
+ <cell>2561</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
  <cell>2478</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dff_arst_0</cell>
@@ -487,6 +502,21 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2468</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dff_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -524,21 +554,6 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>1168</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CLOCKS_AND_RESETS_FIC_3_CLK</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
  <cell>1112</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/sysReset_arst</cell>
@@ -547,21 +562,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
- <cell>1103</cell>
- <cell>INT_NET</cell>
- <cell>Net   : dff_arst</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -655,6 +655,16 @@
  <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15[0]</cell>
 </row>
 <row>
+ <cell>204</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS</cell>
+</row>
+<row>
  <cell>192</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/externDscrptr_DscrptrSrcMux</cell>
@@ -673,6 +683,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/intErrorCtrl_inst/rdCache1Sel_fast</cell>
+</row>
+<row>
+ <cell>169</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS</cell>
 </row>
 <row>
  <cell>169</cell>
@@ -705,6 +725,16 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/wrTranQueue_inst/strDscrptr_wrTranQueue05</cell>
 </row>
 <row>
+ <cell>158</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS</cell>
+</row>
+<row>
  <cell>141</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0_MEM_WEN</cell>
@@ -713,36 +743,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0/genblk1.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc</cell>
-</row>
-<row>
- <cell>135</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/N_79</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_currState_1_i_o3</cell>
-</row>
-<row>
- <cell>132</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize_Z[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize[0]</cell>
-</row>
-<row>
- <cell>129</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP_Z</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -763,6 +763,16 @@
  <cell>Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15[0]</cell>
 </row>
 <row>
+ <cell>204</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS</cell>
+</row>
+<row>
  <cell>192</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/externDscrptr_DscrptrSrcMux</cell>
@@ -781,6 +791,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/intErrorCtrl_inst/rdCache1Sel_fast</cell>
+</row>
+<row>
+ <cell>169</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS</cell>
 </row>
 <row>
  <cell>169</cell>
@@ -813,6 +833,16 @@
  <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/wrTranQueue_inst/strDscrptr_wrTranQueue05</cell>
 </row>
 <row>
+ <cell>158</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS</cell>
+</row>
+<row>
  <cell>141</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0_MEM_WEN</cell>
@@ -821,36 +851,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0/genblk1.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc</cell>
-</row>
-<row>
- <cell>135</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/N_79</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_currState_1_i_o3</cell>
-</row>
-<row>
- <cell>132</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize_Z[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize[0]</cell>
-</row>
-<row>
- <cell>129</cell>
- <cell>INT_NET</cell>
- <cell>Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP_Z</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP</cell>
 </row>
 </table>
 </doc>

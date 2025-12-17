@@ -1,4 +1,4 @@
-# Thu Oct 30 12:47:22 2025
+# Wed Dec 17 15:01:52 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -41,398 +41,74 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|Found compile point of type hard on View view:work.caxi4interconnect_MasterConvertor_Z19(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z50(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z40(verilog) 
-@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z80(verilog) 
+@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z87(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z58(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z64(verilog) 
 
 Synthesis running in Multiprocessing mode
 Maximum number of parallel jobs set to 4
-Multiprocessing started at : Thu Oct 30 12:47:24 2025
-Mapping MPFS_ICICLE_KIT_BASE_DESIGN as a separate process
+Multiprocessing started at : Wed Dec 17 15:01:54 2025
+@N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Old database up-to-date, remapping Compile point view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Old database up-to-date, remapping Compile point view:work.COREAXI4INTERCONNECT_Z40(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_SlaveConvertor_Z50(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller_dma_controller.v":16:7:16:73|Old database up-to-date, remapping Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\dma_controller\dma_controller_0\rtl\vlog\core\coreaxi4dmacontroller.v":16:7:16:59|Old database up-to-date, remapping Compile point view:work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog) unnecessary 
-@N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Old database up-to-date, remapping Compile point view:work.miv_ihc_core_Z80(verilog) unnecessary 
+@N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Old database up-to-date, remapping Compile point view:work.miv_ihc_core_Z87(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Old database up-to-date, remapping Compile point view:work.COREAXI4INTERCONNECT_Z58(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Old database up-to-date, remapping Compile point view:work.COREAXI4INTERCONNECT_Z64(verilog) unnecessary 
 @N: MF107 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_MasterConvertor_Z19(verilog) unnecessary 
-MCP Status: 1 jobs running
-
-@N: MF106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mpfs_icicle_kit_base_design\mpfs_icicle_kit_base_design.v":9:7:9:33|Mapping Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) because 
-		 Interface of Compile Point has changed.
-
-
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 394MB peak: 434MB)
-
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-@N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
-Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s(verilog) (flattening)
-
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z76(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z76(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z76(verilog)) with 16 words by 4 bits.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 5 words by 5 bits.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 16 words by 1 bit.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog)) with 29 words by 5 bits.
-
-Finished RTL optimizations (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 404MB peak: 434MB)
-
-Encoding state machine U_DMAController.extDscrptrFetchFSM_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog))
-original code -> new code
-   00000001 -> 00000001
-   00000010 -> 00000010
-   00000100 -> 00000100
-   00001000 -> 00001000
-   00010000 -> 00010000
-   00100000 -> 00100000
-   01000000 -> 01000000
-   10000000 -> 10000000
-Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
-Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
-Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
-Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
-Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z23(verilog)); safe FSM implementation is not required.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.mReady because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.sValid because it is equivalent to instance FIC_0_PERIPHERALS_1.DMA_INITIATOR_inst_0.DMA_INITIATOR_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\fifo_ctrl.v":98:0:98:5|Found counter in view:work.caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_MPFS_ICICLE_KIT_BASE_DESIGN(verilog) instance rdptr[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\fifo_ctrl.v":98:0:98:5|Found counter in view:work.caxi4interconnect_FIFO_CTRL_256s_255s_0s_8s_256s_0s_MPFS_ICICLE_KIT_BASE_DESIGN(verilog) instance wrptr[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1666:4:1666:9|Found counter in view:work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog) instance genblk2\.rdbeat_cnt[8:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1398:10:1398:15|Found counter in view:work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog) instance genblk2\.genblk2\.ram_rdreq_cntr[8:0] 
-@N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk2\.genblk2\.ren_sc8 (in view: work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog))
-Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
-@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
-@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
-Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
-original code -> new code
-   00000000000000000000000000000000 -> 0000001
-   00000000000000000000000000000001 -> 0000010
-   00000000000000000000000000000010 -> 0000100
-   00000000000000000000000000000011 -> 0001000
-   00000000000000000000000000000100 -> 0010000
-   00000000000000000000000000000101 -> 0100000
-   00000000000000000000000000000110 -> 1000000
-Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
-@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
-@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
-Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
-original code -> new code
-   00000000000000000000000000000000 -> 0000001
-   00000000000000000000000000000001 -> 0000010
-   00000000000000000000000000000010 -> 0000100
-   00000000000000000000000000000011 -> 0001000
-   00000000000000000000000000000100 -> 0010000
-   00000000000000000000000000000101 -> 0100000
-   00000000000000000000000000000110 -> 1000000
-Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C1_inst_0.CoreUARTapb_C1_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C1_inst_0.CoreUARTapb_C1_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":73:0:73:5|Found counter in view:work.corepwm_timebase_32s_0s(verilog) instance period_cnt[31:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Found counter in view:work.corepwm_timebase_32s_0s(verilog) instance prescale_cnt[31:0] 
-@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":85:16:85:44|Found 32 by 32 bit equality operator ('==') un1_prescale_reg (in view: work.corepwm_timebase_32s_0s(verilog))
-@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":73:12:73:116|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_pwm_posedge_reg (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
-@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":79:17:79:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
-@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
-Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
-original code -> new code
-   000 -> 0000001
-   001 -> 0000010
-   010 -> 0000100
-   011 -> 0001000
-   100 -> 0010000
-   101 -> 0100000
-   110 -> 1000000
-Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
-original code -> new code
-   000 -> 00000001
-   001 -> 00000010
-   010 -> 00000100
-   011 -> 00001000
-   100 -> 00010000
-   101 -> 00100000
-   110 -> 01000000
-   111 -> 10000000
-Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
-original code -> new code
-   000 -> 0000001
-   001 -> 0000010
-   010 -> 0000100
-   011 -> 0001000
-   100 -> 0010000
-   101 -> 0100000
-   110 -> 1000000
-Encoding state machine lnk_m_cs[19:0] (in view: work.G5_APBLINK_MASTER_Z62(verilog))
-original code -> new code
-   000000 -> 00000000000000000001
-   000001 -> 00000000000000000010
-   000010 -> 00000000000000000100
-   000011 -> 00000000000000001000
-   000100 -> 00000000000000010000
-   000101 -> 00000000000000100000
-   000110 -> 00000000000001000000
-   000111 -> 00000000000010000000
-   001000 -> 00000000000100000000
-   001001 -> 00000000001000000000
-   001010 -> 00000000010000000000
-   001011 -> 00000000100000000000
-   001100 -> 00000001000000000000
-   001101 -> 00000010000000000000
-   001110 -> 00000100000000000000
-   001111 -> 00001000000000000000
-   010000 -> 00010000000000000000
-   010001 -> 00100000000000000000
-   010010 -> 01000000000000000000
-   010011 -> 10000000000000000000
-@N: FX493 |Applying initial value "1" on instance lnk_m_cs[0].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[1].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[2].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[3].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[4].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[5].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[6].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[7].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[8].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[9].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[10].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[11].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[12].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[13].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[14].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[15].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[16].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[17].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[18].
-@N: FX493 |Applying initial value "0" on instance lnk_m_cs[19].
-@N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":120:16:120:47|Found 24 by 24 bit equality operator ('==') un2_match (in view: work.G5_APBLINK_MASTER_Z62(verilog))
-
-Starting factoring (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:35s; Memory used current: 386MB peak: 434MB)
-
-Auto Dissolve of FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0 (inst of view:work.PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE(verilog))
-
-Finished factoring (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:36s; Memory used current: 404MB peak: 434MB)
-
-
-Available hyper_sources - for debug and ip models
-	None Found
-
-NConnInternalConnection caching is on
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 382MB peak: 434MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 382MB peak: 434MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 383MB peak: 434MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:47s; CPU Time elapsed 0h:00m:46s; Memory used current: 383MB peak: 434MB)
-
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Removing sequential instance FIC_3_PERIPHERALS_1.RPi_ID_I2C.COREI2C_C0_0.COREI2C_C0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-
-Finished preparing to map (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 384MB peak: 434MB)
-
-
-Finished technology mapping (Real Time elapsed 0h:00m:51s; CPU Time elapsed 0h:00m:50s; Memory used current: 400MB peak: 434MB)
-
-Pass		 CPU time		Worst Slack		Luts / Registers
-------------------------------------------------------------
-   1		0h:00m:51s		     2.18ns		2636 /      2312
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Added 0 Buffers
-Added 0 Cells via replication
-	Added 0 Sequential Cells via replication
-	Added 0 Combinational Cells via replication
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:55s; CPU Time elapsed 0h:00m:54s; Memory used current: 402MB peak: 434MB)
-
-
-Finished restoring hierarchy (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 405MB peak: 434MB)
-
-
-Finished mapping MPFS_ICICLE_KIT_BASE_DESIGN
-Multiprocessing finished at : Thu Oct 30 12:48:26 2025
-Multiprocessing took 0h:01m:01s realtime, 0h:00m:05s cputime
+Multiprocessing finished at : Wed Dec 17 15:01:59 2025
+Multiprocessing took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Summary of Compile Points :
 *************************** 
-Name                                                                       Status        Reason                                 Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-COREAXI4INTERCONNECT_Z40                                                   Unchanged     -                                      Mon Oct 27 12:41:18 2025     Mon Oct 27 12:42:09 2025     0h:00m:50s     0h:00m:49s     No            
-caxi4interconnect_SlaveConvertor_Z50                                       Unchanged     -                                      Mon Oct 27 12:41:18 2025     Mon Oct 27 12:41:38 2025     0h:00m:19s     0h:00m:19s     No            
-DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9     Unchanged     -                                      Mon Oct 27 12:41:19 2025     Mon Oct 27 12:41:26 2025     0h:00m:07s     0h:00m:07s     No            
-DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12                  Unchanged     -                                      Mon Oct 27 12:41:27 2025     Mon Oct 27 12:41:41 2025     0h:00m:13s     0h:00m:13s     No            
-miv_ihc_core_Z80                                                           Unchanged     -                                      Wed Oct 29 16:08:50 2025     Wed Oct 29 16:08:58 2025     0h:00m:07s     0h:00m:07s     No            
-COREAXI4INTERCONNECT_Z58                                                   Unchanged     -                                      Mon Oct 27 12:41:42 2025     Mon Oct 27 12:42:05 2025     0h:00m:22s     0h:00m:23s     No            
-COREAXI4INTERCONNECT_Z64                                                   Unchanged     -                                      Mon Oct 27 12:41:48 2025     Mon Oct 27 12:42:11 2025     0h:00m:22s     0h:00m:22s     No            
-caxi4interconnect_MasterConvertor_Z19                                      Unchanged     -                                      Mon Oct 27 12:42:06 2025     Mon Oct 27 12:42:12 2025     0h:00m:06s     0h:00m:06s     No            
-MPFS_ICICLE_KIT_BASE_DESIGN                                                Remapped      Interface of Compile Point changed     Thu Oct 30 12:47:26 2025     Thu Oct 30 12:48:26 2025     0h:00m:59s     0h:00m:58s     No            
-======================================================================================================================================================================================================================================
+Name                                                                       Status        Reason     Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+caxi4interconnect_MasterConvertor_Z19                                      Unchanged     -          Mon Oct 27 12:42:06 2025     Mon Oct 27 12:42:12 2025     0h:00m:06s     0h:00m:06s     No            
+COREAXI4INTERCONNECT_Z40                                                   Unchanged     -          Mon Oct 27 12:41:18 2025     Mon Oct 27 12:42:09 2025     0h:00m:50s     0h:00m:49s     No            
+caxi4interconnect_SlaveConvertor_Z50                                       Unchanged     -          Mon Oct 27 12:41:18 2025     Mon Oct 27 12:41:38 2025     0h:00m:19s     0h:00m:19s     No            
+DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9     Unchanged     -          Mon Oct 27 12:41:19 2025     Mon Oct 27 12:41:26 2025     0h:00m:07s     0h:00m:07s     No            
+DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12                  Unchanged     -          Mon Oct 27 12:41:27 2025     Mon Oct 27 12:41:41 2025     0h:00m:13s     0h:00m:13s     No            
+miv_ihc_core_Z87                                                           Unchanged     -          Wed Dec 17 13:37:30 2025     Wed Dec 17 13:37:44 2025     0h:00m:13s     0h:00m:14s     No            
+COREAXI4INTERCONNECT_Z58                                                   Unchanged     -          Mon Oct 27 12:41:42 2025     Mon Oct 27 12:42:05 2025     0h:00m:22s     0h:00m:23s     No            
+COREAXI4INTERCONNECT_Z64                                                   Unchanged     -          Mon Oct 27 12:41:48 2025     Mon Oct 27 12:42:11 2025     0h:00m:22s     0h:00m:22s     No            
+MPFS_ICICLE_KIT_BASE_DESIGN                                                Unchanged     -          Wed Dec 17 14:02:43 2025     Wed Dec 17 14:04:42 2025     0h:01m:59s     0h:01m:56s     No            
+==========================================================================================================================================================================================================
 Total number of compile points: 9
 ===================================
 
 Links to Compile point Reports:
 ******************************
-@L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\caxi4interconnect_MasterConvertor_Z19\caxi4interconnect_MasterConvertor_Z19.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z64\COREAXI4INTERCONNECT_Z64.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z58\COREAXI4INTERCONNECT_Z58.srr"
-@L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z80\miv_ihc_core_Z80.srr"
+@L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\miv_ihc_core_Z87\miv_ihc_core_Z87.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12\DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9\DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_DMAController_Z9.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\caxi4interconnect_SlaveConvertor_Z50\caxi4interconnect_SlaveConvertor_Z50.srr"
 @L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\COREAXI4INTERCONNECT_Z40\COREAXI4INTERCONNECT_Z40.srr"
+@L: "D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.srr"
 
 ==============================
 
 
-Start loading CP mapped netlist (Real Time elapsed 0h:01m:04s; CPU Time elapsed 0h:00m:07s; Memory used current: 618MB peak: 621MB)
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 628MB peak: 632MB)
 
 
-Finished loading CP mapped netlist (Real Time elapsed 0h:01m:08s; CPU Time elapsed 0h:00m:10s; Memory used current: 623MB peak: 623MB)
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 635MB peak: 635MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:01m:16s; CPU Time elapsed 0h:00m:17s; Memory used current: 630MB peak: 630MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 643MB peak: 643MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:01m:16s; CPU Time elapsed 0h:00m:18s; Memory used current: 630MB peak: 630MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 643MB peak: 643MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:01m:19s; CPU Time elapsed 0h:00m:20s; Memory used current: 224MB peak: 631MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 223MB peak: 644MB)
 
 Writing Analyst data base D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\synwork\MPFS_ICICLE_KIT_BASE_DESIGN_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 383MB peak: 631MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 392MB peak: 644MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -442,13 +118,13 @@ Writing Verilog Simulation files
 @W: BW156 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":25:0:25:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":26:0:26:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:01m:51s; CPU Time elapsed 0h:00m:48s; Memory used current: 373MB peak: 631MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 384MB peak: 644MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:01m:51s; CPU Time elapsed 0h:00m:48s; Memory used current: 373MB peak: 631MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 384MB peak: 644MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:01m:55s; CPU Time elapsed 0h:00m:52s; Memory used current: 375MB peak: 631MB)
+Start final timing analysis (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 383MB peak: 644MB)
 
 @W: MT246 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\oscillator_160mhz\oscillator_160mhz_0\oscillator_160mhz_oscillator_160mhz_0_pf_osc.v":15:17:15:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\init_monitor\init_monitor_0\init_monitor_init_monitor_0_pfsoc_init_monitor.v":38:53:38:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -464,7 +140,7 @@ Start final timing analysis (Real Time elapsed 0h:01m:55s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Thu Oct 30 12:49:20 2025
+# Timing report written on Wed Dec 17 15:02:20 2025
 #
 
 
@@ -492,7 +168,7 @@ Starting Clock                                                                  
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0              125.0 MHz     126.7 MHz     8.000         7.896         0.104      generated (from REF_CLK_50MHz)     FIC0_clks       
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1              125.0 MHz     98.4 MHz      8.000         10.162        -1.081     generated (from REF_CLK_50MHz)     FIC1_clks       
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT2              125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_50MHz)     FIC2_clks       
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              50.0 MHz      92.6 MHz      20.000        10.796        9.204      generated (from REF_CLK_50MHz)     FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3              50.0 MHz      92.1 MHz      20.000        10.859        9.141      generated (from REF_CLK_50MHz)     FIC3_clks       
 CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD/Y_DIV           85.2 MHz      NA            11.737        NA            NA         generated (from osc_rc160mhz)      default_clkgroup
 CLOCKS_AND_RESETS_inst_0/TRANSMIT_PLL_0/TRANSMIT_PLL_0/txpll_isnt_0/DIV_CLK     125.0 MHz     NA            8.000         NA            NA         declared                           default_clkgroup
 REF_CLK_50MHz                                                                   50.0 MHz      NA            20.000        NA            NA         declared                           default_clkgroup
@@ -518,7 +194,7 @@ System                                                              CLOCKS_AND_R
 System                                                              CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.000      18.486  |  No paths    -      |  No paths    -      |  No paths    -     
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT0  |  8.000       0.105   |  No paths    -      |  No paths    -      |  No paths    -     
 CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT1  |  8.000       2.453   |  No paths    -      |  No paths    -      |  4.000       -1.081
-CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.000      9.204   |  No paths    -      |  No paths    -      |  No paths    -     
+CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3  |  20.000      9.141   |  No paths    -      |  No paths    -      |  No paths    -     
 ================================================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -885,16 +561,16 @@ Starting Points with Worst Slack
 Instance                                  Reference                                                              Type     Pin                       Net                                             Time        Slack
                                           Clock                                                                                                                                                                      
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[11]     1.768       9.141
 MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[13]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[13]     1.825       9.204
 MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[16]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[16]     1.743       9.206
 MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[12]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[12]     1.758       9.262
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[11]     1.768       9.276
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[10]     1.772       9.266
 MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[18]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[18]     1.753       9.391
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[10]     1.772       9.404
 MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[17]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[17]     1.775       9.405
 MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[19]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[19]     1.722       9.421
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[14]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[14]     1.806       9.890
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[15]     MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[15]     1.752       9.929
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[8]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[8]      1.763       9.815
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[9]      MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[9]      1.716       9.862
 =====================================================================================================================================================================================================================
 
 
@@ -905,16 +581,16 @@ Ending Points with Worst Slack
 Instance                                                                                        Reference                                                              Type        Pin            Net                       Time         Slack
                                                                                                 Clock                                                                                                                                         
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[10]     COMMON_MB_ADDR_OUT[6]     19.274       9.204
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[10]     COMMON_MB_ADDR_OUT[6]     19.274       9.204
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[9]      COMMON_MB_ADDR_OUT[5]     19.274       9.213
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[9]      COMMON_MB_ADDR_OUT[5]     19.274       9.213
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[8]      COMMON_MB_ADDR_OUT[4]     19.274       9.222
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[8]      COMMON_MB_ADDR_OUT[4]     19.274       9.222
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[7]      COMMON_MB_ADDR_OUT[3]     19.274       9.737
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[7]      COMMON_MB_ADDR_OUT[3]     19.274       9.737
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[4]      COMMON_MB_ADDR_OUT[0]     19.274       9.981
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[5]      COMMON_MB_ADDR_OUT[1]     19.274       9.981
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[10]     COMMON_MB_ADDR_OUT[6]     19.274       9.141
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[10]     COMMON_MB_ADDR_OUT[6]     19.274       9.141
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[9]      COMMON_MB_ADDR_OUT[5]     19.274       9.150
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[9]      COMMON_MB_ADDR_OUT[5]     19.274       9.150
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[8]      COMMON_MB_ADDR_OUT[4]     19.274       9.159
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[8]      COMMON_MB_ADDR_OUT[4]     19.274       9.159
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[7]      COMMON_MB_ADDR_OUT[3]     19.274       9.674
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_1     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[7]      COMMON_MB_ADDR_OUT[3]     19.274       9.674
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[4]      COMMON_MB_ADDR_OUT[0]     19.274       9.918
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0     CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3     RAM1K20     A_ADDR[5]      COMMON_MB_ADDR_OUT[1]     19.274       9.918
 ==============================================================================================================================================================================================================================================
 
 
@@ -929,12 +605,12 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         19.274
 
-    - Propagation time:                      10.070
+    - Propagation time:                      10.133
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 9.204
+    = Slack (non-critical) :                 9.141
 
-    Number of logic level(s):                12
-    Starting point:                          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PADDR[13]
+    Number of logic level(s):                11
+    Starting point:                          MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS / FIC_3_APB_M_PADDR[11]
     Ending point:                            FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0 / A_ADDR[10]
     The start point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin FIC_3_PCLK
     The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin A_CLK
@@ -942,47 +618,44 @@ Path information for path number 1:
 Instance / Net                                                                                                                    Pin                       Pin               Arrival      No. of    
 Name                                                                                                                  Type        Name                      Dir     Delay     Time         Fan Out(s)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                                                                                 MSS         FIC_3_APB_M_PADDR[13]     Out     1.825     1.825 f      -         
-MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[13]                                                                           Net         -                         -       0.781     -            11        
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32_1[28]                CFG3        B                         In      -         2.606 f      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32_1[28]                CFG3        Y                         Out     0.099     2.705 r      -         
-RDATA_i_o2_0_o2_10_a2_32_1[28]                                                                                        Net         -                         -       0.146     -            2         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32[28]                  CFG4        B                         In      -         2.852 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.RDATA_i_o2_0_o2_10_a2_32[28]                  CFG4        Y                         Out     0.098     2.950 r      -         
-N_2164                                                                                                                Net         -                         -       0.665     -            4         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN14_0_a2_0_a2_1_a2_2             CFG3        C                         In      -         3.614 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN14_0_a2_0_a2_1_a2_2             CFG3        Y                         Out     0.175     3.789 r      -         
-N_2173                                                                                                                Net         -                         -       0.146     -            2         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN29_0_a2_1_a2_1_a2_0             CFG3        B                         In      -         3.935 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN29_0_a2_1_a2_1_a2_0             CFG3        Y                         Out     0.098     4.033 r      -         
-N_2227                                                                                                                Net         -                         -       0.645     -            3         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN24_0_a2_4_a2_1_a2               CFG3        C                         In      -         4.679 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN24_0_a2_4_a2_1_a2               CFG3        Y                         Out     0.175     4.853 r      -         
-H0_TO_H1_WR_EN24                                                                                                      Net         -                         -       0.847     -            16        
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_0_0          CFG4        D                         In      -         5.700 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_0_0          CFG4        Y                         Out     0.250     5.950 f      -         
-un2_MB_A_WR_EN_1_i_0_i_0_a2_0                                                                                         Net         -                         -       0.645     -            3         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2              CFG4        D                         In      -         6.596 f      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2              CFG4        Y                         Out     0.226     6.822 f      -         
+MSS_WRAPPER_1.ICICLE_MSS_inst_0.I_MSS                                                                                 MSS         FIC_3_APB_M_PADDR[11]     Out     1.768     1.768 f      -         
+MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[11]                                                                           Net         -                         -       0.930     -            24        
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_m2_e_1_1_0                                 CFG4        D                         In      -         2.699 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_m2_e_1_1_0                                 CFG4        Y                         Out     0.274     2.972 r      -         
+H0_m2_e_1_1                                                                                                           Net         -                         -       0.645     -            3         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN17_0_a2_0_a2_0_a2_0             CFG3        C                         In      -         3.617 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN17_0_a2_0_a2_0_a2_0             CFG3        Y                         Out     0.175     3.792 r      -         
+N_2168                                                                                                                Net         -                         -       0.809     -            13        
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN11_0_a2_0_a2_0_a2               CFG4        C                         In      -         4.601 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.addr_mux_0.H0_TO_H1_WR_EN11_0_a2_0_a2_0_a2               CFG4        Y                         Out     0.175     4.776 r      -         
+H0_TO_H1_WR_EN11                                                                                                      Net         -                         -       0.809     -            13        
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.gen_h0_h1\.CH_H0_H1.un1_ctrl_b_wr_en_0_i_0_a2            CFG2        A                         In      -         5.585 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.gen_h0_h1\.CH_H0_H1.un1_ctrl_b_wr_en_0_i_0_a2            CFG2        Y                         Out     0.054     5.639 f      -         
+N_2283                                                                                                                Net         -                         -       0.701     -            6         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0[6]                    CFG4        D                         In      -         6.341 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0[6]                    CFG4        Y                         Out     0.226     6.567 f      -         
+A_BUF_PTR_0_0_a2_0[6]                                                                                                 Net         -                         -       0.146     -            2         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2              CFG4        C                         In      -         6.713 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2              CFG4        Y                         Out     0.172     6.885 f      -         
 N_2440                                                                                                                Net         -                         -       0.719     -            7         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_RNI4UDS5     CFG2        A                         In      -         7.541 f      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_RNI4UDS5     CFG2        Y                         Out     0.056     7.596 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_RNI4UDS5     CFG2        A                         In      -         7.604 f      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un2_MB_A_WR_EN_1_i_0_i_0_a2_RNI4UDS5     CFG2        Y                         Out     0.056     7.659 r      -         
 N_490_i                                                                                                               Net         -                         -       0.665     -            4         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNI3IIR51[3]               ARI1        C                         In      -         8.261 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNI3IIR51[3]               ARI1        FCO                       Out     0.464     8.725 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNI3IIR51[3]               ARI1        C                         In      -         8.324 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNI3IIR51[3]               ARI1        FCO                       Out     0.464     8.788 r      -         
 COMMON_MB_ADDR_OUT_cry_3                                                                                              Net         -                         -       0.000     -            1         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNIP2RNO3[4]               ARI1        FCI                       In      -         8.725 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNIP2RNO3[4]               ARI1        FCO                       Out     0.009     8.735 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNIP2RNO3[4]               ARI1        FCI                       In      -         8.788 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.un1_ADDR_IN_1_RNIP2RNO3[4]               ARI1        FCO                       Out     0.009     8.797 r      -         
 COMMON_MB_ADDR_OUT_cry_4                                                                                              Net         -                         -       0.000     -            1         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0_RNIRPAK84[5]          ARI1        FCI                       In      -         8.735 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0_RNIRPAK84[5]          ARI1        FCO                       Out     0.009     8.744 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0_RNIRPAK84[5]          ARI1        FCI                       In      -         8.797 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_0_RNIRPAK84[5]          ARI1        FCO                       Out     0.009     8.807 r      -         
 COMMON_MB_ADDR_OUT_cry_5                                                                                              Net         -                         -       0.000     -            1         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_RNI6GHJF4[6]            ARI1        FCI                       In      -         8.744 r      -         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_RNI6GHJF4[6]            ARI1        S                         Out     0.354     9.098 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_RNI6GHJF4[6]            ARI1        FCI                       In      -         8.807 r      -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.mb_addr_decoder.A_BUF_PTR_0_0_a2_RNI6GHJF4[6]            ARI1        S                         Out     0.354     9.161 r      -         
 COMMON_MB_ADDR_OUT[6]                                                                                                 Net         -                         -       0.972     -            2         
-FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0                           RAM1K20     A_ADDR[10]                In      -         10.070 r     -         
+FIC_3_PERIPHERALS_1.MIV_IHC_C0_0.MIV_IHC_C0_0.miv_ihc_core_0.common_mailbox_ram.mem_mem_0_0                           RAM1K20     A_ADDR[10]                In      -         10.133 r     -         
 =====================================================================================================================================================================================================
-Total path delay (propagation time + setup) of 10.796 is 4.564(42.3%) logic and 6.232(57.7%) route.
+Total path delay (propagation time + setup) of 10.859 is 4.462(41.1%) logic and 6.398(58.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1069,10 +742,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"d:/pion101/icicle-kit-reference-design/mpfs_icicle_es/designer/mpfs_icicle_kit_base_design/synthesis.fdc":21:0:21:0|Timing constraint (from [get_pins { FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0.PCIE_1.TL_CLK }]) (false path) was not applied to the design because the from list is incorrect: it contains no clock, primary input, sequential cell, or sequential cell clock pin 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:01m:58s; CPU Time elapsed 0h:00m:55s; Memory used current: 383MB peak: 631MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 392MB peak: 644MB)
 
 
-Finished timing report (Real Time elapsed 0h:01m:59s; CPU Time elapsed 0h:00m:55s; Memory used current: 383MB peak: 631MB)
+Finished timing report (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 392MB peak: 644MB)
 
 ---------------------------------------
 Resource Usage Report for MPFS_ICICLE_KIT_BASE_DESIGN 
@@ -1086,10 +759,10 @@ CLKINT          13 uses
 ICB_CLKDIV      1 use
 ICB_NGMUX       1 use
 INIT            1 use
-INV             12 uses
+INV             40 uses
 MSS             1 use
-OR2             11 uses
-OR3             1 use
+OR2             6 uses
+OR3             25 uses
 OR4             64 uses
 OSC_RC160MHZ    1 use
 PCIE            1 use
@@ -1100,55 +773,55 @@ XCVR_APB_LINK   1 use
 XCVR_PIPE_AXI0  2 uses
 XCVR_PIPE_AXI1  2 uses
 XCVR_REF_CLK    1 use
-CFG1           103 uses
-CFG2           1951 uses
-CFG3           4565 uses
-CFG4           4718 uses
+CFG1           165 uses
+CFG2           2324 uses
+CFG3           4908 uses
+CFG4           5218 uses
 
 Carry cells:
-ARI1            1633 uses - used for arithmetic functions
-ARI1            300 uses - used for Wide-Mux implementation
-Total ARI1      1933 uses
+ARI1            2089 uses - used for arithmetic functions
+ARI1            407 uses - used for Wide-Mux implementation
+Total ARI1      2496 uses
 
 
 Sequential Cells: 
-SLE            10080 uses
+SLE            11445 uses
 
 DSP Blocks:    0 of 784 (0%)
 
-I/O ports: 188
-I/O primitives: 160
+I/O ports: 186
+I/O primitives: 158
 BIBUF          73 uses
 BIBUF_DIFF     4 uses
-INBUF          21 uses
+INBUF          20 uses
 INBUF_DIFF     3 uses
-OUTBUF         56 uses
+OUTBUF         55 uses
 OUTBUF_DIFF    3 uses
 
 
 Global Clock Buffers: 13
 
 RAM/ROM usage summary
-Total Block RAMs (RAM1K20) : 25 of 812 (3%)
+Total Block RAMs (RAM1K20) : 39 of 812 (4%)
 Total Block RAMs (RAM64x12) : 71 of 2352 (3%)
 
-Total LUTs:    13270
+Total LUTs:    15111
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
 RAM64X12 Interface Logic : SLEs = 852; LUTs = 852;
-RAM1K20  Interface Logic : SLEs = 900; LUTs = 900;
+RAM1K20  Interface Logic : SLEs = 1404; LUTs = 1404;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  10080 + 852 + 900 + 0 = 11832;
-Total number of LUTs after P&R:  13270 + 852 + 900 + 0 = 15022;
+Total number of SLEs after P&R:  11445 + 852 + 1404 + 0 = 13701;
+Total number of LUTs after P&R:  15111 + 852 + 1404 + 0 = 17367;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:01m:59s; CPU Time elapsed 0h:00m:55s; Memory used current: 145MB peak: 631MB)
+At Mapper Exit (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 147MB peak: 644MB)
 
-Process took 0h:01m:59s realtime, 0h:00m:55s cputime
-# Thu Oct 30 12:49:22 2025
+Process took 0h:00m:29s realtime, 0h:00m:28s cputime
+# Wed Dec 17 15:02:21 2025
 
 ###########################################################]

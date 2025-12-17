@@ -1,6 +1,6 @@
 ;----------------------------------------------------------------------------------
 ; Register Lock Bits Configuration File for peripheral blocks
-; Date:    Thu Oct 30 13:01:36 2025
+; Date:    Wed Dec 17 15:09:23 2025
 ; Version: 2025.1 2025.1.0.14
 ; Design:  MPFS_ICICLE_KIT_BASE_DESIGN
 ; Family:  PolarFireSoC

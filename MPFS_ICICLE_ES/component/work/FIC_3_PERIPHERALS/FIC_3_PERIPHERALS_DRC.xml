@@ -13,7 +13,7 @@
     <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message> bus interface data width mismatch</message>
-    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_03xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C0_0:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_03xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C2:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_03xx</crossprobe>
   </drc>
   <drc>
@@ -22,5 +22,54 @@
     <message> bus interface data width mismatch</message>
     <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_04xx:APBmslave0_PWDATAS[0-31] and RPi_ID_I2C:APBslave:APBslave_PWDATA[0-7] which may result in a loss of data.</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_04xx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_05xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C3:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_05xx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_06xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C4:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_06xx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_07xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C5:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_07xx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_08xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C6:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_08xx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_09xx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C7:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_09xx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_0axx:APBmslave0_PWDATAS[0-31] and CoreUARTapb_C8:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_0axx</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_0Bxx:APBmslave0_PWDATAS_0[0-31] and CoreUARTapb_C9:APB_bif:PWDATA[0-7] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIC_3_PERIPHERALS/pins/FIC_3_ADDRESS_GENERATION_1:FIC_3_0x4000_0Bxx</crossprobe>
   </drc>
 </drcreport>

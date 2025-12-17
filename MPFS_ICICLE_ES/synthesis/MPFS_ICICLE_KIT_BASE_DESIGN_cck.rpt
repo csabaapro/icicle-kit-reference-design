@@ -12,7 +12,7 @@ Hostname: DESKTOP-693NB92
 
 Implementation : synthesis
 
-# Written on Thu Oct 30 12:47:20 2025
+# Written on Wed Dec 17 15:01:51 2025
 
 ##### DESIGN INFO #######################################################
 
@@ -65,8 +65,6 @@ p:CA[5]
 p:CK
 p:CKE
 p:CK_N
-p:COREUART1_RX
-p:COREUART1_TX
 p:COREUART_RX
 p:COREUART_TX
 p:CS

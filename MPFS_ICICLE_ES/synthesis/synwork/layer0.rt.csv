@@ -1,12 +1,9 @@
 Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
-work, miv_ihc_core_Z80,0h:00m:02s,0h:00m:02s,0h:00m:00s,0h:00m:00s,   254 MB,     1 MB,     1 MB,     0 MB,     0 MB
-work, COREAXI4INTERCONNECT_Z64,0h:00m:03s,0h:00m:03s,-,0h:00m:00s,   263 MB,     2 MB,     2 MB,     0 MB,     0 MB
-work, caxi4interconnect_SlvProtocolConverter_Z46,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   279 MB,     3 MB,     3 MB,     0 MB,     0 MB
-work, caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   327 MB,    13 MB,     0 MB,     3 MB,    10 MB
-work, caxi4interconnect_SlvDataWidthConverter_Z44,0h:00m:03s,0h:00m:03s,-,0h:00m:00s,   327 MB,     4 MB,     4 MB,     0 MB,     0 MB
-work, COREAXI4INTERCONNECT_Z40,0h:00m:07s,0h:00m:07s,-,0h:00m:00s,   327 MB,    12 MB,     8 MB,     0 MB,     4 MB
-work, caxi4interconnect_AddressController_Z26,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   327 MB,     3 MB,     3 MB,     0 MB,     0 MB
-work, caxi4interconnect_Axi4CrossBar_Z24,0h:00m:04s,0h:00m:04s,-,0h:00m:00s,   327 MB,     4 MB,     4 MB,     0 MB,     0 MB
-work, caxi4interconnect_DWC_UpConv_RChannel_8s_1s_16s_4s_64s_32s_0_1s,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   327 MB,     0 MB,     0 MB,     0 MB,     0 MB
-work, caxi4interconnect_MstrDataWidthConv_Z15,0h:00m:05s,0h:00m:05s,-,0h:00m:00s,   327 MB,     2 MB,     2 MB,     0 MB,     0 MB
-work, COREAXI4INTERCONNECT_Z14,0h:00m:09s,0h:00m:09s,-,0h:00m:00s,   327 MB,     5 MB,     5 MB,     0 MB,     0 MB
+work, miv_ihc_core_Z87,0h:00m:03s,0h:00m:03s,0h:00m:00s,0h:00m:00s,   261 MB,     1 MB,     1 MB,     0 MB,     0 MB
+work, COREAXI4INTERCONNECT_Z64,0h:00m:02s,0h:00m:02s,-,0h:00m:00s,   270 MB,     3 MB,     3 MB,     0 MB,     0 MB
+work, caxi4interconnect_DWC_DownConv_widthConvwr_64s_32s_1s_46s_8s_4s_9s,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   335 MB,    16 MB,     0 MB,     3 MB,    13 MB
+work, caxi4interconnect_SlvDataWidthConverter_Z44,0h:00m:02s,0h:00m:02s,-,0h:00m:00s,   335 MB,     4 MB,     4 MB,     0 MB,     0 MB
+work, COREAXI4INTERCONNECT_Z40,0h:00m:04s,0h:00m:04s,-,0h:00m:00s,   335 MB,    11 MB,     9 MB,     0 MB,     3 MB
+work, caxi4interconnect_Axi4CrossBar_Z24,0h:00m:02s,0h:00m:02s,-,0h:00m:00s,   335 MB,     4 MB,     4 MB,     0 MB,     0 MB
+work, caxi4interconnect_MstrDataWidthConv_Z15,0h:00m:03s,0h:00m:03s,-,0h:00m:00s,   335 MB,     2 MB,     2 MB,     0 MB,     0 MB
+work, COREAXI4INTERCONNECT_Z14,0h:00m:05s,0h:00m:05s,-,0h:00m:00s,   335 MB,     4 MB,     4 MB,     0 MB,     0 MB

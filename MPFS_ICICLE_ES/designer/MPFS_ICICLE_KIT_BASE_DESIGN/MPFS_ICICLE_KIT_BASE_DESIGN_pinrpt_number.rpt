@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Thu Oct 30 13:00:53 2025 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Wed Dec 17 15:09:03 2025 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: 2025.1
 -Version: 2025.1.0.14
@@ -17,8 +17,8 @@ A3      CAN_1_RXBUS                  MSSIO35B2                                  
 A4                                   VSS                                                     Reserved       
 A5      USB_ULPI_RESET               GPIO172NB1                                              Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
 A6                                   GPIO172PB1/CCC_SW_PLL1_OUT1                             Unassigned     
-A7      COREUART_TX                  GPIO173PB1/CLKIN_S_3/CCC_SW_CLKIN_S_3                   Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
-A8      COREUART1_TX                 GPIO175PB1                                              Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+A7                                   GPIO173PB1/CLKIN_S_3/CCC_SW_CLKIN_S_3                   Unassigned     
+A8      COREUART_TX                  GPIO175PB1                                              Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
 A9                                   VDDI1                                                   Reserved       
 A10                                  GPIO177PB1/CCC_SW_PLL0_OUT0                             Unassigned     
 A11                                  GPIO177NB1                                              Unassigned     
@@ -84,7 +84,7 @@ B4      RPi_GPIO26                   GPIO169NB1                                 
 B5      RPi_GPIO19                   GPIO170NB1/DQS                                          Fixed          LVCMOS33  Inout      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          OFF   8                  ---              5                 ---                       OFF           
 B6                                   VDDI1                                                   Reserved       
 B7      SDIO_SW_EN_N                 GPIO173NB1                                              Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
-B8      COREUART1_RX                 GPIO175NB1                                              Fixed          LVCMOS33  Input      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
+B8      COREUART_RX                  GPIO175NB1                                              Fixed          LVCMOS33  Input      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
 B9      RPi_ID_SD                    GPIO179NB1                                              Fixed          LVCMOS33  Inout      None          No                  OFF          None           No                                 OFF              ---              ---                 ---              OFF          OFF   8                  ---              5                 ---                       OFF           
 B10                                  GPIO179PB1                                              Unassigned     
 B11                                  VSS                                                     Reserved       
@@ -223,7 +223,7 @@ H11                                  SPI_EN                                     
 H12     QSPI_SEL                     GPIO182PB1/DQS                                          Fixed          LVCMOS33  Inout      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          OFF   8                  ---              5                 ---                       OFF           
 H13                                  GPIO185NB1                                              Unassigned     
 H14                                  VDDAUX1                                                 Reserved       
-H15     COREUART_RX                  GPIO7NB1                                                Fixed          LVCMOS33  Input      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
+H15                                  GPIO7NB1                                                Unassigned     
 H16                                  VDDAUX1                                                 Reserved       
 H17     RPi_GPIO17                   GPIO8NB1/DQS                                            Fixed          LVCMOS33  Inout      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          OFF   8                  ---              5                 ---                       OFF           
 H18                                  XCVR_VREF                                               Reserved       

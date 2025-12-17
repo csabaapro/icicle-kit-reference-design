@@ -1,4 +1,4 @@
-# Thu Oct 30 12:47:26 2025
+# Wed Dec 17 14:02:43 2025
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -22,16 +22,16 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 203MB)
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 203MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 203MB)
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 203MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
@@ -41,53 +41,53 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|Found compile point of type hard on View view:work.caxi4interconnect_MasterConvertor_Z19(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z50(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z40(verilog) 
-@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z80(verilog) 
+@N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\miv_ihc_c0\miv_ihc_c0_0\rtl\core\core_merged\miv_ihc_core_merged.v":3540:7:3540:18|Found compile point of type hard on View view:work.miv_ihc_core_Z87(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z58(verilog) 
 @N: MF104 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":25:7:25:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z64(verilog) 
 
 
 @N: MF105 |Performing bottom-up mapping of Top level view:work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog) 
 
-Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 413MB peak: 413MB)
+Start loading ILMs (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 418MB peak: 418MB)
 
 
-Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 419MB peak: 419MB)
+Start creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 424MB peak: 424MB)
 
 
-Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 420MB peak: 420MB)
+Finished creating ILM for FPGA DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 425MB peak: 425MB)
 
 
-Start creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 420MB peak: 420MB)
+Start creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 425MB peak: 425MB)
 
 
-Finished creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 420MB peak: 420MB)
+Finished creating ILM for FPGA caxi4interconnect_MasterConvertor_Z19 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 425MB peak: 425MB)
 
 
-Start creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 433MB peak: 433MB)
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 438MB peak: 438MB)
 
 
-Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 433MB peak: 434MB)
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z40 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 438MB peak: 439MB)
 
 
-Start creating ILM for FPGA miv_ihc_core_Z80 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 401MB peak: 434MB)
+Start creating ILM for FPGA miv_ihc_core_Z87 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 411MB peak: 439MB)
 
 
-Finished creating ILM for FPGA miv_ihc_core_Z80 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 401MB peak: 434MB)
+Finished creating ILM for FPGA miv_ihc_core_Z87 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 411MB peak: 439MB)
 
 
-Start creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 413MB peak: 434MB)
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 418MB peak: 439MB)
 
 
-Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 413MB peak: 434MB)
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z58 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 418MB peak: 439MB)
 
 
-Start creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 410MB peak: 434MB)
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 415MB peak: 439MB)
 
 
-Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 410MB peak: 434MB)
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z64 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 415MB peak: 439MB)
 
 
-Finished loading ILMs (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 394MB peak: 434MB)
+Finished loading ILMs (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 399MB peak: 439MB)
 
 
 Begin compile point sub-process log
@@ -96,7 +96,7 @@ Begin compile point sub-process log
 		 Interface of Compile Point has changed.
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 394MB peak: 434MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 399MB peak: 439MB)
 
 @N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
 @N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
@@ -110,19 +110,19 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:03s; CPU Time elapse
 @N: MO111 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z14(verilog)) has its enable tied to GND.
 Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s(verilog) (flattening)
 
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z76(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z76(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z76(verilog)) with 16 words by 4 bits.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4000_0xxx_0.FIC_3_0x4000_0xxx_0.iPSELS_raw_8[4:0] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 5 words by 5 bits.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_ADDRESS_GENERATION(verilog)) with 16 words by 1 bit.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog)) mapped in logic.
-@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog)) mapped in logic.
-@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog)) with 29 words by 5 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z83(verilog)) mapped in logic.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z83(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[3:0] (in view: COREAPB3_LIB.CoreAPB3_Z83(verilog)) with 16 words by 4 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_8[11:0] (in view: COREAPB3_LIB.CoreAPB3_Z84(verilog)) mapped in logic.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM iPSELS_raw_8[11:0] (in view: COREAPB3_LIB.CoreAPB3_Z84(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_8[11:0] (in view: COREAPB3_LIB.CoreAPB3_Z84(verilog)) with 12 words by 12 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z102(verilog)) mapped in logic.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z102(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":785:9:785:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2C_COREI2CREAL_Z102(verilog)) with 29 words by 5 bits.
+@N: BZ173 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_PERIPHERALS(verilog)) mapped in logic.
+@N: MO106 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM FIC_3_ADDRESS_GENERATION_1.FIC_3_0x4FFF_Fxxx_0.FIC_3_0x4FFF_Fxxx_0.iPSELS_raw_2[15] (in view: work.FIC_3_PERIPHERALS(verilog)) with 16 words by 1 bit.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 404MB peak: 434MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 410MB peak: 439MB)
 
 Encoding state machine U_DMAController.extDscrptrFetchFSM_inst.currState[7:0] (in view: work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER_Z12(verilog))
 original code -> new code
@@ -184,37 +184,6 @@ original code -> new code
 @N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1666:4:1666:9|Found counter in view:work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog) instance genblk2\.rdbeat_cnt[8:0] 
 @N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1398:10:1398:15|Found counter in view:work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog) instance genblk2\.genblk2\.ram_rdreq_cntr[8:0] 
 @N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk2\.genblk2\.ren_sc8 (in view: work.MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z56(verilog))
-Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
-@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
-@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
-@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
-Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
-original code -> new code
-   00000000000000000000000000000000 -> 0000001
-   00000000000000000000000000000001 -> 0000010
-   00000000000000000000000000000010 -> 0000100
-   00000000000000000000000000000011 -> 0001000
-   00000000000000000000000000000100 -> 0010000
-   00000000000000000000000000000101 -> 0100000
-   00000000000000000000000000000110 -> 1000000
-Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
-   11 -> 11
-@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
-@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c0\coreuartapb_c0_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C0_0.CoreUARTapb_C0_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
 original code -> new code
    00 -> 00
@@ -246,13 +215,261 @@ original code -> new code
    11 -> 11
 @N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
 @W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c1\coreuartapb_c1_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C1_inst_0.CoreUARTapb_C1_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C1_inst_0.CoreUARTapb_C1_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C2_CoreUARTapb_C2_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C2_CoreUARTapb_C2_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C2_CoreUARTapb_C2_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C2_CoreUARTapb_C2_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c2\coreuartapb_c2_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C2_inst_0.CoreUARTapb_C2_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C2_inst_0.CoreUARTapb_C2_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C3_CoreUARTapb_C3_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C3_CoreUARTapb_C3_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C3_CoreUARTapb_C3_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C3_CoreUARTapb_C3_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c3\coreuartapb_c3_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C3_inst_0.CoreUARTapb_C3_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C3_inst_0.CoreUARTapb_C3_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C4_CoreUARTapb_C4_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C4_CoreUARTapb_C4_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C4_CoreUARTapb_C4_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C4_CoreUARTapb_C4_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c4\coreuartapb_c4_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C4_inst_0.CoreUARTapb_C4_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C4_inst_0.CoreUARTapb_C4_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C5_CoreUARTapb_C5_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C5_CoreUARTapb_C5_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C5_CoreUARTapb_C5_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C5_CoreUARTapb_C5_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c5\coreuartapb_c5_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C5_inst_0.CoreUARTapb_C5_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C5_inst_0.CoreUARTapb_C5_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C6_CoreUARTapb_C6_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C6_CoreUARTapb_C6_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C6_CoreUARTapb_C6_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C6_CoreUARTapb_C6_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c6\coreuartapb_c6_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C6_inst_0.CoreUARTapb_C6_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C6_inst_0.CoreUARTapb_C6_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C7_CoreUARTapb_C7_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C7_CoreUARTapb_C7_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C7_CoreUARTapb_C7_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C7_CoreUARTapb_C7_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c7\coreuartapb_c7_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C7_inst_0.CoreUARTapb_C7_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C7_inst_0.CoreUARTapb_C7_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C8_CoreUARTapb_C8_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C8_CoreUARTapb_C8_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C8_CoreUARTapb_C8_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C8_CoreUARTapb_C8_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c8\coreuartapb_c8_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C8_inst_0.CoreUARTapb_C8_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C8_inst_0.CoreUARTapb_C8_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\coreuart.v":293:0:293:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk3\.rx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO230 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found up-down counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.counter[7:0]  
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.wr_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\fifo_256x8_g5.v":145:0:145:5|Found counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART_1s_1s_0s_27s_0s_0s(verilog) instance genblk2\.tx_fifo.fifo_256x8_g5.rd_pointer[7:0] 
+@N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\clock_gen.v":283:6:283:11|Found counter in view:work.CoreUARTapb_C9_CoreUARTapb_C9_0_Clock_gen_0s_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.CoreUARTapb_C9_CoreUARTapb_C9_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.CoreUARTapb_C9_CoreUARTapb_C9_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\rx_async.v":286:0:286:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.CoreUARTapb_C9_CoreUARTapb_C9_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: BN132 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\coreuartapb_c9\coreuartapb_c9_0\rtl\vlog\core\rx_async.v":261:0:261:5|Removing instance FIC_3_PERIPHERALS_1.CoreUARTapb_C9_inst_0.CoreUARTapb_C9_0.uUART.make_RX.last_bit[2] because it is equivalent to instance FIC_3_PERIPHERALS_1.CoreUARTapb_C9_inst_0.CoreUARTapb_C9_0.uUART.make_RX.last_bit[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":73:0:73:5|Found counter in view:work.corepwm_timebase_32s_0s(verilog) instance period_cnt[31:0] 
 @N: MO231 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":51:0:51:5|Found counter in view:work.corepwm_timebase_32s_0s(verilog) instance prescale_cnt[31:0] 
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\timebase.v":85:16:85:44|Found 32 by 32 bit equality operator ('==') un1_prescale_reg (in view: work.corepwm_timebase_32s_0s(verilog))
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":73:12:73:116|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_pwm_posedge_reg (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":79:17:79:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v":84:17:84:82|Found 32 by 32 bit equality operator ('==') PWM_output_generation\[1\]\.genblk1\.un1_period_cnt_1 (in view: work.corepwm_pwm_gen_1s_32s_0_0s(verilog))
-Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
+Encoding state machine fsmmod[6:0] (in view: work.COREI2C_COREI2CREAL_Z102(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -261,7 +478,7 @@ original code -> new code
    100 -> 0010000
    101 -> 0100000
    110 -> 1000000
-Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
+Encoding state machine fsmsync[7:0] (in view: work.COREI2C_COREI2CREAL_Z102(verilog))
 original code -> new code
    000 -> 00000001
    001 -> 00000010
@@ -271,7 +488,7 @@ original code -> new code
    101 -> 00100000
    110 -> 01000000
    111 -> 10000000
-Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z95(verilog))
+Encoding state machine fsmdet[6:0] (in view: work.COREI2C_COREI2CREAL_Z102(verilog))
 original code -> new code
    000 -> 0000001
    001 -> 0000010
@@ -324,11 +541,11 @@ original code -> new code
 @N: FX493 |Applying initial value "0" on instance lnk_m_cs[19].
 @N: MF179 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\sgcore\pf_pcie\2.0.121\g5_apblink_master.v":120:16:120:47|Found 24 by 24 bit equality operator ('==') un2_match (in view: work.G5_APBLINK_MASTER_Z62(verilog))
 
-Starting factoring (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:35s; Memory used current: 386MB peak: 434MB)
+Starting factoring (Real Time elapsed 0h:01m:01s; CPU Time elapsed 0h:01m:00s; Memory used current: 393MB peak: 439MB)
 
 Auto Dissolve of FIC_1_PERIPHERALS_1.PCIE.PF_PCIE_C0_0 (inst of view:work.PF_PCIE_C0_PF_PCIE_C0_0_PF_PCIE(verilog))
 
-Finished factoring (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:36s; Memory used current: 404MB peak: 434MB)
+Finished factoring (Real Time elapsed 0h:01m:06s; CPU Time elapsed 0h:01m:04s; Memory used current: 427MB peak: 439MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -338,39 +555,39 @@ NConnInternalConnection caching is on
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
-@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 382MB peak: 434MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 382MB peak: 434MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:13s; Memory used current: 393MB peak: 451MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 383MB peak: 434MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:01m:22s; CPU Time elapsed 0h:01m:19s; Memory used current: 395MB peak: 451MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:47s; CPU Time elapsed 0h:00m:46s; Memory used current: 383MB peak: 434MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:01m:30s; CPU Time elapsed 0h:01m:27s; Memory used current: 396MB peak: 451MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:01m:32s; CPU Time elapsed 0h:01m:29s; Memory used current: 397MB peak: 451MB)
 
 @N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\corei2c\7.2.101\rtl\vlog\core\corei2creal.v":1890:3:1890:8|Removing sequential instance FIC_3_PERIPHERALS_1.RPi_ID_I2C.COREI2C_C0_0.COREI2C_C0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 
-Finished preparing to map (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 384MB peak: 434MB)
+Finished preparing to map (Real Time elapsed 0h:01m:40s; CPU Time elapsed 0h:01m:37s; Memory used current: 399MB peak: 451MB)
 
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\work\mss_lsram\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":570:5:570:10|Removing sequential instance FIC_0_PERIPHERALS_1.MSS_LSRAM_inst_0.COREAXI4SRAM_0.genblk1\.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[13] (in view: work.MPFS_ICICLE_KIT_BASE_DESIGN(verilog)) because it does not drive other instances.
 
-Finished technology mapping (Real Time elapsed 0h:00m:51s; CPU Time elapsed 0h:00m:50s; Memory used current: 400MB peak: 434MB)
+Finished technology mapping (Real Time elapsed 0h:01m:43s; CPU Time elapsed 0h:01m:41s; Memory used current: 445MB peak: 451MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:51s		     2.18ns		2636 /      2312
+   1		0h:01m:43s		     2.18ns		4548 /      3677
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -407,10 +624,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:55s; CPU Time elapsed 0h:00m:54s; Memory used current: 402MB peak: 434MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:01m:55s; CPU Time elapsed 0h:01m:52s; Memory used current: 448MB peak: 451MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:58s; CPU Time elapsed 0h:00m:57s; Memory used current: 405MB peak: 434MB)
+Finished restoring hierarchy (Real Time elapsed 0h:01m:58s; CPU Time elapsed 0h:01m:55s; Memory used current: 450MB peak: 452MB)
 
 
 End compile point sub-process log
@@ -424,7 +641,7 @@ Name                            Status       Reason
 MPFS_ICICLE_KIT_BASE_DESIGN     Remapped     Interface of Compile Point changed
 ===============================================================================
 
-Process took 0h:00m:59s realtime, 0h:00m:58s cputime
-# Thu Oct 30 12:48:26 2025
+Process took 0h:02m:00s realtime, 0h:01m:56s cputime
+# Wed Dec 17 14:04:43 2025
 
 ###########################################################]

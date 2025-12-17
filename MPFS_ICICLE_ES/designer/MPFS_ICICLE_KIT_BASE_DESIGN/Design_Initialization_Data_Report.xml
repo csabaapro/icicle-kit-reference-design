@@ -6,7 +6,7 @@
 <text>Family: PolarFireSoC</text>
 <text>Die: MPFS250T_ES</text>
 <text>Package: FCVG484</text>
-<text>Date: Thu Oct 30 13:04:23 2025
+<text>Date: Wed Dec 17 15:13:28 2025
 </text>
 <text>Report path: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\Design_Initialization_Data_Report.xml</text>
 <section>
@@ -18997,11 +18997,7 @@ INFO: The PUFT timing numbers reflect the typical elapsed time between the de-as
 </row>
 <row>
  <cell>ICB_CLKINT_NW_1</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8_1</cell>
-</row>
-<row>
- <cell>ICB_CLKINT_NW_2</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4_1</cell>
 </row>
 <row>
  <cell>ICB_CLKINT_NW_4</cell>
@@ -19009,11 +19005,15 @@ INFO: The PUFT timing numbers reflect the typical elapsed time between the de-as
 </row>
 <row>
  <cell>ICB_CLKINT_NW_5</cell>
- <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4_1</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12_1</cell>
 </row>
 <row>
- <cell>ICB_CLKINT_NW_7</cell>
+ <cell>ICB_CLKINT_NW_6</cell>
  <cell>CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0_IOBA</cell>
+</row>
+<row>
+ <cell>ICB_CLKINT_NW_11</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8_1</cell>
 </row>
 <row>
  <cell>ICB_CLKINT_SW_0</cell>
@@ -58325,7 +58325,7 @@ INFO: The PUFT timing numbers reflect the typical elapsed time between the de-as
 </table>
 </section>
 <section>
-<name>ICB_CLKINT_NW_11 (Unused pin tie-off)</name>
+<name>ICB_CLKINT_NW_2 (Unused pin tie-off)</name>
 <table>
 <header>
  <cell>Input Pin</cell>
@@ -58359,7 +58359,7 @@ INFO: The PUFT timing numbers reflect the typical elapsed time between the de-as
 </table>
 </section>
 <section>
-<name>ICB_CLKINT_NW_6 (Unused pin tie-off)</name>
+<name>ICB_CLKINT_NW_7 (Unused pin tie-off)</name>
 <table>
 <header>
  <cell>Input Pin</cell>

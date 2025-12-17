@@ -16,7 +16,7 @@
 </header>
 <row>
  <cell>0.1</cell>
- <cell>Thu Oct 30 13:00:53 2025</cell>
+ <cell>Wed Dec 17 15:09:03 2025</cell>
  <cell>Designer</cell>
  <cell>2025.1</cell>
  <cell>2025.1.0.14</cell>
@@ -415,28 +415,10 @@
 </row>
 <row>
  <cell>A7</cell>
- <cell>COREUART_TX</cell>
+ <cell>---</cell>
  <cell>GPIO173PB1/CLKIN_S_3/CCC_SW_CLKIN_S_3</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS33</cell>
- <cell>Output</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>8</cell>
- <cell>---</cell>
- <cell>5</cell>
- <cell>---</cell>
- <cell>OFF</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
@@ -466,11 +448,29 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>COREUART_TX</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF</cell>
 </row>
 <row>
  <cell>A8</cell>
- <cell>COREUART1_TX</cell>
+ <cell>COREUART_TX</cell>
  <cell>GPIO175PB1</cell>
  <cell>Bank1</cell>
  <cell>Fixed</cell>
@@ -521,7 +521,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>COREUART1_TX</cell>
+ <cell>COREUART_TX</cell>
 </row>
 <row>
  <cell>A9</cell>
@@ -4100,7 +4100,7 @@
 </row>
 <row>
  <cell>B8</cell>
- <cell>COREUART1_RX</cell>
+ <cell>COREUART_RX</cell>
  <cell>GPIO175NB1</cell>
  <cell>Bank1</cell>
  <cell>Fixed</cell>
@@ -4151,7 +4151,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>COREUART1_RX</cell>
+ <cell>COREUART_RX</cell>
 </row>
 <row>
  <cell>B9</cell>
@@ -11745,22 +11745,10 @@
 </row>
 <row>
  <cell>H15</cell>
- <cell>COREUART_RX</cell>
+ <cell>---</cell>
  <cell>GPIO7NB1</cell>
  <cell>Bank1</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS33</cell>
- <cell>Input</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>Up</cell>
- <cell>No</cell>
- <cell>OFF</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>OFF</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
@@ -11796,7 +11784,19 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>COREUART_RX</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, LiberoSOC Defined High-Z with weak pull up ON. Connection to VDDI1 through resistor (10K ohm) is allowed. CLAMP=OFF</cell>
 </row>
 <row>
  <cell>H16</cell>

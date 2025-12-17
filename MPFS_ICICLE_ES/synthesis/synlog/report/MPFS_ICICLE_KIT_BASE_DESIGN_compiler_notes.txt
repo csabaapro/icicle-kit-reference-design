@@ -173,13 +173,6 @@
 @N: CL134 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":65:7:65:12|Found RAM mem, depth=256, width=5
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v":512:16:512:28|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v":515:16:515:28|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
-@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
@@ -187,6 +180,62 @@
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
 @N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Tx_async.v":356:21:356:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Rx_async.v":254:23:254:35|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Rx_async.v":280:18:280:25|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUART.v":390:22:390:33|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\fifo_256x8_g5.v":215:22:215:29|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUARTapb.v":254:31:254:41|Removing redundant assignment.
+@N: CG179 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUARTapb.v":275:31:275:41|Removing redundant assignment.
 @N: CL189 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v":78:8:78:13|Register bit prdata[31] is always 0.
 @N: CL189 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v":78:8:78:13|Register bit prdata[30] is always 0.
 @N: CL189 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v":78:8:78:13|Register bit prdata[29] is always 0.
@@ -304,32 +353,53 @@
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
-@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
 @N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":105:18:105:25|Input PRDATAS1 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
+@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
-@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v":293:0:293:5|Trying to extract state machine for register rx_state.
-@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v":286:0:286:5|Trying to extract state machine for register rx_state.
-@N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v":119:0:119:5|Trying to extract state machine for register xmit_state.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.
 @N: CL201 :"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":185:1:185:6|Trying to extract state machine for register currState.

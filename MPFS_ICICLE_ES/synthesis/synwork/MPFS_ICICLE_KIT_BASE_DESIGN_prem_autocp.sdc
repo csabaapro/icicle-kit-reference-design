@@ -5,4 +5,4 @@ define_compile_point  -comment {Automatically Inserted}  {v:work.caxi4interconne
 define_compile_point  -comment {Automatically Inserted}  {v:work.COREAXI4INTERCONNECT_Z40} -type {hard}
 define_compile_point  -comment {Automatically Inserted}  {v:work.COREAXI4INTERCONNECT_Z58} -type {hard}
 define_compile_point  -comment {Automatically Inserted}  {v:work.COREAXI4INTERCONNECT_Z64} -type {hard}
-define_compile_point  -comment {Automatically Inserted}  {v:work.miv_ihc_core_Z80} -type {hard}
+define_compile_point  -comment {Automatically Inserted}  {v:work.miv_ihc_core_Z87} -type {hard}

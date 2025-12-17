@@ -61,11 +61,11 @@ File D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\synthesis\synwork\MPF
 @W: BN108 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances: mstrDWC. Apply syn_hier to module using name v:caxi4interconnect_MstrDataWidthConv_Z15.
 @W: BN108 :"d:\pion101\icicle-kit-reference-design\mpfs_icicle_es\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances: mstrCDC. Apply syn_hier to module using name v:caxi4interconnect_MstrClockDomainCrossing_Z18.
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 388MB peak: 390MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 396MB peak: 398MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Thu Oct 30 12:46:47 2025
+# Wed Dec 17 15:01:15 2025
 
 ###########################################################]

@@ -1,5 +1,5 @@
 ;--------------------------------------------------------------------------------
-; Date:    Thu Oct 30 13:01:36 2025
+; Date:    Wed Dec 17 15:09:23 2025
 ; version: 2025.1 2025.1.0.14
 ; Design:  MPFS_ICICLE_KIT_BASE_DESIGN
 ; Family:  PolarFireSoC
@@ -856,11 +856,11 @@ Module  CRNCOMMON_NW                          738  377      728  1495 CRNCOMMON 
         PC_COMUX1_SEL                         "4'h0"                   D. 
         PC_COMUX2_SEL                         "4'h0"                   D. 
         PC_COMUX3_SEL                         "4'h0"                   D. 
-        PC_COMUX4_SEL                         "4'h4"                   U. 
-        PC_COMUX5_SEL                         "4'h0"                   D. 
+        PC_COMUX4_SEL                         "4'h0"                   D. 
+        PC_COMUX5_SEL                         "4'h4"                   U. 
         PC_COMUX6_SEL                         "4'h0"                   D. 
         PC_COMUX7_SEL                         "4'h3"                   U. 
-        PC_CRNFDR_HORZ_EN                     "8'h93"                  U. 
+        PC_CRNFDR_HORZ_EN                     "8'h53"                  U. 
         PC_CRNFR_VERT_EN                      "8'h0"                   D. 
         PC_DYN_EN                             "1'h1"                   D. 
         PC_SOFTRESET                          "1'h0"                   D. 
@@ -874,13 +874,13 @@ Module  ICBMUXINGPC_NW_0                      728  379      801  1502 ICBMUXING 
         BANKCLK_CW_SOURCE_SEL                 "30'h18C6318C"           D. 
         BANK_OUT_CCW_SEL                      "6'h3F"                  D. 
         BANK_OUT_CW_SEL                       "6'h3F"                  D. 
-        CLKSTOP_SOURCE_SEL                    "60'h5828A04B20"         U. 
+        CLKSTOP_SOURCE_SEL                    "60'h5000002F0900260"    U. 
         DYNEN                                 "1'h1"                   D. 
         DYNEN_SOFT_RESET                      "1'h1"                   D. 
-        NMUX_SEL                              "72'h13F07F1FFFFF280FFF" U. 
+        NMUX_SEL                              "72'hFC6FC1FFFFFF28403F" U. 
         SOFT_RESET                            "1'h0"                   D. 
         SOFT_RESET_PERIPH                     "1'h0"                   D. 
-        STOP_SEL                              "24'hFF30C3"             U. 
+        STOP_SEL                              "24'h3FC0F3"             U. 
 End_Module.
 
 ; -------------------------------------

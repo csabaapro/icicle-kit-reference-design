@@ -1,38 +1,38 @@
 {
 "Synplify Pro (R) Job Log" : {
-	"Date" : "12:49:22    30-Oct-2025",
+	"Date" : "15:02:21    17-Dec-2025",
 	"Working Directory" : "D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/synthesis",
 	"Install" : "C:/Microchip/Libero_SoC_2025.1/Libero_SoC/Synplify_Pro"
 },
 "synthesis" :{
    "Job Flow" : "Sequential",
-   "Start Time" : "12:44:51",
-   "Runtime" : "04m:31s",
-   "Executable Run Time" : "04m:27s",
+   "Start Time" : "14:59:26",
+   "Runtime" : "02m:55s",
+   "Executable Run Time" : "02m:53s",
    "synthesis" : {
       "Job Flow" : "Sequential",
-      "Start Time" : "12:44:51",
-      "Runtime" : "04m:31s",
-      "Executable Run Time" : "04m:27s",
+      "Start Time" : "14:59:26",
+      "Runtime" : "02m:55s",
+      "Executable Run Time" : "02m:53s",
       "compile" : {
          "Job Flow" : "Sequential",
-         "Start Time" : "12:44:51",
-         "Runtime" : "02m:30s",
-         "Executable Run Time" : "02m:27s",
+         "Start Time" : "14:59:26",
+         "Runtime" : "02m:25s",
+         "Executable Run Time" : "02m:24s",
          "compile_flow" : {
             "Job Flow" : "Sequential",
-            "Start Time" : "12:44:51",
-            "Runtime" : "01m:57s",
-            "Executable Run Time" : "01m:54s",
+            "Start Time" : "14:59:26",
+            "Runtime" : "01m:49s",
+            "Executable Run Time" : "01m:48s",
             "compiler" : {
                "executable" : "bin64/c_hdl.exe",
                "Run Directory" : "D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/synthesis",
                "Run State" : "Complete",
                "Return Code" : "0",
                "Has Errors" : "no",
-               "Run Start Time" : "12:44:51",
-               "Run Time" : "01m:53s",
-               "Exe Run Time" : "01m:51s",
+               "Run Start Time" : "14:59:26",
+               "Run Time" : "01m:45s",
+               "Exe Run Time" : "01m:44s",
                "Memory Usage" : "-",
                "Up-to-date (run skipped)" : "no"
             },
@@ -42,9 +42,9 @@
                "Run State" : "Complete",
                "Return Code" : "0",
                "Has Errors" : "no",
-               "Run Start Time" : "12:46:44",
+               "Run Start Time" : "15:01:11",
                "Run Time" : "04s",
-               "Exe Run Time" : "03s",
+               "Exe Run Time" : "04s",
                "Memory Usage" : "-",
                "Up-to-date (run skipped)" : "no"
             }
@@ -55,27 +55,27 @@
             "Run State" : "Complete",
             "Return Code" : "1",
             "Has Errors" : "no",
-            "Run Start Time" : "12:46:48",
-            "Run Time" : "33s",
-            "Exe Run Time" : "33s",
+            "Run Start Time" : "15:01:15",
+            "Run Time" : "36s",
+            "Exe Run Time" : "36s",
             "Memory Usage" : "-",
             "Up-to-date (run skipped)" : "no"
          }
       },
       "map" : {
          "Job Flow" : "Sequential",
-         "Start Time" : "12:47:21",
-         "Runtime" : "02m:01s",
-         "Executable Run Time" : "02m:00s",
+         "Start Time" : "15:01:52",
+         "Runtime" : "29s",
+         "Executable Run Time" : "29s",
          "fpga_mapper" : {
             "executable" : "bin64/m_generic.exe",
             "Run Directory" : "D:/PION101/icicle-kit-reference-design/MPFS_ICICLE_ES/synthesis",
             "Run State" : "Complete",
             "Return Code" : "1",
             "Has Errors" : "no",
-            "Run Start Time" : "12:47:21",
-            "Run Time" : "02m:01s",
-            "Exe Run Time" : "02m:00s",
+            "Run Start Time" : "15:01:52",
+            "Run Time" : "29s",
+            "Exe Run Time" : "29s",
             "Memory Usage" : "-",
             "Up-to-date (run skipped)" : "no"
          }

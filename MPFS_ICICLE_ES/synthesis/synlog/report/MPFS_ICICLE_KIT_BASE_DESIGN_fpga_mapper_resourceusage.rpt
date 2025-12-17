@@ -9,10 +9,10 @@ CLKINT          13 uses
 ICB_CLKDIV      1 use
 ICB_NGMUX       1 use
 INIT            1 use
-INV             12 uses
+INV             40 uses
 MSS             1 use
-OR2             11 uses
-OR3             1 use
+OR2             6 uses
+OR3             25 uses
 OR4             64 uses
 OSC_RC160MHZ    1 use
 PCIE            1 use
@@ -23,43 +23,43 @@ XCVR_APB_LINK   1 use
 XCVR_PIPE_AXI0  2 uses
 XCVR_PIPE_AXI1  2 uses
 XCVR_REF_CLK    1 use
-CFG1           103 uses
-CFG2           1951 uses
-CFG3           4565 uses
-CFG4           4718 uses
+CFG1           165 uses
+CFG2           2324 uses
+CFG3           4908 uses
+CFG4           5218 uses
 
 Carry cells:
-ARI1            1633 uses - used for arithmetic functions
-ARI1            300 uses - used for Wide-Mux implementation
-Total ARI1      1933 uses
+ARI1            2089 uses - used for arithmetic functions
+ARI1            407 uses - used for Wide-Mux implementation
+Total ARI1      2496 uses
 
 
 Sequential Cells: 
-SLE            10080 uses
+SLE            11445 uses
 
 DSP Blocks:    0 of 784 (0%)
 
-I/O ports: 188
-I/O primitives: 160
+I/O ports: 186
+I/O primitives: 158
 BIBUF          73 uses
 BIBUF_DIFF     4 uses
-INBUF          21 uses
+INBUF          20 uses
 INBUF_DIFF     3 uses
-OUTBUF         56 uses
+OUTBUF         55 uses
 OUTBUF_DIFF    3 uses
 
 
 Global Clock Buffers: 13
 
-Total LUTs:    13270
+Total LUTs:    15111
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
 RAM64X12 Interface Logic : SLEs = 852; LUTs = 852;
-RAM1K20  Interface Logic : SLEs = 900; LUTs = 900;
+RAM1K20  Interface Logic : SLEs = 1404; LUTs = 1404;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  10080 + 852 + 900 + 0 = 11832;
-Total number of LUTs after P&R:  13270 + 852 + 900 + 0 = 15022;
+Total number of SLEs after P&R:  11445 + 852 + 1404 + 0 = 13701;
+Total number of LUTs after P&R:  15111 + 852 + 1404 + 0 = 17367;
 

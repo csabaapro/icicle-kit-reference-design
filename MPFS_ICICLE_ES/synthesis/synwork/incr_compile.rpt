@@ -13,218 +13,166 @@ Hostname: DESKTOP-693NB92
 Implementation : synthesis
 Synopsys HDL compiler and linker, Version comp202309synp1, Build 540R, Built Apr 29 2025 09:15:16, @
 
-Modified Files: 12
+Modified Files: 3
 FID:  path (prevtimestamp, timestamp)
-92       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47)
-202      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10.v (2025-10-29 15:39:20, N/A)
-203      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreGPIO_C10\CoreGPIO_C10_0\rtl\vlog\core\coregpio.v (2025-10-29 15:39:20, N/A)
-204      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v (N/A, 2025-10-30 11:53:32)
-205      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v (N/A, 2025-10-30 11:53:32)
-206      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32)
-207      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v (N/A, 2025-10-30 11:53:32)
-208      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32)
-209      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32)
-210      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v (N/A, 2025-10-30 11:53:32)
-167      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-10-29 15:43:12, 2025-10-30 12:34:53)
-178      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-10-29 16:05:09, 2025-10-30 12:43:16)
+92       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25)
+167      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-12-17 13:32:15, 2025-12-17 14:58:18)
+178      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-12-17 13:57:46, 2025-12-17 14:58:38)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 87
+Modules that may have changed as a result of file changes: 74
 MID:  lib.cell.view
 3        work.APBM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 4        work.APBS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 8        work.BANKCTRLM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 9        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 10       work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 11       work.BANKEN.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 12       work.CLKBUF_DIFF.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 13       work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 21       work.CORELNKTMR_V.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 25       work.CRN_COMMON.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 26       work.CRN_INT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 27       work.CRYPTO.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 28       work.CRYPTO_SOC.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
-29       work.CoreUARTapb_C0.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-30       work.CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-31       work.CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-32       work.CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-33       work.CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-34       work.CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-35       work.CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-36       work.CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-37       work.CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (N/A, 2025-10-30 11:53:32) <-- (may instantiate this module)
-296      work.CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-300      work.CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-301      work.CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
-302      work.CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v (N/A, 2025-10-30 11:53:32) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 38       work.DEBUG.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 39       work.DLL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 86       work.DRI.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 87       work.ENFORCE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 98       work.GLITCHDETECT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 103      work.GPSS_COMMON.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 104      work.HS_IO_CLK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 105      work.ICB_BANKCLK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 106      work.ICB_CLKDIV.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 107      work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 108      work.ICB_CLKINT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 109      work.ICB_CLKSTOP.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 110      work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 111      work.ICB_INT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 112      work.ICB_MUXING.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 113      work.ICB_NGMUX.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 115      work.INIT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 118      work.IOD.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 119      work.LANECTRL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 120      work.LANERST.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 121      work.MCHP_BLIC.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 135      work.OSC_RC160MHZ.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 136      work.OSC_RC200MHZ.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 137      work.OSC_RC2MHZ.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 138      work.PCIE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 139      work.PCIE_COMMON.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 143      work.PFSOC_SCSM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 148      work.PF_SPI.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 149      work.PLL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 150      work.QUADRST.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 151      work.QUADRST_PCIE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 152      work.SCB.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 153      work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 154      work.SYSRESET.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 155      work.SYS_SERVICES.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 156      work.TAMPER.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 159      work.TVS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 160      work.TX_PLL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 161      work.UPROM.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 162      work.USPI.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 163      work.VOLTAGEDETECT.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 164      work.VREFBANKDYN.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 165      work.VREFCTRL.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 166      work.XCVR.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 167      work.XCVR_64B6XB.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 168      work.XCVR_8B10B.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 169      work.XCVR_APB_LINK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 170      work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 171      work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 172      work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 173      work.XCVR_PIPE.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 174      work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 175      work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 176      work.XCVR_PMA.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 177      work.XCVR_REF_CLK.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 178      work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 179      work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 180      work.XCVR_TEST.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 181      work.XCVR_VV.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-10-29 16:06:30, 2025-10-30 12:44:47) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v (2025-12-17 13:59:17, 2025-12-17 14:59:25) <-- (module definition)
 262      work.corepwm_reg_if.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-10-29 15:43:12, 2025-10-30 12:34:53) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v (2025-12-17 13:32:15, 2025-12-17 14:58:18) <-- (module definition)
 265      work.fabric_sd_emmc_demux_select.verilog may have changed because the following files changed:
-                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-10-29 16:05:09, 2025-10-30 12:43:16) <-- (module definition)
+                        D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v (2025-12-17 13:57:46, 2025-12-17 14:58:38) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 199
+Unmodified files: 255
 FID:  path (timestamp)
 0        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\generic\acg5.v (2025-04-29 15:12:56)
 1        C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v (2025-04-29 17:53:26)
@@ -309,9 +257,9 @@ FID:  path (timestamp)
 80       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WriteDataMux.v (2025-10-28 09:16:58)
 81       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v (2025-10-28 09:16:58)
 82       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v (2025-10-28 09:16:58)
-83       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v (2025-10-28 09:16:58)
-84       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v (2025-10-28 09:16:58)
-85       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v (2025-10-28 09:16:58)
+83       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v (2025-10-21 10:39:58)
+84       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v (2025-10-21 10:39:58)
+85       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v (2025-10-21 10:39:58)
 86       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v (2025-10-28 09:16:58)
 87       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v (2025-10-28 09:16:58)
 88       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v (2025-10-28 09:16:58)
@@ -326,13 +274,69 @@ FID:  path (timestamp)
 98       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CORERESET\CORERESET.v (2025-10-28 09:16:58)
 99       D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CORERESET\CORERESET_0\core\corereset_pf.v (2025-10-28 09:16:58)
 100      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CORE_I2C_C0_0_WRAPPER\CORE_I2C_C0_0_WRAPPER.v (2025-10-28 09:16:58)
-101      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0.v (2025-10-28 09:16:58)
-102      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Clock_gen.v (2025-10-28 09:16:58)
-103      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v (2025-10-28 09:16:58)
-104      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v (2025-10-28 09:16:58)
-105      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v (2025-10-28 09:16:58)
-106      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v (2025-10-28 09:16:58)
-107      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v (2025-10-28 09:16:58)
+204      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v (2025-10-30 11:53:32)
+205      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v (2025-10-30 11:53:32)
+206      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v (2025-10-30 11:53:32)
+207      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v (2025-10-30 11:53:32)
+208      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v (2025-10-30 11:53:32)
+209      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v (2025-10-30 11:53:32)
+210      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v (2025-10-30 11:53:32)
+211      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2.v (2025-12-17 10:06:16)
+212      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:06:16)
+213      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:06:16)
+214      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:06:16)
+215      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:06:16)
+216      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:06:16)
+217      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:06:16)
+218      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3.v (2025-12-17 10:05:50)
+219      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:05:50)
+220      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:05:50)
+221      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:05:50)
+222      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:05:50)
+223      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:05:50)
+224      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:05:50)
+225      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4.v (2025-12-17 10:08:30)
+226      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:08:30)
+227      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:08:30)
+228      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:08:30)
+229      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:08:30)
+230      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:08:30)
+231      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:08:30)
+232      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5.v (2025-12-17 10:08:46)
+233      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:08:46)
+234      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:08:46)
+235      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:08:46)
+236      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:08:46)
+237      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:08:46)
+238      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:08:46)
+239      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6.v (2025-12-17 10:09:26)
+240      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:09:26)
+241      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:09:26)
+242      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:09:26)
+243      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:09:26)
+244      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:09:26)
+245      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:09:26)
+246      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7.v (2025-12-17 10:09:56)
+247      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:09:56)
+248      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:09:56)
+249      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:09:56)
+250      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:09:56)
+251      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:09:56)
+252      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:09:56)
+253      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8.v (2025-12-17 10:10:18)
+254      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:10:18)
+255      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:10:18)
+256      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:10:18)
+257      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:10:18)
+258      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:10:18)
+259      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:10:18)
+260      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9.v (2025-12-17 10:10:42)
+261      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Clock_gen.v (2025-12-17 10:10:42)
+262      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUART.v (2025-12-17 10:10:42)
+263      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUARTapb.v (2025-12-17 10:10:42)
+264      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Rx_async.v (2025-12-17 10:10:42)
+265      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Tx_async.v (2025-12-17 10:10:42)
+266      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\fifo_256x8_g5.v (2025-12-17 10:10:42)
 108      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\DMA_CONTROLLER\DMA_CONTROLLER.v (2025-10-28 09:16:58)
 109      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\DMA_CONTROLLER\DMA_CONTROLLER_0\rtl\vlog\core\../../../coreaxi4dmacontroller_arbiter_mapping.v (2025-10-28 09:16:58)
 110      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\DMA_CONTROLLER\DMA_CONTROLLER_0\rtl\vlog\core\../../../coreaxi4dmacontroller_arbiter_parameters.v (2025-10-28 09:16:58)
@@ -388,10 +392,10 @@ FID:  path (timestamp)
 160      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_0_PERIPHERALS\FIC_0_PERIPHERALS.v (2025-10-28 09:16:58)
 161      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_1_INITIATOR\FIC_1_INITIATOR.v (2025-10-28 09:16:58)
 162      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_1_PERIPHERALS\FIC_1_PERIPHERALS.v (2025-10-28 09:16:58)
-163      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v (2025-10-28 09:16:58)
+163      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v (2025-12-17 11:28:04)
 164      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.v (2025-10-28 09:16:58)
 165      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.v (2025-10-28 09:16:58)
-166      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v (2025-10-28 09:16:58)
+166      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v (2025-12-17 11:29:58)
 168      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GLITCHLESS_MUX\GLITCHLESS_MUX.v (2025-10-28 09:16:59)
 169      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GLITCHLESS_MUX\GLITCHLESS_MUX_0\GLITCHLESS_MUX_GLITCHLESS_MUX_0_PF_NGMUX.v (2025-10-28 09:16:59)
 170      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO.v (2025-10-29 14:44:34)
@@ -427,7 +431,7 @@ FID:  path (timestamp)
 201      D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v (2025-10-28 09:17:01)
 
 *******************************************************************
-Unchanged modules: 214
+Unchanged modules: 290
 MID:  lib.cell.view
 0        COREAPB3_LIB.COREAPB3_MUXPTOB3.verilog
 1        COREAPB3_LIB.CoreAPB3.verilog
@@ -447,9 +451,85 @@ MID:  lib.cell.view
 24       work.CORE_I2C_C0_0_WRAPPER.verilog
 294      work.CoreUARTapb_C1.verilog
 295      work.CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART.verilog
+296      work.CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen.verilog
 297      work.CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb.verilog
 298      work.CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async.verilog
 299      work.CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async.verilog
+300      work.CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8.verilog
+301      work.CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256.verilog
+302      work.CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5.verilog
+303      work.CoreUARTapb_C2.verilog
+304      work.CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART.verilog
+305      work.CoreUARTapb_C2_CoreUARTapb_C2_0_Clock_gen.verilog
+306      work.CoreUARTapb_C2_CoreUARTapb_C2_0_CoreUARTapb.verilog
+307      work.CoreUARTapb_C2_CoreUARTapb_C2_0_Rx_async.verilog
+308      work.CoreUARTapb_C2_CoreUARTapb_C2_0_Tx_async.verilog
+309      work.CoreUARTapb_C2_CoreUARTapb_C2_0_fifo_256x8.verilog
+310      work.CoreUARTapb_C2_CoreUARTapb_C2_0_fifo_ctrl_256.verilog
+311      work.CoreUARTapb_C2_CoreUARTapb_C2_0_ram256x8_g5.verilog
+312      work.CoreUARTapb_C3.verilog
+313      work.CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART.verilog
+314      work.CoreUARTapb_C3_CoreUARTapb_C3_0_Clock_gen.verilog
+315      work.CoreUARTapb_C3_CoreUARTapb_C3_0_CoreUARTapb.verilog
+316      work.CoreUARTapb_C3_CoreUARTapb_C3_0_Rx_async.verilog
+317      work.CoreUARTapb_C3_CoreUARTapb_C3_0_Tx_async.verilog
+318      work.CoreUARTapb_C3_CoreUARTapb_C3_0_fifo_256x8.verilog
+319      work.CoreUARTapb_C3_CoreUARTapb_C3_0_fifo_ctrl_256.verilog
+320      work.CoreUARTapb_C3_CoreUARTapb_C3_0_ram256x8_g5.verilog
+321      work.CoreUARTapb_C4.verilog
+322      work.CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART.verilog
+323      work.CoreUARTapb_C4_CoreUARTapb_C4_0_Clock_gen.verilog
+324      work.CoreUARTapb_C4_CoreUARTapb_C4_0_CoreUARTapb.verilog
+325      work.CoreUARTapb_C4_CoreUARTapb_C4_0_Rx_async.verilog
+326      work.CoreUARTapb_C4_CoreUARTapb_C4_0_Tx_async.verilog
+327      work.CoreUARTapb_C4_CoreUARTapb_C4_0_fifo_256x8.verilog
+328      work.CoreUARTapb_C4_CoreUARTapb_C4_0_fifo_ctrl_256.verilog
+329      work.CoreUARTapb_C4_CoreUARTapb_C4_0_ram256x8_g5.verilog
+330      work.CoreUARTapb_C5.verilog
+331      work.CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART.verilog
+332      work.CoreUARTapb_C5_CoreUARTapb_C5_0_Clock_gen.verilog
+333      work.CoreUARTapb_C5_CoreUARTapb_C5_0_CoreUARTapb.verilog
+334      work.CoreUARTapb_C5_CoreUARTapb_C5_0_Rx_async.verilog
+335      work.CoreUARTapb_C5_CoreUARTapb_C5_0_Tx_async.verilog
+336      work.CoreUARTapb_C5_CoreUARTapb_C5_0_fifo_256x8.verilog
+337      work.CoreUARTapb_C5_CoreUARTapb_C5_0_fifo_ctrl_256.verilog
+338      work.CoreUARTapb_C5_CoreUARTapb_C5_0_ram256x8_g5.verilog
+339      work.CoreUARTapb_C6.verilog
+340      work.CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART.verilog
+341      work.CoreUARTapb_C6_CoreUARTapb_C6_0_Clock_gen.verilog
+342      work.CoreUARTapb_C6_CoreUARTapb_C6_0_CoreUARTapb.verilog
+343      work.CoreUARTapb_C6_CoreUARTapb_C6_0_Rx_async.verilog
+344      work.CoreUARTapb_C6_CoreUARTapb_C6_0_Tx_async.verilog
+345      work.CoreUARTapb_C6_CoreUARTapb_C6_0_fifo_256x8.verilog
+346      work.CoreUARTapb_C6_CoreUARTapb_C6_0_fifo_ctrl_256.verilog
+347      work.CoreUARTapb_C6_CoreUARTapb_C6_0_ram256x8_g5.verilog
+348      work.CoreUARTapb_C7.verilog
+349      work.CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART.verilog
+350      work.CoreUARTapb_C7_CoreUARTapb_C7_0_Clock_gen.verilog
+351      work.CoreUARTapb_C7_CoreUARTapb_C7_0_CoreUARTapb.verilog
+352      work.CoreUARTapb_C7_CoreUARTapb_C7_0_Rx_async.verilog
+353      work.CoreUARTapb_C7_CoreUARTapb_C7_0_Tx_async.verilog
+354      work.CoreUARTapb_C7_CoreUARTapb_C7_0_fifo_256x8.verilog
+355      work.CoreUARTapb_C7_CoreUARTapb_C7_0_fifo_ctrl_256.verilog
+356      work.CoreUARTapb_C7_CoreUARTapb_C7_0_ram256x8_g5.verilog
+357      work.CoreUARTapb_C8.verilog
+358      work.CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART.verilog
+359      work.CoreUARTapb_C8_CoreUARTapb_C8_0_Clock_gen.verilog
+360      work.CoreUARTapb_C8_CoreUARTapb_C8_0_CoreUARTapb.verilog
+361      work.CoreUARTapb_C8_CoreUARTapb_C8_0_Rx_async.verilog
+362      work.CoreUARTapb_C8_CoreUARTapb_C8_0_Tx_async.verilog
+363      work.CoreUARTapb_C8_CoreUARTapb_C8_0_fifo_256x8.verilog
+364      work.CoreUARTapb_C8_CoreUARTapb_C8_0_fifo_ctrl_256.verilog
+365      work.CoreUARTapb_C8_CoreUARTapb_C8_0_ram256x8_g5.verilog
+366      work.CoreUARTapb_C9.verilog
+367      work.CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART.verilog
+368      work.CoreUARTapb_C9_CoreUARTapb_C9_0_Clock_gen.verilog
+369      work.CoreUARTapb_C9_CoreUARTapb_C9_0_CoreUARTapb.verilog
+370      work.CoreUARTapb_C9_CoreUARTapb_C9_0_Rx_async.verilog
+371      work.CoreUARTapb_C9_CoreUARTapb_C9_0_Tx_async.verilog
+372      work.CoreUARTapb_C9_CoreUARTapb_C9_0_fifo_256x8.verilog
+373      work.CoreUARTapb_C9_CoreUARTapb_C9_0_fifo_ctrl_256.verilog
+374      work.CoreUARTapb_C9_CoreUARTapb_C9_0_ram256x8_g5.verilog
 40       work.DMA_CONTROLLER.verilog
 41       work.DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER.verilog
 42       work.DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl.verilog

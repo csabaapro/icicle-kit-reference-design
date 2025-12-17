@@ -1,10 +1,10 @@
-#OPTIONS:"|-layerid|0|-orig_srs|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\synwork\\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs|-top|MPFS_ICICLE_KIT_BASE_DESIGN|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0\\rtl\\vlog\\core|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\synwork\\MPFS_ICICLE_KIT_BASE_DESIGN_comp.srs|-top|MPFS_ICICLE_KIT_BASE_DESIGN|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0\\rtl\\vlog\\core|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\DMA_CONTROLLER\\DMA_CONTROLLER_0|-I|D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1745943498
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\generic\\acg5.v":1745932376
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1745942006
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1745942006
 #CUR:"C:\\Microchip\\Libero_SoC_2025.1\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1745942006
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\syn_comps.v":1761824687
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\syn_comps.v":1765979965
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CLK_DIV\\CLK_DIV_0\\CLK_DIV_CLK_DIV_0_PF_CLK_DIV.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CLK_DIV\\CLK_DIV.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CORERESET\\CORERESET_0\\core\\corereset_pf.v":1761639418
@@ -176,13 +176,6 @@
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\COREI2C_C0\\COREI2C_C0_0\\rtl\\vlog\\core\\corei2c.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\COREI2C_C0\\COREI2C_C0.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CORE_I2C_C0_0_WRAPPER\\CORE_I2C_C0_0_WRAPPER.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\Clock_gen.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\Rx_async.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\Tx_async.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\CoreUART.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0_0\\rtl\\vlog\\core\\CoreUARTapb.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C0\\CoreUARTapb_C0.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C1\\CoreUARTapb_C1_0\\rtl\\vlog\\core\\Clock_gen.v":1761821612
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C1\\CoreUARTapb_C1_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1761821612
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C1\\CoreUARTapb_C1_0\\rtl\\vlog\\core\\Rx_async.v":1761821612
@@ -190,15 +183,71 @@
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C1\\CoreUARTapb_C1_0\\rtl\\vlog\\core\\CoreUART.v":1761821612
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C1\\CoreUARTapb_C1_0\\rtl\\vlog\\core\\CoreUARTapb.v":1761821612
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C1\\CoreUARTapb_C1.v":1761821612
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2_0\\rtl\\vlog\\core\\Clock_gen.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2_0\\rtl\\vlog\\core\\Rx_async.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2_0\\rtl\\vlog\\core\\Tx_async.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2_0\\rtl\\vlog\\core\\CoreUART.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C2\\CoreUARTapb_C2.v":1765962376
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3_0\\rtl\\vlog\\core\\Clock_gen.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3_0\\rtl\\vlog\\core\\Rx_async.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3_0\\rtl\\vlog\\core\\Tx_async.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3_0\\rtl\\vlog\\core\\CoreUART.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C3\\CoreUARTapb_C3.v":1765962350
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4_0\\rtl\\vlog\\core\\Clock_gen.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4_0\\rtl\\vlog\\core\\Rx_async.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4_0\\rtl\\vlog\\core\\Tx_async.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4_0\\rtl\\vlog\\core\\CoreUART.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C4\\CoreUARTapb_C4.v":1765962510
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5_0\\rtl\\vlog\\core\\Clock_gen.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5_0\\rtl\\vlog\\core\\Rx_async.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5_0\\rtl\\vlog\\core\\Tx_async.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5_0\\rtl\\vlog\\core\\CoreUART.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C5\\CoreUARTapb_C5.v":1765962526
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6_0\\rtl\\vlog\\core\\Clock_gen.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6_0\\rtl\\vlog\\core\\Rx_async.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6_0\\rtl\\vlog\\core\\Tx_async.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6_0\\rtl\\vlog\\core\\CoreUART.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C6\\CoreUARTapb_C6.v":1765962566
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7_0\\rtl\\vlog\\core\\Clock_gen.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7_0\\rtl\\vlog\\core\\Rx_async.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7_0\\rtl\\vlog\\core\\Tx_async.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7_0\\rtl\\vlog\\core\\CoreUART.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C7\\CoreUARTapb_C7.v":1765962596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8_0\\rtl\\vlog\\core\\Clock_gen.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8_0\\rtl\\vlog\\core\\Rx_async.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8_0\\rtl\\vlog\\core\\Tx_async.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8_0\\rtl\\vlog\\core\\CoreUART.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C8\\CoreUARTapb_C8.v":1765962618
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9_0\\rtl\\vlog\\core\\Clock_gen.v":1765962642
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9_0\\rtl\\vlog\\core\\fifo_256x8_g5.v":1765962642
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9_0\\rtl\\vlog\\core\\Rx_async.v":1765962642
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9_0\\rtl\\vlog\\core\\Tx_async.v":1765962642
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9_0\\rtl\\vlog\\core\\CoreUART.v":1765962642
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9_0\\rtl\\vlog\\core\\CoreUARTapb.v":1765962642
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\CoreUARTapb_C9\\CoreUARTapb_C9.v":1765962642
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\hdl\\apb_arbiter.v":1761639421
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\hdl\\APB_PASS_THROUGH.v":1761639421
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_0x4000_0xxx\\FIC_3_0x4000_0xxx.v":1761639418
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1761035998
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1761035998
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3.v":1761035998
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_0x4000_0xxx\\FIC_3_0x4000_0xxx.v":1765967284
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_0x4FFF_Fxxx\\FIC_3_0x4FFF_Fxxx.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_0x4xxx_xxxx\\FIC_3_0x4xxx_xxxx.v":1761639418
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_ADDRESS_GENERATION\\FIC_3_ADDRESS_GENERATION.v":1761639418
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_ADDRESS_GENERATION\\FIC_3_ADDRESS_GENERATION.v":1765967398
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\GPIO\\GPIO_0\\rtl\\vlog\\core\\coregpio.v":1761745474
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\GPIO\\GPIO.v":1761745474
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MIV_IHC_C0\\MIV_IHC_C0_0\\rtl\\core\\core_merged\\miv_ihc_core_merged.v":1761639419
@@ -210,11 +259,11 @@
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\Actel\\DirectCore\\corepwm\\4.5.100\\rtl\\vlog\\core\\corepwm.v":1761639418
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\corepwm_C0\\corepwm_C0.v":1761639419
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\hdl\\fabric_sd_emmc_demux_select.v":1761639421
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_PERIPHERALS\\FIC_3_PERIPHERALS.v":1761824093
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\FIC_3_PERIPHERALS\\FIC_3_PERIPHERALS.v":1765979898
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\ICICLE_MSS\\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":1761639419
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\ICICLE_MSS\\ICICLE_MSS.v":1761639419
 #CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MSS_WRAPPER\\MSS_WRAPPER.v":1761639419
-#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MPFS_ICICLE_KIT_BASE_DESIGN\\MPFS_ICICLE_KIT_BASE_DESIGN.v":1761824596
+#CUR:"D:\\PION101\\icicle-kit-reference-design\\MPFS_ICICLE_ES\\component\\work\\MPFS_ICICLE_KIT_BASE_DESIGN\\MPFS_ICICLE_KIT_BASE_DESIGN.v":1765979918
 0			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\syn_comps.v" verilog
 1			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CLK_DIV\CLK_DIV_0\CLK_DIV_CLK_DIV_0_PF_CLK_DIV.v" verilog
 2			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CLK_DIV\CLK_DIV.v" verilog
@@ -381,45 +430,94 @@
 163			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\core\corei2c.v" verilog
 164			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\COREI2C_C0\COREI2C_C0.v" verilog
 165			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CORE_I2C_C0_0_WRAPPER\CORE_I2C_C0_0_WRAPPER.v" verilog
-166			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Clock_gen.v" verilog
-167			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
-168			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Rx_async.v" verilog
-169			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v" verilog
-170			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUART.v" verilog
-171			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v" verilog
-172			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C0\CoreUARTapb_C0.v" verilog
-173			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v" verilog
-174			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
-175			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v" verilog
-176			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v" verilog
-177			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v" verilog
-178			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v" verilog
-179			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v" verilog
-180			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\apb_arbiter.v" verilog
-181			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\APB_PASS_THROUGH.v" verilog
-182			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
-183			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
-184			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
-185			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v" verilog
-186			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.v" verilog
-187			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.v" verilog
-188			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v" verilog
-189			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v" verilog
-190			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO.v" verilog
-191			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v" verilog
-192			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0.v" verilog
-193			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\tach_if.v" verilog
-194			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v" verilog
-195			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v" verilog
-196			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v" verilog
-197			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v" verilog
-198			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\corepwm_C0\corepwm_C0.v" verilog
-199			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v" verilog
-200			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v" verilog
-201			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
-202			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\ICICLE_MSS.v" verilog
-203			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MSS_WRAPPER\MSS_WRAPPER.v" verilog
-204			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v" verilog
+166			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v" verilog
+167			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+168			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v" verilog
+169			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v" verilog
+170			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v" verilog
+171			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v" verilog
+172			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C1\CoreUARTapb_C1.v" verilog
+173			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Clock_gen.v" verilog
+174			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+175			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Rx_async.v" verilog
+176			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\Tx_async.v" verilog
+177			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUART.v" verilog
+178			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2_0\rtl\vlog\core\CoreUARTapb.v" verilog
+179			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C2\CoreUARTapb_C2.v" verilog
+180			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Clock_gen.v" verilog
+181			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+182			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Rx_async.v" verilog
+183			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\Tx_async.v" verilog
+184			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUART.v" verilog
+185			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3_0\rtl\vlog\core\CoreUARTapb.v" verilog
+186			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C3\CoreUARTapb_C3.v" verilog
+187			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Clock_gen.v" verilog
+188			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+189			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Rx_async.v" verilog
+190			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\Tx_async.v" verilog
+191			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUART.v" verilog
+192			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4_0\rtl\vlog\core\CoreUARTapb.v" verilog
+193			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C4\CoreUARTapb_C4.v" verilog
+194			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Clock_gen.v" verilog
+195			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+196			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Rx_async.v" verilog
+197			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\Tx_async.v" verilog
+198			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUART.v" verilog
+199			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5_0\rtl\vlog\core\CoreUARTapb.v" verilog
+200			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C5\CoreUARTapb_C5.v" verilog
+201			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Clock_gen.v" verilog
+202			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+203			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Rx_async.v" verilog
+204			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\Tx_async.v" verilog
+205			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUART.v" verilog
+206			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6_0\rtl\vlog\core\CoreUARTapb.v" verilog
+207			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C6\CoreUARTapb_C6.v" verilog
+208			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Clock_gen.v" verilog
+209			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+210			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Rx_async.v" verilog
+211			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\Tx_async.v" verilog
+212			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUART.v" verilog
+213			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7_0\rtl\vlog\core\CoreUARTapb.v" verilog
+214			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C7\CoreUARTapb_C7.v" verilog
+215			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Clock_gen.v" verilog
+216			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+217			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Rx_async.v" verilog
+218			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\Tx_async.v" verilog
+219			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUART.v" verilog
+220			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8_0\rtl\vlog\core\CoreUARTapb.v" verilog
+221			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C8\CoreUARTapb_C8.v" verilog
+222			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Clock_gen.v" verilog
+223			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\fifo_256x8_g5.v" verilog
+224			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Rx_async.v" verilog
+225			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\Tx_async.v" verilog
+226			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUART.v" verilog
+227			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9_0\rtl\vlog\core\CoreUARTapb.v" verilog
+228			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\CoreUARTapb_C9\CoreUARTapb_C9.v" verilog
+229			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\apb_arbiter.v" verilog
+230			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\APB_PASS_THROUGH.v" verilog
+231			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+232			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+233			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
+234			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v" verilog
+235			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.v" verilog
+236			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.v" verilog
+237			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v" verilog
+238			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v" verilog
+239			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\GPIO\GPIO.v" verilog
+240			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v" verilog
+241			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MIV_IHC_C0\MIV_IHC_C0.v" verilog
+242			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\tach_if.v" verilog
+243			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\pwm_gen.v" verilog
+244			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\reg_if.v" verilog
+245			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\timebase.v" verilog
+246			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\core\corepwm.v" verilog
+247			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\corepwm_C0\corepwm_C0.v" verilog
+248			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\hdl\fabric_sd_emmc_demux_select.v" verilog
+249			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v" verilog
+250			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" verilog
+251			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\ICICLE_MSS\ICICLE_MSS.v" verilog
+252			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MSS_WRAPPER\MSS_WRAPPER.v" verilog
+253			"D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 0
@@ -605,27 +703,76 @@
 181 -1
 182 -1
 183 -1
-184 183 182
+184 181 182 183 180
 185 184
-186 184
-187 184
-188 185 187 186 181 180
+186 185
+187 -1
+188 -1
 189 -1
-190 189
-191 -1
+190 -1
+191 188 189 190 187
 192 191
-193 -1
+193 192
 194 -1
 195 -1
 196 -1
-197 193 194 196 195
-198 197
-199 -1
-200 165 198 192 188 199 179 172 190
+197 -1
+198 195 196 197 194
+199 198
+200 199
 201 -1
-202 201
-203 202
-204 203 200 161 154 17
+202 -1
+203 -1
+204 -1
+205 202 203 204 201
+206 205
+207 206
+208 -1
+209 -1
+210 -1
+211 -1
+212 209 210 211 208
+213 212
+214 213
+215 -1
+216 -1
+217 -1
+218 -1
+219 216 217 218 215
+220 219
+221 220
+222 -1
+223 -1
+224 -1
+225 -1
+226 223 224 225 222
+227 226
+228 227
+229 -1
+230 -1
+231 -1
+232 -1
+233 232 231
+234 233
+235 233
+236 233
+237 234 236 235 230 229
+238 -1
+239 238
+240 -1
+241 240
+242 -1
+243 -1
+244 -1
+245 -1
+246 242 243 245 244
+247 246
+248 -1
+249 165 247 241 237 248 228 221 214 207 200 193 186 179 172 239
+250 -1
+251 250
+252 251
+253 252 249 161 154 17
 #Dependency Lists(Users Of)
 0 159 15 13 11 9 7 5 1
 1 2
@@ -644,7 +791,7 @@
 14 17
 15 16
 16 17
-17 204
+17 253
 18 66
 19 66
 20 66 63 61 58 57 56 25 22 19
@@ -781,127 +928,239 @@
 151 152
 152 153
 153 154
-154 204
+154 253
 155 161
 156 161
 157 161
 158 159
 159 160
 160 161
-161 204
+161 253
 162 163
 163 164
 164 165
-165 200
+165 249
 166 170
 167 170
 168 170
 169 170
 170 171
 171 172
-172 200
+172 249
 173 177
 174 177
 175 177
 176 177
 177 178
 178 179
-179 200
-180 188
-181 188
+179 249
+180 184
+181 184
 182 184
 183 184
-184 187 186 185
-185 188
-186 188
-187 188
-188 200
-189 190
-190 200
+184 185
+185 186
+186 249
+187 191
+188 191
+189 191
+190 191
 191 192
-192 200
-193 197
-194 197
-195 197
-196 197
+192 193
+193 249
+194 198
+195 198
+196 198
 197 198
-198 200
+198 199
 199 200
-200 204
-201 202
-202 203
-203 204
-204 -1
+200 249
+201 205
+202 205
+203 205
+204 205
+205 206
+206 207
+207 249
+208 212
+209 212
+210 212
+211 212
+212 213
+213 214
+214 249
+215 219
+216 219
+217 219
+218 219
+219 220
+220 221
+221 249
+222 226
+223 226
+224 226
+225 226
+226 227
+227 228
+228 249
+229 237
+230 237
+231 233
+232 233
+233 236 235 234
+234 237
+235 237
+236 237
+237 249
+238 239
+239 249
+240 241
+241 249
+242 246
+243 246
+244 246
+245 246
+246 247
+247 249
+248 249
+249 253
+250 251
+251 252
+252 253
+253 -1
 #Design Unit to File Association
-module COREAPB3_LIB CoreAPB3 184
-module COREAPB3_LIB coreapb3_iaddr_reg 183
-module COREAPB3_LIB COREAPB3_MUXPTOB3 182
-module work MPFS_ICICLE_KIT_BASE_DESIGN 204
-module work MSS_WRAPPER 203
-module work ICICLE_MSS 202
-module work MSS 201
-module work FIC_3_PERIPHERALS 200
-module work fabric_sd_emmc_demux_select 199
-module work corepwm_C0 198
-module work corepwm 197
-module work corepwm_timebase 196
-module work corepwm_reg_if 195
-module work corepwm_pwm_gen 194
-module work corepwm_tach_if 193
-module work MIV_IHC_C0 192
-module work miv_ihc_axi2apb 191
-module work miv_ihc_axi_w_buffer 191
-module work miv_ihc_axi_r_buffer 191
-module work miv_ihc_axi_b_buffer 191
-module work miv_ihc_axi_aw_buffer 191
-module work miv_ihc_axi_ar_buffer 191
-module work miv_ihc_axi_single_slice 191
-module work miv_ihc_fifo 191
-module work miv_ihc_fifo_v2 191
-module work miv_ihc_fifo_v3 191
-module work miv_ihc_apb_mpu 191
-module work miv_ihc_apb_cdc 191
-module work miv_ihc_apb_slave_asynch 191
-module work miv_ihc_apb_master_asynch 191
-module work miv_ihc_apb_arbiter_3 191
-module work miv_ihc_apb_arbiter_2 191
-module work miv_ihc_apb_target 191
-module work miv_ihc_mailbox_address_decoder 191
-module work miv_ihc_address_controller 191
-module work miv_ihc_interrupt_module 191
-module work miv_ihc_channel 191
-module work miv_ihc_ram_singleport_addreg 191
-module work miv_ihc_core 191
-module work miv_ihc_axi_target_top 191
-module work miv_ihc_apb_target_top 191
-module work miv_ihc_apb_arbiter_top 191
-module work MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC 191
-module work GPIO 190
-module work GPIO_GPIO_0_CoreGPIO 189
-module work FIC_3_ADDRESS_GENERATION 188
-module work FIC_3_0x4xxx_xxxx 187
-module work FIC_3_0x4FFF_Fxxx 186
-module work FIC_3_0x4000_0xxx 185
-module work APB_PASS_THROUGH 181
-module work APB_ARBITER 180
-module work CoreUARTapb_C1 179
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb 178
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART 177
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async 176
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async 175
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5 174
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256 174
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8 174
-module work CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen 173
-module work CoreUARTapb_C0 172
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb 171
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_COREUART 170
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async 169
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async 168
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5 167
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_ctrl_256 167
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_fifo_256x8 167
-module work CoreUARTapb_C0_CoreUARTapb_C0_0_Clock_gen 166
+module COREAPB3_LIB CoreAPB3 233
+module COREAPB3_LIB coreapb3_iaddr_reg 232
+module COREAPB3_LIB COREAPB3_MUXPTOB3 231
+module work MPFS_ICICLE_KIT_BASE_DESIGN 253
+module work MSS_WRAPPER 252
+module work ICICLE_MSS 251
+module work MSS 250
+module work FIC_3_PERIPHERALS 249
+module work fabric_sd_emmc_demux_select 248
+module work corepwm_C0 247
+module work corepwm 246
+module work corepwm_timebase 245
+module work corepwm_reg_if 244
+module work corepwm_pwm_gen 243
+module work corepwm_tach_if 242
+module work MIV_IHC_C0 241
+module work miv_ihc_axi2apb 240
+module work miv_ihc_axi_w_buffer 240
+module work miv_ihc_axi_r_buffer 240
+module work miv_ihc_axi_b_buffer 240
+module work miv_ihc_axi_aw_buffer 240
+module work miv_ihc_axi_ar_buffer 240
+module work miv_ihc_axi_single_slice 240
+module work miv_ihc_fifo 240
+module work miv_ihc_fifo_v2 240
+module work miv_ihc_fifo_v3 240
+module work miv_ihc_apb_mpu 240
+module work miv_ihc_apb_cdc 240
+module work miv_ihc_apb_slave_asynch 240
+module work miv_ihc_apb_master_asynch 240
+module work miv_ihc_apb_arbiter_3 240
+module work miv_ihc_apb_arbiter_2 240
+module work miv_ihc_apb_target 240
+module work miv_ihc_mailbox_address_decoder 240
+module work miv_ihc_address_controller 240
+module work miv_ihc_interrupt_module 240
+module work miv_ihc_channel 240
+module work miv_ihc_ram_singleport_addreg 240
+module work miv_ihc_core 240
+module work miv_ihc_axi_target_top 240
+module work miv_ihc_apb_target_top 240
+module work miv_ihc_apb_arbiter_top 240
+module work MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC 240
+module work GPIO 239
+module work GPIO_GPIO_0_CoreGPIO 238
+module work FIC_3_ADDRESS_GENERATION 237
+module work FIC_3_0x4xxx_xxxx 236
+module work FIC_3_0x4FFF_Fxxx 235
+module work FIC_3_0x4000_0xxx 234
+module work APB_PASS_THROUGH 230
+module work APB_ARBITER 229
+module work CoreUARTapb_C9 228
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_CoreUARTapb 227
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_COREUART 226
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_Tx_async 225
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_Rx_async 224
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_ram256x8_g5 223
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_fifo_ctrl_256 223
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_fifo_256x8 223
+module work CoreUARTapb_C9_CoreUARTapb_C9_0_Clock_gen 222
+module work CoreUARTapb_C8 221
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_CoreUARTapb 220
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_COREUART 219
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_Tx_async 218
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_Rx_async 217
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_ram256x8_g5 216
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_fifo_ctrl_256 216
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_fifo_256x8 216
+module work CoreUARTapb_C8_CoreUARTapb_C8_0_Clock_gen 215
+module work CoreUARTapb_C7 214
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_CoreUARTapb 213
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_COREUART 212
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_Tx_async 211
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_Rx_async 210
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_ram256x8_g5 209
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_fifo_ctrl_256 209
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_fifo_256x8 209
+module work CoreUARTapb_C7_CoreUARTapb_C7_0_Clock_gen 208
+module work CoreUARTapb_C6 207
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_CoreUARTapb 206
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_COREUART 205
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_Tx_async 204
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_Rx_async 203
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_ram256x8_g5 202
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_fifo_ctrl_256 202
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_fifo_256x8 202
+module work CoreUARTapb_C6_CoreUARTapb_C6_0_Clock_gen 201
+module work CoreUARTapb_C5 200
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_CoreUARTapb 199
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_COREUART 198
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_Tx_async 197
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_Rx_async 196
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_ram256x8_g5 195
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_fifo_ctrl_256 195
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_fifo_256x8 195
+module work CoreUARTapb_C5_CoreUARTapb_C5_0_Clock_gen 194
+module work CoreUARTapb_C4 193
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_CoreUARTapb 192
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_COREUART 191
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_Tx_async 190
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_Rx_async 189
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_ram256x8_g5 188
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_fifo_ctrl_256 188
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_fifo_256x8 188
+module work CoreUARTapb_C4_CoreUARTapb_C4_0_Clock_gen 187
+module work CoreUARTapb_C3 186
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_CoreUARTapb 185
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_COREUART 184
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_Tx_async 183
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_Rx_async 182
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_ram256x8_g5 181
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_fifo_ctrl_256 181
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_fifo_256x8 181
+module work CoreUARTapb_C3_CoreUARTapb_C3_0_Clock_gen 180
+module work CoreUARTapb_C2 179
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_CoreUARTapb 178
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_COREUART 177
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_Tx_async 176
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_Rx_async 175
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_ram256x8_g5 174
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_fifo_ctrl_256 174
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_fifo_256x8 174
+module work CoreUARTapb_C2_CoreUARTapb_C2_0_Clock_gen 173
+module work CoreUARTapb_C1 172
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb 171
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART 170
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async 169
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async 168
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5 167
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256 167
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8 167
+module work CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen 166
 module work CORE_I2C_C0_0_WRAPPER 165
 module work COREI2C_C0 164
 module work COREI2C_C0_COREI2C_C0_0_COREI2C 163

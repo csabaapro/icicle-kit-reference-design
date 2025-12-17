@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 2025.1.0.14)
-Date: Thu Oct 30 12:50:36 2025
+Date: Wed Dec 17 15:03:01 2025
 
 Device Selection
 +------------------------+--------------+
@@ -29,10 +29,10 @@ Resource Usage
 +-----------------------------+-------+--------+------------+
 | Type                        | Used  | Total  | Percentage |
 +-----------------------------+-------+--------+------------+
-| 4LUT                        | 15135 | 254196 | 5.95       |
-| DFF                         | 11812 | 254196 | 4.65       |
-| User I/O                    | 67    | 144    | 46.53      |
-| -- Single-ended I/O         | 67    | 144    | 46.53      |
+| 4LUT                        | 17499 | 254196 | 6.88       |
+| DFF                         | 13681 | 254196 | 5.38       |
+| User I/O                    | 65    | 144    | 45.14      |
+| -- Single-ended I/O         | 65    | 144    | 45.14      |
 | -- Differential I/O Pairs   | 0     | 72     | 0.00       |
 | -- I/Os using I/O Registers | 0     | 144    | 0.00       |
 | I/O Register Flip-Flops     | 0     | 432    | 0.00       |
@@ -40,7 +40,7 @@ Resource Usage
 | -- Output I/O Flip-Flops    | 0     | 144    | 0.00       |
 | -- Enable I/O Flip-Flops    | 0     | 144    | 0.00       |
 | uSRAM                       | 71    | 2352   | 3.02       |
-| LSRAM                       | 25    | 812    | 3.08       |
+| LSRAM                       | 39    | 812    | 4.80       |
 | Math                        | 0     | 784    | 0.00       |
 | H-Chip Global               | 12    | 48     | 25.00      |
 | PLL                         | 1     | 8      | 12.50      |
@@ -66,11 +66,11 @@ Detailed Logic Resource Usage
 +-----------------------+-------+-------+
 | Type                  | 4LUT  | DFF   |
 +-----------------------+-------+-------+
-| Fabric Logic          | 13383 | 10060 |
+| Fabric Logic          | 15243 | 11425 |
 | uSRAM Interface Logic | 852   | 852   |
-| LSRAM Interface Logic | 900   | 900   |
+| LSRAM Interface Logic | 1404  | 1404  |
 | Math Interface Logic  | 0     | 0     |
-| Total Used            | 15135 | 11812 |
+| Total Used            | 17499 | 13681 |
 +-----------------------+-------+-------+
 
 Detailed Carry Chains Resource Usage
@@ -81,37 +81,37 @@ Detailed Carry Chains Resource Usage
 | 5      | 1    |
 | 6      | 8    |
 | 7      | 5    |
-| 8      | 32   |
-| 9      | 22   |
+| 8      | 52   |
+| 9      | 44   |
 | 10     | 11   |
 | 11     | 12   |
 | 12     | 4    |
 | 13     | 11   |
-| 14     | 9    |
+| 14     | 16   |
 | 17     | 4    |
 | 23     | 2    |
 | 24     | 1    |
 | 25     | 5    |
 | 32     | 3    |
 | 33     | 6    |
-| Total  | 141  |
+| Total  | 190  |
 +--------+------+
 
 Detailed 4LUT Groups Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 123  |
-| 5      | 2    |
+| 2      | 159  |
+| 5      | 9    |
 | 22     | 2    |
-| Total  | 127  |
+| Total  | 170  |
 +--------+------+
 
 I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 14           | 0           | 0               |
-| Output I/O                    | 30           | 0           | 0               |
+| Input I/O                     | 13           | 0           | 0               |
+| Output I/O                    | 29           | 0           | 0               |
 | Bidirectional I/O             | 23           | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 0            | 0           | 0               |
@@ -127,8 +127,14 @@ Nets assigned to chip global resources
 | 2959   | INT_NET | Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/sysReset_arst                           |
 |        |         | Driver: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1 |
 |        |         | Source: NETLIST                                                                                            |
+| 2561   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_CLK                                                                        |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1                               |
+|        |         | Source: NETLIST                                                                                            |
 | 2478   | INT_NET | Net   : dff_arst_0                                                                                         |
 |        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15_rep_RNIM0V24[0]/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                            |
+| 2468   | INT_NET | Net   : dff_arst                                                                                           |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1                 |
 |        |         | Source: NETLIST                                                                                            |
 | 2170   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_1_CLK                                                                        |
 |        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4/U0_RGB1                                |
@@ -136,14 +142,8 @@ Nets assigned to chip global resources
 | 1492   | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_INITIATOR_inst_0/DMA_INITIATOR_0/sysReset_arst                             |
 |        |         | Driver: FIC_0_PERIPHERALS_1/DMA_INITIATOR_inst_0/DMA_INITIATOR_0/arst_aclk_sync/sysReset_RNISKAM4/U0_RGB1  |
 |        |         | Source: NETLIST                                                                                            |
-| 1168   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_CLK                                                                        |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12/U0_RGB1                               |
-|        |         | Source: NETLIST                                                                                            |
 | 1112   | INT_NET | Net   : FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/sysReset_arst                              |
 |        |         | Driver: FIC_1_PERIPHERALS_1/FIC_1_INITIATOR_0/FIC_1_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1    |
-|        |         | Source: NETLIST                                                                                            |
-| 1103   | INT_NET | Net   : dff_arst                                                                                           |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_3_CLK/CORERESET_0/dff_15_rep_RNIPQQV[0]/U0_RGB1                 |
 |        |         | Source: NETLIST                                                                                            |
 | 1020   | INT_NET | Net   : FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/sysReset_arst                           |
 |        |         | Driver: FIC_1_PERIPHERALS_1/PCIE_INITIATOR_inst_0/PCIE_INITIATOR_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1 |
@@ -166,54 +166,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                                                                                                                     |
-+--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 268    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_RESET_FIC_0_CLK_CORERESET_0_dff                                                                                                                         |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15[0]                                                                                                                   |
-| 192    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/externDscrptr_DscrptrSrcMux                                                                           |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/dscrptrSrcMux_inst/externDscrptr_0_a3                                                                 |
-| 171    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdCache1Sel                                                                               |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/intErrorCtrl_inst/rdCache1Sel_fast                                                        |
-| 169    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0_Z                                               |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0                                                 |
-| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue15                                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdTranQueue_inst/intDscrptrNum_rdTranQueue15                                              |
-| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue05                                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/wrTranQueue_inst/strDscrptr_wrTranQueue05                                                 |
-| 141    | INT_NET | Net   : FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0_MEM_WEN                                                                                                                      |
-|        |         | Driver: FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0/genblk1.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc                                                              |
-| 135    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/N_79                                                                          |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_currState_1_i_o3                                                          |
-| 132    | INT_NET | Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize_Z[0] |
-|        |         | Driver: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize[0]   |
-| 129    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP_Z                                                               |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP                                                                 |
-+--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| 268    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_RESET_FIC_0_CLK_CORERESET_0_dff                                                                            |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15[0]                                                                      |
+| 204    | INT_NET | Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[3]                                                                                          |
+|        |         | Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS                                                                                               |
+| 192    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/externDscrptr_DscrptrSrcMux                              |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/dscrptrSrcMux_inst/externDscrptr_0_a3                    |
+| 171    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdCache1Sel                                  |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/intErrorCtrl_inst/rdCache1Sel_fast           |
+| 169    | INT_NET | Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[4]                                                                                          |
+|        |         | Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS                                                                                               |
+| 169    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0_Z  |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0    |
+| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue15                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdTranQueue_inst/intDscrptrNum_rdTranQueue15 |
+| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue05                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/wrTranQueue_inst/strDscrptr_wrTranQueue05    |
+| 158    | INT_NET | Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[2]                                                                                          |
+|        |         | Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS                                                                                               |
+| 141    | INT_NET | Net   : FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0_MEM_WEN                                                                         |
+|        |         | Driver: FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0/genblk1.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc                 |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                                                                                                                     |
-+--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 268    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_RESET_FIC_0_CLK_CORERESET_0_dff                                                                                                                         |
-|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15[0]                                                                                                                   |
-| 192    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/externDscrptr_DscrptrSrcMux                                                                           |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/dscrptrSrcMux_inst/externDscrptr_0_a3                                                                 |
-| 171    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdCache1Sel                                                                               |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/intErrorCtrl_inst/rdCache1Sel_fast                                                        |
-| 169    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0_Z                                               |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0                                                 |
-| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue15                                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdTranQueue_inst/intDscrptrNum_rdTranQueue15                                              |
-| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue05                                                                  |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/wrTranQueue_inst/strDscrptr_wrTranQueue05                                                 |
-| 141    | INT_NET | Net   : FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0_MEM_WEN                                                                                                                      |
-|        |         | Driver: FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0/genblk1.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc                                                              |
-| 135    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/N_79                                                                          |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_currState_1_i_o3                                                          |
-| 132    | INT_NET | Net   : FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize_Z[0] |
-|        |         | Driver: FIC_0_PERIPHERALS_1/FIC0_INITIATOR_inst_0/FIC0_INITIATOR_0/SlvConvertor_loop[0].slvcnv/slvdwc/genblk1.DownConverter_inst/readWidthConv/genblk1.widthConvrd/un1_mask_slvSize[0]   |
-| 129    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP_Z                                                               |
-|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_bufferDescriptors/un1_currRdState_4_i_a3_1_RNIA0JAP                                                                 |
-+--------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------+
+| 268    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_RESET_FIC_0_CLK_CORERESET_0_dff                                                                            |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/RESET_FIC_0_CLK/CORERESET_0/dff_15[0]                                                                      |
+| 204    | INT_NET | Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[3]                                                                                          |
+|        |         | Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS                                                                                               |
+| 192    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/externDscrptr_DscrptrSrcMux                              |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/dscrptrSrcMux_inst/externDscrptr_0_a3                    |
+| 171    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdCache1Sel                                  |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/intErrorCtrl_inst/rdCache1Sel_fast           |
+| 169    | INT_NET | Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[4]                                                                                          |
+|        |         | Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS                                                                                               |
+| 169    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0_Z  |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/extDscrptrFetchFSM_inst/un1_dataValidReg_d_0_sqmuxa_0    |
+| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue15                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/rdTranQueue_inst/intDscrptrNum_rdTranQueue15 |
+| 166    | INT_NET | Net   : FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/strDscrptr_wrTranQueue05                     |
+|        |         | Driver: FIC_0_PERIPHERALS_1/DMA_CONTROLLER_inst_0/DMA_CONTROLLER_0/U_DMAController/DMATranCtrl/wrTranQueue_inst/strDscrptr_wrTranQueue05    |
+| 158    | INT_NET | Net   : MSS_WRAPPER_1_FIC_3_APB_INITIATOR_PADDR[2]                                                                                          |
+|        |         | Driver: MSS_WRAPPER_1/ICICLE_MSS_inst_0/I_MSS                                                                                               |
+| 141    | INT_NET | Net   : FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0_MEM_WEN                                                                         |
+|        |         | Driver: FIC_0_PERIPHERALS_1/MSS_LSRAM_inst_0/COREAXI4SRAM_0/genblk1.U_MSS_LSRAM_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc                 |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------+
 

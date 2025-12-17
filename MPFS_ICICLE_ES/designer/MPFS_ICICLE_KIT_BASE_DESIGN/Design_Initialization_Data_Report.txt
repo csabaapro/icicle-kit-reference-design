@@ -3,7 +3,7 @@ Microchip Technology Inc. - Microchip Libero Software Release 2025.1 (Version 20
 Family: PolarFireSoC
 Die: MPFS250T_ES
 Package: FCVG484
-Date: Thu Oct 30 13:04:24 2025
+Date: Wed Dec 17 15:13:29 2025
 
 Report path: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\Design_Initialization_Data_Report.txt
 
@@ -2789,11 +2789,11 @@ Used Modules
 | Peripheral Block Name | Instance Name                                                              |
 +-----------------------+----------------------------------------------------------------------------+
 | CLKDIVDEL_SW_1        | CLOCKS_AND_RESETS_inst_0/CLK_160MHz_to_CLK_80MHz/CLK_DIV_0/I_CD            |
-| ICB_CLKINT_NW_1       | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8_1              |
-| ICB_CLKINT_NW_2       | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12_1             |
+| ICB_CLKINT_NW_1       | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4_1              |
 | ICB_CLKINT_NW_4       | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_0_1              |
-| ICB_CLKINT_NW_5       | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_4_1              |
-| ICB_CLKINT_NW_7       | CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0_IOBA                      |
+| ICB_CLKINT_NW_5       | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_12_1             |
+| ICB_CLKINT_NW_6       | CLOCKS_AND_RESETS_inst_0/CLKINT_REF_CLK_50MHz/U0_IOBA                      |
+| ICB_CLKINT_NW_11      | CLOCKS_AND_RESETS_inst_0/CCC_FIC_x_CLK/PF_CCC_C0_0/clkint_8_1              |
 | ICB_CLKINT_SW_0       | CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_CLKINT_1 |
 | NGMUX_SW_1            | CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_NGMUX    |
 | ICBINT_SW_0           | CLOCKS_AND_RESETS_inst_0/GLITCHLESS_MUX_inst_0/GLITCHLESS_MUX_0/I_NGMUX_1  |
@@ -13626,7 +13626,7 @@ ICB_CLKINT_NW_10 (Unused pin tie-off)
 +-----------+---------+
 
 
-ICB_CLKINT_NW_11 (Unused pin tie-off)
+ICB_CLKINT_NW_2 (Unused pin tie-off)
 +-----------+---------+
 | Input Pin | Tie-Off |
 +-----------+---------+
@@ -13644,7 +13644,7 @@ ICB_CLKINT_NW_3 (Unused pin tie-off)
 +-----------+---------+
 
 
-ICB_CLKINT_NW_6 (Unused pin tie-off)
+ICB_CLKINT_NW_7 (Unused pin tie-off)
 +-----------+---------+
 | Input Pin | Tie-Off |
 +-----------+---------+
