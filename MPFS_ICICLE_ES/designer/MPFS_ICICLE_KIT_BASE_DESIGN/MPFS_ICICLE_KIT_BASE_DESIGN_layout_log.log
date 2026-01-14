@@ -51,7 +51,7 @@ Total time spent in I/O Bank and Globals Assigner: 4 seconds
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Placer V5.0 - 2025.1.0 
-Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Thu Oct 30 12:56:41 2025
+Design: MPFS_ICICLE_KIT_BASE_DESIGN     Started: Wed Jan 14 14:59:30 2026
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -60,31 +60,31 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 6 seconds
-Placement                : 28 seconds
-Improvement              : 99 seconds
+Clustering (1 pass)      : 9 seconds
+Placement                : 31 seconds
+Improvement              : 56 seconds
 
 Placer completed successfully.
 
 Design: MPFS_ICICLE_KIT_BASE_DESIGN     
-Finished: Thu Oct 30 12:59:30 2025
-Total CPU Time:     00:03:05            Total Elapsed Time: 00:02:49
-Total Memory Usage: 1445.0 Mbytes
+Finished: Wed Jan 14 15:01:45 2026
+Total CPU Time:     00:02:38            Total Elapsed Time: 00:02:15
+Total Memory Usage: 1448.8 Mbytes
                         o - o - o - o - o - o
 
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Router 
-Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Thu Oct 30 13:00:04 2025
+Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGNStarted: Wed Jan 14 15:02:03 2026
 
 
 Router completed successfully.
 
 Design: D:\PION101\icicle-kit-reference-design\MPFS_ICICLE_ES\designer\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN
-Finished: Thu Oct 30 13:00:44 2025
-Total CPU Time:     00:00:48            Total Elapsed Time: 00:00:40
-Total Memory Usage: 4623.3 Mbytes
+Finished: Wed Jan 14 15:02:35 2026
+Total CPU Time:     00:00:42            Total Elapsed Time: 00:00:32
+Total Memory Usage: 4623.7 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage

@@ -68,7 +68,7 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761639418"
+TIME="1765967284"
 SIZE="2736"
 PARENT="<project>\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.cxf"
 PARENT="<project>\component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.cxf"
@@ -76,7 +76,7 @@ PARENT="<project>\component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1767777075"
 SIZE="1284"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -84,14 +84,14 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="912"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="4645"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -99,7 +99,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="9100"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -107,7 +107,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="25147"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -115,7 +115,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="36284"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -123,7 +123,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="122465"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -131,7 +131,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v,hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="29701"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -139,7 +139,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v,hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="4465"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -147,7 +147,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v,hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="5708"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -155,7 +155,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1761035998"
 SIZE="23813"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
@@ -1018,7 +1018,7 @@ PARENT="<project>\component\work\CORERESET\CORERESET.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.7.100\CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761821612"
+TIME="1765962642"
 SIZE="779"
 PARENT="<project>\component\work\CoreUARTapb_C0\CoreUARTapb_C0.cxf"
 PARENT="<project>\component\work\CoreUARTapb_C1\CoreUARTapb_C1.cxf"
@@ -2119,12 +2119,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761639418"
+TIME="1767777075"
 SIZE="15715"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.v,hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1767777075"
 SIZE="13827"
 PARENT="<project>\component\work\FIC_3_0x4000_0xxx\FIC_3_0x4000_0xxx.cxf"
 IS_READONLY="TRUE"
@@ -2155,24 +2155,24 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761639418"
+TIME="1767777075"
 SIZE="22748"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v,hdl"
 STATE="utd"
-TIME="1761639418"
+TIME="1767777075"
 SIZE="23445"
 PARENT="<project>\component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761823583"
+TIME="1767777075"
 SIZE="12798"
 ENDFILE
 VALUE "<project>\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v,hdl"
 STATE="utd"
-TIME="1761823582"
+TIME="1767777075"
 SIZE="34609"
 PARENT="<project>\component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.cxf"
 IS_READONLY="TRUE"
@@ -2425,8 +2425,14 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1761824078"
-SIZE="27565"
+TIME="1767777075"
+SIZE="27890"
+ENDFILE
+VALUE "<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v,hdl"
+STATE="utd"
+TIME="1767777075"
+SIZE="105163"
+PARENT="<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.cxf"
 ENDFILE
 VALUE "<project>\component\work\MSS_LSRAM\COREAXI4SRAM_0\MSS_LSRAM_COREAXI4SRAM_0_COREAXI4SRAM.cxf,actgen_cxf"
 STATE="utd"
@@ -2698,8 +2704,8 @@ SIZE="1950"
 ENDFILE
 VALUE "<project>\constraint\io\ICICLE_RPi.pdc,io_pdc"
 STATE="utd"
-TIME="1761748043"
-SIZE="3893"
+TIME="1768398173"
+SIZE="4239"
 ENDFILE
 VALUE "<project>\constraint\io\ICICLE_RPi_MICRON_QSPI.pdc,io_pdc"
 STATE="utd"
@@ -2748,7 +2754,7 @@ SIZE="4564"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
 STATE="utd"
-TIME="1761639421"
+TIME="1761035998"
 SIZE="1229"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 ENDFILE
@@ -2848,22 +2854,22 @@ PARENT="<project>\component\Actel\DirectCore\COREAXI4DMACONTROLLER\2.2.107\COREA
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.so,so"
 STATE="utd"
-TIME="1761747588"
+TIME="1768398611"
 SIZE="282"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN.vm,syn_vm"
 STATE="ood"
-TIME="1761747583"
-SIZE="8826525"
+TIME="1768398768"
+SIZE="8942093"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_syn.prj,prj"
 STATE="utd"
-TIME="1761747589"
-SIZE="34962"
+TIME="1768398769"
+SIZE="35975"
 ENDFILE
 VALUE "<project>\synthesis\MPFS_ICICLE_KIT_BASE_DESIGN_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1761747585"
+TIME="1768398769"
 SIZE="4506"
 ENDFILE
 ENDLIST
@@ -3007,7 +3013,7 @@ VALUE "<project>\component\work\MIV_IHC_C0\MIV_IHC_C0_0\coreparameters.v,tb_hdl"
 ENDLIST
 ENDLIST
 LIST "MPFS_ICICLE_KIT_BASE_DESIGN::work"
-FILE "<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.cxf,actgen_cxf"
+FILE "<project>\component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v,hdl"
 LIST SynthesisConstraints
 VALUE "<project>\constraint\fic_clocks.sdc,sdc"
 VALUE "<project>\constraint\MPFS_ICICLE_KIT_BASE_DESIGN_derived_constraints.sdc,sdc"
@@ -3082,10 +3088,10 @@ VALUE "<project>\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\sim\Use
 VALUE "<project>\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\sim\AXI4Models\DualPort_Ram_SyncWr_ASyncRd.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\sim\run_user_test_ts.do,do"
 ENDLIST
-LIST corepwm
-VALUE "<project>\component\Actel\DirectCore\corepwm\4.5.100\coreparameters.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\test\user\tb_user_corepwm.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\corepwm\4.5.100\mti\scripts\wave_usertb_vlog.do,do"
+LIST COREI2C_C0_COREI2C_C0_0_COREI2C
+VALUE "<project>\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\test\user\i2c_spk.v,tb_hdl"
+VALUE "<project>\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\test\user\tb_user_corei2c.v,tb_hdl"
+VALUE "<project>\component\work\COREI2C_C0\COREI2C_C0_0\coreparameters.v,tb_hdl"
 ENDLIST
 LIST CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb
 VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
@@ -3104,11 +3110,6 @@ VALUE "<project>\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\amba_bf
 VALUE "<project>\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\test\user\testbench.v,tb_hdl"
 VALUE "<project>\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\mti\scripts\bfmtovec_compile.do,do"
 VALUE "<project>\component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\mti\scripts\wave_vlog_amba.do,do"
-ENDLIST
-LIST COREI2C_C0_COREI2C_C0_0_COREI2C
-VALUE "<project>\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\test\user\i2c_spk.v,tb_hdl"
-VALUE "<project>\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\test\user\tb_user_corei2c.v,tb_hdl"
-VALUE "<project>\component\work\COREI2C_C0\COREI2C_C0_0\coreparameters.v,tb_hdl"
 ENDLIST
 LIST CoreAPB3
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -3143,6 +3144,11 @@ ENDLIST
 LIST MIV_IHC_C0_MIV_IHC_C0_0_MIV_IHC
 VALUE "<project>\component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\test\user\testbench.v,tb_hdl"
 VALUE "<project>\component\work\MIV_IHC_C0\MIV_IHC_C0_0\coreparameters.v,tb_hdl"
+ENDLIST
+LIST corepwm
+VALUE "<project>\component\Actel\DirectCore\corepwm\4.5.100\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\corepwm\4.5.100\rtl\vlog\test\user\tb_user_corepwm.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\corepwm\4.5.100\mti\scripts\wave_usertb_vlog.do,do"
 ENDLIST
 LIST ICICLE_MSS
 VALUE "<project>\component\work\ICICLE_MSS\ICICLE_MSS.sdc,sdc"
@@ -3243,8 +3249,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microchip\Libero_SoC_2025.1\Libero_SoC\Synplify_Pro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -3281,11 +3287,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Run Programming Action:MPFS_ICICLE_KIT_BASE_DESIGN_PROGRAM.log
-SmartDesign;FIC_3_PERIPHERALS;0
-SmartDesign;MPFS_ICICLE_KIT_BASE_DESIGN;0
-ACTIVEVIEW;MPFS_ICICLE_KIT_BASE_DESIGN
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "APB_ARBITER::work","hdl\apb_arbiter.v","FALSE","FALSE"
@@ -3578,7 +3581,21 @@ SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5::work","component\work\Cor
 ENDLIST
 LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_ram256x8_g5::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
 ENDLIST
-LIST "CoreUARTapb_C1::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1.cxf","TRUE","FALSE"
+LIST "CoreUARTapb_C1::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1.v","TRUE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_ctrl_256::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_ram256x8_g5::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
 ENDLIST
 LIST "DMA_CONTROLLER::work","component\work\DMA_CONTROLLER\DMA_CONTROLLER.v","TRUE","FALSE"
 SUBBLOCK "DMA_CONTROLLER_DMA_CONTROLLER_0_COREAXI4DMACONTROLLER::work","component\work\DMA_CONTROLLER\DMA_CONTROLLER_0\rtl\vlog\core\coreaxi4dmacontroller.v","FALSE","FALSE"
@@ -3933,6 +3950,16 @@ LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_Rx_async::work","component\work\CoreUARTap
 ENDLIST
 LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_Tx_async::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
 ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_COREUART::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUART.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_Clock_gen::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Clock_gen.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_fifo_256x8::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\fifo_256x8_g5.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_Rx_async::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_Tx_async::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\Tx_async.v","FALSE","FALSE"
+ENDLIST
 LIST "DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_AXI4INITIATORDMACtrl::work","component\work\DMA_CONTROLLER\DMA_CONTROLLER_0\rtl\vlog\core\coreaxi4dmacontroller_axi4_initiator_ctrl.v","FALSE","FALSE"
 ENDLIST
 LIST "DMA_CONTROLLER_DMA_CONTROLLER_0_CoreAXI4DMAController_bufferDescriptors::work","component\work\DMA_CONTROLLER\DMA_CONTROLLER_0\rtl\vlog\core\coreaxi4dmacontroller_buffer_descriptors.v","FALSE","FALSE"
@@ -4254,14 +4281,14 @@ SUBBLOCK "FIC_3_0x4000_0xxx::work","component\work\FIC_3_0x4000_0xxx\FIC_3_0x400
 SUBBLOCK "FIC_3_0x4FFF_Fxxx::work","component\work\FIC_3_0x4FFF_Fxxx\FIC_3_0x4FFF_Fxxx.v","TRUE","FALSE"
 SUBBLOCK "FIC_3_0x4xxx_xxxx::work","component\work\FIC_3_0x4xxx_xxxx\FIC_3_0x4xxx_xxxx.v","TRUE","FALSE"
 ENDLIST
-LIST "FIC_3_PERIPHERALS::work","component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.cxf","TRUE","FALSE"
-SUBBLOCK "corepwm_C0::work","component\work\corepwm_C0\corepwm_C0.v","TRUE","FALSE"
-SUBBLOCK "CoreUARTapb_C0::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0.v","TRUE","FALSE"
-SUBBLOCK "CoreUARTapb_C1::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1.cxf","TRUE","FALSE"
+LIST "FIC_3_PERIPHERALS::work","component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v","TRUE","FALSE"
 SUBBLOCK "CORE_I2C_C0_0_WRAPPER::work","component\work\CORE_I2C_C0_0_WRAPPER\CORE_I2C_C0_0_WRAPPER.v","TRUE","FALSE"
+SUBBLOCK "CoreUARTapb_C0::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0.v","TRUE","FALSE"
+SUBBLOCK "CoreUARTapb_C1::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1.v","TRUE","FALSE"
 SUBBLOCK "FIC_3_ADDRESS_GENERATION::work","component\work\FIC_3_ADDRESS_GENERATION\FIC_3_ADDRESS_GENERATION.v","TRUE","FALSE"
 SUBBLOCK "GPIO::work","component\work\GPIO\GPIO.v","TRUE","FALSE"
 SUBBLOCK "MIV_IHC_C0::work","component\work\MIV_IHC_C0\MIV_IHC_C0.v","TRUE","FALSE"
+SUBBLOCK "corepwm_C0::work","component\work\corepwm_C0\corepwm_C0.v","TRUE","FALSE"
 SUBBLOCK "fabric_sd_emmc_demux_select::work","hdl\fabric_sd_emmc_demux_select.v","FALSE","FALSE"
 ENDLIST
 LIST "GLITCHLESS_MUX::work","component\work\GLITCHLESS_MUX\GLITCHLESS_MUX.v","TRUE","FALSE"
@@ -4351,11 +4378,11 @@ LIST "miv_ihc_fifo_v3::work","component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\co
 ENDLIST
 LIST "miv_ihc_interrupt_module::work","component\work\MIV_IHC_C0\MIV_IHC_C0_0\rtl\core\core_merged\miv_ihc_core_merged.v","FALSE","FALSE"
 ENDLIST
-LIST "MPFS_ICICLE_KIT_BASE_DESIGN::work","component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.cxf","TRUE","FALSE"
+LIST "MPFS_ICICLE_KIT_BASE_DESIGN::work","component\work\MPFS_ICICLE_KIT_BASE_DESIGN\MPFS_ICICLE_KIT_BASE_DESIGN.v","TRUE","FALSE"
 SUBBLOCK "CLOCKS_AND_RESETS::work","component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v","TRUE","FALSE"
 SUBBLOCK "FIC_0_PERIPHERALS::work","component\work\FIC_0_PERIPHERALS\FIC_0_PERIPHERALS.v","TRUE","FALSE"
 SUBBLOCK "FIC_1_PERIPHERALS::work","component\work\FIC_1_PERIPHERALS\FIC_1_PERIPHERALS.v","TRUE","FALSE"
-SUBBLOCK "FIC_3_PERIPHERALS::work","component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.cxf","TRUE","FALSE"
+SUBBLOCK "FIC_3_PERIPHERALS::work","component\work\FIC_3_PERIPHERALS\FIC_3_PERIPHERALS.v","TRUE","FALSE"
 SUBBLOCK "MSS_WRAPPER::work","component\work\MSS_WRAPPER\MSS_WRAPPER.v","TRUE","FALSE"
 ENDLIST
 LIST "MSS_LSRAM::work","component\work\MSS_LSRAM\MSS_LSRAM.v","TRUE","FALSE"
@@ -4447,6 +4474,25 @@ LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APBSLAVEEXT::work","component\work\Cor
 ENDLIST
 LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFMA1l1OII::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
 ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_AHBL::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_MAIN::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_AHBLAPB::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahblapb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFMA1l1OII::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_MAIN::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_AHBSLAVE::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbslave.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_AHBSLAVEEXT::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_APB2APB::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_APBSLAVE::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_APBSLAVEEXT::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_APBSLAVEEXT::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFMA1l1OII::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
 LIST "AHBL_Master::work","component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\sim\AHBModel\AHBL_Master.v","FALSE","TRUE"
 ENDLIST
 LIST "Axi4MasterGen::work","component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\sim\AXI4Models\Axi4MasterGen.v","FALSE","TRUE"
@@ -4507,6 +4553,16 @@ ENDLIST
 LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
 ENDLIST
 LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFMA1l1OII::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_AHBSLAVEEXT::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_APB::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFMA1l1OII::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_MAIN::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_MAIN::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFMA1l1OII::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
 ENDLIST
 LIST "GPIO_GPIO_0_BFM_APB::work","component\work\GPIO\GPIO_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
 SUBBLOCK "GPIO_GPIO_0_BFMA1l1OII::work","component\work\GPIO\GPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
@@ -4810,6 +4866,8 @@ ENDLIST
 LIST "COREI2C_COREI2CREAL::work","component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v","FALSE","FALSE"
 ENDLIST
 LIST "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_MAIN::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_MAIN::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
 ENDLIST
 LIST "GPIO_GPIO_0_BFM_MAIN::work","component\work\GPIO\GPIO_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
 ENDLIST
@@ -5282,6 +5340,10 @@ ENDLIST
 LIST "testbench::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
 SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_CoreUARTapb::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
 SUBBLOCK "CoreUARTapb_C0_CoreUARTapb_C0_0_BFM_APB::work","component\work\CoreUARTapb_C0\CoreUARTapb_C0_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_CoreUARTapb::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\core\CoreUARTapb.v","FALSE","FALSE"
+SUBBLOCK "CoreUARTapb_C1_CoreUARTapb_C1_0_BFM_APB::work","component\work\CoreUARTapb_C1\CoreUARTapb_C1_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
 ENDLIST
 LIST "testbench::work","component\work\GPIO\GPIO_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
 SUBBLOCK "GPIO_GPIO_0_CoreGPIO::work","component\work\GPIO\GPIO_0\rtl\vlog\core\coregpio.v","FALSE","FALSE"

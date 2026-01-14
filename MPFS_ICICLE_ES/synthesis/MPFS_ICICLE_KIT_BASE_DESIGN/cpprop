@@ -1,9 +1,9 @@
 n work MPFS_ICICLE_KIT_BASE_DESIGN verilog;
 av .compile_point_summary_status "Remapped";
-av .compile_point_summary_reason "Interface of Compile Point changed";
+av .compile_point_summary_reason "Design changed";
 av .compile_point_update_model 1;
 av .compile_point_fast_synthesis "No";
-av .compile_point_cputime_used 58.3594;
-av .compile_point_starttime_stamp "Thu Oct 30 12:47:26 2025";
-av .compile_point_endtime_stamp "Thu Oct 30 12:48:26 2025";
-av .compile_point_realtime_used 59.607;
+av .compile_point_cputime_used 56.3906;
+av .compile_point_starttime_stamp "Wed Jan 14 14:56:01 2026";
+av .compile_point_endtime_stamp "Wed Jan 14 14:56:58 2026";
+av .compile_point_realtime_used 56.92;
